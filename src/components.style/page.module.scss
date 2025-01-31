@@ -1,6 +1,6 @@
 @font-face {
-  font-family: yekan;
-  src: url(../assets//yekan.ttf);
+  font-family: doran-thin;
+  src: url(../assets/doran-thin.ttf);
 }
 
 
@@ -121,11 +121,11 @@ header {
   p {
     font-size: 14px;
     padding: 2px;
-    font-family: yekan;
+    font-family: doran-thin;
     border-bottom: solid 0.5px #aaaaaa81;
   }
   span {
-    font-family: yekan;
+    font-family: doran-thin;
     font-size: 10px;
   }
 }
@@ -140,10 +140,11 @@ header {
   p {
     font-size: 12px;
     padding: 2px;
+    font-family: doran-thin;
     border-bottom: solid 0.5px #aaaaaa81;
   }
   span {
-    font-family: yekan;
+    font-family: doran-thin;
     font-size: 10px;
   }
 }

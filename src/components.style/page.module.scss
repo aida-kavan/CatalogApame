@@ -183,7 +183,7 @@ header {
   padding: 10px;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  max-width: 95%;
+  max-width: max-content;
   max-height: 90%;
   height: max-content;
   display: flex;
@@ -194,7 +194,6 @@ header {
 
 .modalImage {
   max-width: 100%;
-  min-height: 100%;
 }
 
 .closeBtn {

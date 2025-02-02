@@ -1,30 +1,40 @@
+import styles from "../components.style/page.module.scss";
+import ImageModal from "./imageModal";
+import { useState } from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
-import styles from '../components.style/page.module.scss'
-
-import React from 'react'
-
-const SquareProductItem = ({img, title, code, size, desc, type }) => {
+const SquareProductItem = ({ img, title, code, size, desc, type }) => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <div className={styles.SproductItem}>
-      <div className={styles.SimgCont}>
-        <img  src={`/تصاویر/${img}`} alt="" />
+      <div className={styles.SimgCont} onClick={() => setIsModalOpen(true)}>
+        <LazyLoadImage src={`/تصاویر/${img}`} alt={title} effect="blur" />
       </div>
 
       <div className={styles.Sdetail}>
         <h2>{title}</h2>
         <p>کد محصول: {code}</p>
-        {size && (
-          <p>ابعاد محصول: {size}</p>
-        )}
+        {size && <p>ابعاد محصول: {size}</p>}
         {type && (
-          <p>نوع محصول: <span>{type}</span></p>
+          <p>
+            نوع محصول: <span>{type}</span>
+          </p>
         )}
         {desc && (
-          <p>توضیحات محصول: <span>{desc}</span></p>
+          <p>
+            توضیحات محصول: <span>{desc}</span>
+          </p>
         )}
       </div>
-    </div>
-  )
-}
 
-export default SquareProductItem
+      {isModalOpen && (
+        <ImageModal
+          imageUrl={`/تصاویر/${img}`}
+          onClose={() => setIsModalOpen(false)}
+        />
+      )}
+    </div>
+  );
+};
+
+export default SquareProductItem;

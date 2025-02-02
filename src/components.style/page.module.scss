@@ -3,19 +3,26 @@
   src: url(../assets/doran-thin.ttf);
 }
 
-
 header {
-  width: 100%;
+  width: 100vw;
   height: 70px;
   background-color: rgb(243, 243, 243);
   position: fixed;
   z-index: 20;
   display: flex;
-  align-items: center;
-  padding-right: 10px;
-  padding-right: 10px;
+  justify-content: center;
+
+  .headerCont {
+    max-width: 500px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    padding-right: 10px;
+  }
   img {
     width: 80px;
+    margin-top: 8px;
   }
   h1 {
     font-size: 20px;
@@ -27,13 +34,14 @@ header {
   font-size: 20px;
   text-align: center;
   margin-bottom: 10px;
+  color: white;
 }
 
 .title::after,
 .title::before {
   display: inline-block;
   content: "";
-  border-top: 1.5px solid #31496b7a;
+  border-top: 1.5px solid #ffffffd0;
   width: 70px;
   margin: 0 0.5rem;
 
@@ -42,6 +50,11 @@ header {
 
 .mainPageCont {
   padding-top: 70px;
+  width: 100vw;
+}
+
+.mainPageCont2{
+  width: 100vw;
 }
 
 .productCont {
@@ -67,27 +80,28 @@ header {
     }
   }
 
-  img:hover {
-    scale: 1.2;
-  }
+  
 }
 
 .productItem {
   width: 100%;
   padding: 10px;
-  background-color: rgb(240, 240, 240);
-  border: solid #15585a 1.5px;
+  background-color: rgb(247, 247, 247);
+  border: solid #133a5e 1.5px;
   border-radius: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 10px;
 }
+
+
+
 .SproductItem {
   width: 100%;
   padding: 10px;
-  background-color: rgb(240, 240, 240);
-  border: solid #15585a 1.5px;
+  background-color: rgb(247, 247, 247);
+  border: solid #133a5e 1.5px;
   border-radius: 1.5rem;
   display: flex;
   margin-bottom: 10px;
@@ -119,7 +133,7 @@ header {
     border-bottom: solid 0.5px #aaaaaa81;
   }
   p {
-    font-size: 12px;
+    font-size: 14px;
     padding: 2px;
     font-family: doran-thin;
     border-bottom: solid 0.5px #aaaaaa81;
@@ -146,5 +160,67 @@ header {
   span {
     font-family: doran-thin;
     font-size: 8px;
+  }
+}
+
+/* پس‌زمینه تاریک برای مودال */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.425);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  position: relative;
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  max-width: 95%;
+  max-height: 90%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.modalImage {
+  max-width: 100%;
+  min-height: 100%;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+}
+
+.clickableImage {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+
+@media screen and (orientation: landscape) {
+  .modalContent {
+    width: max-content;
+    height: max-content;
   }
 }

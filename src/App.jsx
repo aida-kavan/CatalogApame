@@ -1,81 +1,98 @@
-import React from 'react';
+import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./pages/home"
-import Notebook from './pages/giftPages/notebook&Calender';
-import Flash from './pages/giftPages/Flash';
-import Gift from './pages/gift';
-import Keychain from "./pages/giftPages/Keychain"
-import Pens from "./pages/giftPages/Pens"
-import Mug from "./pages/giftPages/Mug"
-import Puzzle from "./pages/giftPages/Puzzle"
-import GiftSet from "./pages/giftPages/GiftSet"
-import Plate from "./pages/giftPages/Plate"
-import Pillow from "./pages/giftPages/Pillow"
-import MousePad from "./pages/giftPages/MousePad"
-import Hat from "./pages/giftPages/Hat"
-import Bag from "./pages/giftPages/Bag"
+import Home from "./pages/home";
+import Notebook from "./pages/giftPages/notebook&Calender";
+import Flash from "./pages/giftPages/Flash";
+import Gift from "./pages/gift";
+import Keychain from "./pages/giftPages/Keychain";
+import Pens from "./pages/giftPages/Pens";
+import Mug from "./pages/giftPages/Mug";
+import Puzzle from "./pages/giftPages/Puzzle";
+import GiftSet from "./pages/giftPages/GiftSet";
+import Plate from "./pages/giftPages/Plate";
+import Pillow from "./pages/giftPages/Pillow";
+import MousePad from "./pages/giftPages/MousePad";
+import Hat from "./pages/giftPages/Hat";
+import Bag from "./pages/giftPages/Bag";
+import Website from "./pages/Website";
+import styles from "./components.style/page.module.scss"
+import Powerbank from "./pages/giftPages/Powerbank";
+
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />
+    element: <Home />,
+  },
+  {
+    path: "/website",
+    element: <Website />,
   },
   {
     path: "/gift",
-    element: <Gift />
+    element: <Gift />,
   },
   {
     path: "/gift/notebook",
-    element: <Notebook />
+    element: <Notebook />,
   },
   {
     path: "/gift/flash",
-    element: <Flash />
+    element: <Flash />,
   },
   {
     path: "/gift/keychain",
-    element: <Keychain />
+    element: <Keychain />,
   },
   {
     path: "/gift/pen",
-    element: <Pens />
+    element: <Pens />,
   },
   {
     path: "/gift/mug",
-    element: <Mug />
+    element: <Mug />,
   },
   {
     path: "/gift/puzzle",
-    element: <Puzzle />
+    element: <Puzzle />,
   },
   {
     path: "/gift/giftset",
-    element: <GiftSet />
+    element: <GiftSet />,
   },
   {
     path: "/gift/plate",
-    element: <Plate />
+    element: <Plate />,
   },
   {
     path: "/gift/pillow",
-    element: <Pillow />
+    element: <Pillow />,
   },
   {
     path: "/gift/hat",
-    element: <Hat />
+    element: <Hat />,
   },
   {
     path: "/gift/mousepad",
-    element: <MousePad />
+    element: <MousePad />,
   },
   {
     path: "/gift/bag",
-    element: <Bag />
+    element: <Bag />,
   },
-])
+  {
+    path: "/gift/powerbank",
+    element: <Powerbank />,
+  },
+]);
 
 const App = () => {
-  return <RouterProvider router={router}></RouterProvider>;
-}
+  return (
+    <main className={styles.mainPageCont2}>
+    <RouterProvider router={router}></RouterProvider>
+    
+    </main>
+  );
+};
 
-export default App
+export default App;

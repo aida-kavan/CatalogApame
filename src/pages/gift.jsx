@@ -8,6 +8,7 @@ const Gift = () => {
     { name: "ست های تبلیغاتی", icon: "gift.png", link: "/gift/giftset" },
     { name: "فلش مموری", icon: "flash.png", link: "/gift/flash" },
     { name: "خودکار های تبلیغاتی", icon: "pen.png", link: "/gift/pen" },
+    { name: "پاوربانک", icon: "powerbank.png", link: "/gift/powerbank" },
     { name: "چاپ روی پازل", icon: "puzzle.png", link: "/gift/puzzle" },
     { name: "ساک", icon: "bag.png", link: "/gift/bag" },
     { name: "چاپ روی لیوان", icon: "mug.png", link: "/gift/mug" },
@@ -16,6 +17,7 @@ const Gift = () => {
     { name: "بشقاب", icon: "plate.png", link: "/gift/plate" },
     { name: "موس پد", icon: "mousepad.png", link: "/gift/mousepad" },
     { name: "کلاه", icon: "hat.png", link: "/gift/hat" },
+
   ]
 
   return (

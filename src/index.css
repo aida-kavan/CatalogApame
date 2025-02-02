@@ -24,10 +24,32 @@ h1,h2{
 
 
  
+body{
+  background-color: rgb(207, 207, 207);
+  scroll-behavior: smooth;
 
-html{
-  background-color: #dfdfdf;
+}
 
+
+body{
+  background-color: #394f7e;
+  /* background-image: url(/3d-back.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode:darken;
+  max-width: 500px; */
+
+
+}
+
+@media screen and (min-width: 900px) and (max-width:1300px) {
+  .body{
+    background-color: #dfdfdf;
+  background-image: url(/public/background-2.webp);
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode:darken;
+  }
 }
 
 

@@ -1,13 +1,18 @@
 
 import styles from '../components.style/page.module.scss'
-
+import ImageModal from './imageModal'
 import React from 'react'
+import { useState } from 'react'
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const productItem = ({img, title, code, size, desc, type }) => {
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   return (
     <div className={styles.productItem}>
-      <div className={styles.imgCont}>
-        <img  src={`/تصاویر/${img}`} alt="" />
+      <div className={styles.imgCont} onClick={() => setIsModalOpen(true)}>
+      <LazyLoadImage src={`/تصاویر/${img}`} alt={title} effect="blur" />
       </div>
 
       <div className={styles.detail}>
@@ -23,6 +28,8 @@ const productItem = ({img, title, code, size, desc, type }) => {
           <p>توضیحات محصول: <span>{desc}</span></p>
         )}
       </div>
+
+      {isModalOpen && <ImageModal imageUrl={`/تصاویر/${img}`} onClose={() => setIsModalOpen(false)} />}
     </div>
   )
 }

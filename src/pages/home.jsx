@@ -25,6 +25,7 @@ const home = () => {
     {
       name: "سایت و سئو",
       icon: "website.png",
+      link: "/website"
     },
     {
       name: "سوشال مدیا",

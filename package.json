@@ -17,13 +17,16 @@
     "deploy": "gh-pages -d dist --repo https://github.com/aida-kavan/newCatalog.git"
   },
   "dependencies": {
+    "@tailwindcss/postcss": "^4.0.3",
     "lucide-react": "^0.474.0",
+    "postcss": "^8.5.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-lazy-load-image-component": "^1.6.3",
     "react-router-dom": "^7.1.3",
     "sass-embedded": "^1.83.4",
-    "scss": "^0.2.4"
+    "scss": "^0.2.4",
+    "tailwindcss": "^4.0.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",

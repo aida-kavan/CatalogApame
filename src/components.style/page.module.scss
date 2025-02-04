@@ -65,7 +65,7 @@ header {
 
   .imgCont {
     width: 280px;
-    height: 158px;
+    height: 150px;
     overflow: hidden;
     border-radius: 1rem;
     margin: 0 auto;
@@ -75,7 +75,6 @@ header {
 
     img {
       width: 100%;
-      height: fit-content;
       transition: 0.5s;
     }
   }
@@ -140,9 +139,14 @@ header {
   }
   span {
     font-family: doran-thin;
-    font-size: 10px;
+    font-size: 12px;
   }
+
+  
 }
+#price{
+    font-size: 1px;
+  }
 .Sdetail {
   width: 50%;
   h2 {
@@ -222,4 +226,8 @@ header {
     width: max-content;
     height: max-content;
   }
+}
+
+#aida{
+  width: 100vw;
 }

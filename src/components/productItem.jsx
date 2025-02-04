@@ -5,7 +5,7 @@ import React from 'react'
 import { useState } from 'react'
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
-const productItem = ({img, title, code, size, desc, type }) => {
+const productItem = ({img, title, code, size, desc, type, price }) => {
 
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -26,6 +26,9 @@ const productItem = ({img, title, code, size, desc, type }) => {
         )}
         {desc && (
           <p>توضیحات محصول: <span>{desc}</span></p>
+        )}
+        {price && (
+          <p >قیمت محصول: <span id='price'>{price}</span></p>
         )}
       </div>
 

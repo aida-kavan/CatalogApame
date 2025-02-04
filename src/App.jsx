@@ -17,16 +17,22 @@ import Bag from "./pages/giftPages/Bag";
 import Website from "./pages/Website";
 import styles from "./components.style/page.module.scss"
 import Powerbank from "./pages/giftPages/Powerbank";
+import FirstPage from "./pages/firstPage";
+import Design from "./pages/design";
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <FirstPage />,
   },
   {
     path: "/website",
     element: <Website />,
+  },
+  {
+    path: "/design",
+    element: <Design />,
   },
   {
     path: "/gift",

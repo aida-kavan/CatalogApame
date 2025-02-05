@@ -1,86 +1,10 @@
 
-// .main{
-  
-// }
-
-
-
-/* استایل آیکون‌ها */
-.icon {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  animation: float 3s infinite ease-in-out alternate;
+.main{
+  background-image: url(/bg.webp);
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
 }
 
 
-.icon1 {
-  top: 0;
-  left: 80%;
-  transform: translateX(-50%);
-}
-.icon2 {
-  top: 20%;
-  right: 80%;
-}
-.icon3 {
-  top: 50%;
-  right: 60%;
-  transform: translateY(-50%);
-}
-.icon4 {
-  bottom: 20%;
-  right: 5%;
-}
-.icon5 {
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-}
-.icon6 {
-  bottom: 90%;
-  left: 5%;
-}
-.icon7 {
-  top: 70%;
-  left: 0;
-  transform: translateY(-50%);
-}
-.icon8 {
-  top: 80%;
-  left: 5%;
-}
-
-/* انیمیشن برای ایجاد افکت شناور */
-@keyframes float {
-  0% {
-    transform: translateY(0px);
-  }
-  100% {
-    transform: translateY(-10px);
-  }
-}
-
-
-.videoBackground{
-  position: fixed;  
-  top: 0;  
-  left: 0;  
-  overflow: hidden;  
-  z-index: -2; 
-  margin: 0 auto;
-  video{  
-    object-fit: cover;
-    
-  }  
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.486); /* تنظیم تیرگی */
-  z-index: -1; 
-}

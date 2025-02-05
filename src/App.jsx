@@ -24,7 +24,7 @@ import Design from "./pages/design";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <FirstPage />,
+    element: <Home/>,
   },
   {
     path: "/website",

@@ -1,14 +1,16 @@
 
 
 @font-face {
-  font-family: yekan;
-  src: url(./assets/yekan.ttf);
+  font-family: vazir;
+  src: url(./assets/Vazir.ttf);
 
 }
 @font-face {
   font-family: doran;
   src: url(./assets/doran.ttf);
 }
+
+
 
 *{
   font-family: doran;
@@ -34,12 +36,12 @@ body{
 
 
 body{
-  background-color: #394f7e;
-  /* background-image: url(/3d-back.jpg);
-  background-size: cover;
+  background-image: url(/bg.webp);
   background-attachment: fixed;
-  background-blend-mode:darken;
-  max-width: 500px; */
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  
 
 
 }

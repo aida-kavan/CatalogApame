@@ -1,17 +1,17 @@
 import Header from "../components/header"
 import Title from "../components/title"
 import styles from "../components.style/page.module.scss";
-import Plans from "../components/Plans"
+import SitePlans from "../components/plans/SitePlans"
 
 const Website = () => {
     return (
         <>
             <Header />
             <div className={styles.mainPageCont}>
-                <div className={styles.productCont}>
-                    <Title title={"خدمات وبسایت"} />
-                    <Plans/>
-                </div>
+                    <Title title={"پلن های وبسایت"} />
+                    <SitePlans/>
+                   
+                
             </div>
         </>
     )

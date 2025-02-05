@@ -12,41 +12,40 @@ import {
 } from "lucide-react";
 const home = () => {
   const category = [
-    {
-      name: "خدمات چاپ",
-      icon: "print.png",
-      
-    },
+    // {
+    //   name: "خدمات چاپ",
+    //   icon: "sample.jpg",
+    // },
     {
       name: "هدایای تبلیغاتی",
-      icon: "gift.png",
-      link: "/gift"
+      icon: "calender.png",
+      link: "/gift",
     },
     {
       name: "سایت و سئو",
       icon: "website.png",
-      link: "/website"
+      link: "/website",
     },
     {
       name: "سوشال مدیا",
       icon: "social.png",
     },
-    {
-      name: "خدمات تابلو و لیزر",
-      icon: "laser.png",
-    },
-    {
-      name: "طراحی گرافیک",
-      icon: "design.png",
-    },
-    {
-      name: "عکاسی و فیلمبرداری",
-      icon: "photo.png",
-    },
-    {
-      name: "موشن گرافیک",
-      icon: "clip.png",
-    },
+    // {
+    //   name: "خدمات تابلو و لیزر",
+    //   icon: "laser.png",
+    // },
+    // {
+    //   name: "طراحی گرافیک",
+    //   icon: "design.png",
+    // },
+    // {
+    //   name: "عکاسی و فیلمبرداری",
+    //   icon: "photo.png",
+    // },
+    // {
+    //   name: "موشن گرافیک",
+    //   icon: "clip.png",
+    // },
   ];
   return (
     <>
@@ -57,6 +56,7 @@ const home = () => {
             <Link to={item.link}>
               <div className={styles.item} key={item.name}>
                 <img src={`/icons/${item.icon}`} alt="" />
+
                 <p>{item.name}</p>
               </div>
             </Link>

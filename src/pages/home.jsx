@@ -40,10 +40,10 @@ const home = () => {
       name: "طراحی گرافیک",
       icon: "design.png",
     },
-    // {
-    //   name: "عکاسی و فیلمبرداری",
-    //   icon: "photo.png",
-    // },
+    {
+      name: "عکاسی و فیلمبرداری",
+      icon: "photo.png",
+    },
     {
       name: "موشن گرافیک",
       icon: "clip.png",

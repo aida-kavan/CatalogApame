@@ -10,15 +10,16 @@ import {
   Camera,
   PenTool,
 } from "lucide-react";
+import Footer from "../components/Footer";
 const home = () => {
   const category = [
-    // {
-    //   name: "خدمات چاپ",
-    //   icon: "sample.jpg",
-    // },
+    {
+      name: "خدمات چاپ",
+      icon: "print.png",
+    },
     {
       name: "هدایای تبلیغاتی",
-      icon: "calender.png",
+      icon: "gift.png",
       link: "/gift",
     },
     {
@@ -29,23 +30,24 @@ const home = () => {
     {
       name: "سوشال مدیا",
       icon: "social.png",
+      link: "/social"
     },
-    // {
-    //   name: "خدمات تابلو و لیزر",
-    //   icon: "laser.png",
-    // },
-    // {
-    //   name: "طراحی گرافیک",
-    //   icon: "design.png",
-    // },
+    {
+      name: "خدمات تابلو و لیزر",
+      icon: "laser.png",
+    },
+    {
+      name: "طراحی گرافیک",
+      icon: "design.png",
+    },
     // {
     //   name: "عکاسی و فیلمبرداری",
     //   icon: "photo.png",
     // },
-    // {
-    //   name: "موشن گرافیک",
-    //   icon: "clip.png",
-    // },
+    {
+      name: "موشن گرافیک",
+      icon: "clip.png",
+    },
   ];
   return (
     <>
@@ -63,6 +65,7 @@ const home = () => {
           ))}
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

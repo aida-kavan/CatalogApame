@@ -56,7 +56,7 @@ const Plans = () => {
         <div>
           {items1.map((item) => (
             <div className={styles.item}>
-              <BadgeCheck color="rgb(10, 27, 82)" />
+              <BadgeCheck color="#bd8223" />
               <p>{item.name}</p>
             </div>
           ))}
@@ -76,7 +76,7 @@ const Plans = () => {
         <div>
           {items2.map((item) => (
             <div className={styles.item}>
-              <BadgeCheck color="rgb(10, 27, 82)" />
+              <BadgeCheck color="#bd8223" />
               <p>{item.name}</p>
             </div>
           ))}
@@ -97,7 +97,7 @@ const Plans = () => {
         <div>
           {items3.map((item) => (
             <div className={styles.item}>
-              <BadgeCheck color="rgb(10, 27, 82)" />
+              <BadgeCheck color="#bd8223" />
               <p>{item.name}</p>
             </div>
           ))}

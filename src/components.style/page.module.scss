@@ -30,6 +30,35 @@ header {
   }
 }
 
+footer{
+  width: 100vw;
+  height: 60px;
+  background-color: rgb(255, 255, 255) ;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+  a{
+    background-color: rgb(219, 219, 219);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  
+    img{
+      width: 30px;
+      height: 30px;
+      animation: oom 5s infinite ease-in-out alternate;
+    }
+  }
+  
+  }  
+
+
 .title {
   font-size: 20px;
   text-align: center;
@@ -63,6 +92,7 @@ header {
   width: 310px;
   margin: 0 auto;
   flex-direction: column;
+  margin-top: 50%;
 
   .imgCont {
     width: 280px;
@@ -93,6 +123,8 @@ header {
   flex-direction: column;
   align-items: center;
   margin-bottom: 10px;
+  margin-top: 50%;
+  margin-bottom: 50%;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.459);
 }
 
@@ -230,4 +262,27 @@ header {
   }
 }
 
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+    scale: 1;
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: translateY(3px);
+    scale: 1.07;
+  }
+}
 
+
+
+@keyframes oom {
+  0% {
+    scale: 1;
+  }
+  100% {
+    scale: 1.1;
+  }
+}

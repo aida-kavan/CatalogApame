@@ -2,14 +2,7 @@ import React from "react";
 import styles from "../components.style/home.module.scss";
 import Header from "../components/header";
 import { Link } from "react-router";
-import {
-  Printer,
-  Gift,
-  Clapperboard,
-  Users,
-  Camera,
-  PenTool,
-} from "lucide-react";
+
 import Footer from "../components/Footer";
 const home = () => {
   const category = [

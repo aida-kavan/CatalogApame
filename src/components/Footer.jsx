@@ -9,13 +9,13 @@ const Footer = () => {
         <PhoneCall color='#11176b'/>
         </a>
         <a href="">
-        <img src="public\icons\telegram.svg" alt="" />
+        <img src="\icons\telegram.svg" alt="" />
         </a>
         <a href="">
-        <img src="public\icons\whatsapp.svg" alt="" />
+        <img src="\icons\whatsapp.svg" alt="" />
         </a>
         <a href="">
-        <img src="public\icons\instagram.svg" alt="" />
+        <img src="\icons\instagram.svg" alt="" />
         </a>
     </footer>
   )

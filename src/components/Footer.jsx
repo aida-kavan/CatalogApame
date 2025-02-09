@@ -8,13 +8,13 @@ const Footer = () => {
         <a href="">
         <PhoneCall color='#11176b'/>
         </a>
-        <a href="">
+        <a href="https://t.me/apamehtabligh">
         <img src="\icons\telegram.svg" alt="" />
         </a>
-        <a href="">
+        <a href="https://wa.me/+989033020318">
         <img src="\icons\whatsapp.svg" alt="" />
         </a>
-        <a href="">
+        <a href="https://www.instagram.com/apametabligh/">
         <img src="\icons\instagram.svg" alt="" />
         </a>
     </footer>

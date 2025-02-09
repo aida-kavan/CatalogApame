@@ -22,6 +22,30 @@ import FirstPage from "./pages/firstPage";
 import Design from "./pages/design";
 
 
+///////کل خدمات چاپ //////////
+import Print from "./pages/print"
+import Sublimation from "./pages/printPages/sublimation"
+import Digital from "./pages/printPages/digital"
+import PostPrinting from "./pages/printPages/Postprinting"
+
+//صفحه های آفست
+import Offset from "./pages/printPages/offset"
+import Teraket from  "./pages/printPages/offsetPages/Teraket"
+import Box from  "./pages/printPages/offsetPages/box"
+import Brochure from  "./pages/printPages/offsetPages/brochure"
+import Catalog from  "./pages/printPages/offsetPages/catalog"
+import Fastfood from  "./pages/printPages/offsetPages/fastfood"
+import Folder from  "./pages/printPages/offsetPages/folder"
+import Pocket from  "./pages/printPages/offsetPages/packet"
+import Paperbag from  "./pages/printPages/offsetPages/paperbag"
+import Papercup from  "./pages/printPages/offsetPages/papercup"
+import Sarbarg from  "./pages/printPages/offsetPages/sarbarg"
+import Sarnoskhe from  "./pages/printPages/offsetPages/sarnoskhe"
+import Visit from  "./pages/printPages/offsetPages/visit"
+
+
+
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -39,6 +63,8 @@ const router = createBrowserRouter([
     path: "/design",
     element: <Design />,
   },
+
+  //هدایای تبلیغاتی
   {
     path: "/gift",
     element: <Gift />,
@@ -94,6 +120,79 @@ const router = createBrowserRouter([
   {
     path: "/gift/powerbank",
     element: <Powerbank />,
+  },
+
+
+  //خدمات پرینت
+  {
+    path: "/print",
+    element: <Print />,
+  },
+  {
+    path: "/print/offset",
+    element: <Offset />,
+  },
+  {
+    path: "/print/offset/teraket",
+    element: <Teraket />,
+  },
+  {
+    path: "/print/offset/box",
+    element: <Box />,
+  },
+  {
+    path: "/print/offset/brochure",
+    element: <Brochure />,
+  },
+  {
+    path: "/print/offset/catalog",
+    element: <Catalog />,
+  },
+  {
+    path: "/print/offset/fastfood",
+    element: <Fastfood />,
+  },
+  {
+    path: "/print/offset/Folder",
+    element: <Folder />,
+  },
+  {
+    path: "/print/offset/Pocket",
+    element: <Pocket />,
+  },
+  {
+    path: "/print/offset/Paperbag",
+    element: <Paperbag />,
+  },
+  {
+    path: "/print/offset/Papercup",
+    element: <Papercup />,
+  },
+  {
+    path: "/print/offset/Sarbarg",
+    element: <Sarbarg />,
+  },
+  {
+    path: "/print/offset/Sarnoskhe",
+    element: <Sarnoskhe />,
+  },
+  {
+    path: "/print/offset/Visit",
+    element: <Visit />,
+  },
+
+
+  {
+    path: "/print/digital",
+    element: <Digital />,
+  },
+  {
+    path: "/print/sublimation",
+    element: <Sublimation />,
+  },
+  {
+    path: "/print/Postprinting ",
+    element: <PostPrinting />,
   },
 ]);
 

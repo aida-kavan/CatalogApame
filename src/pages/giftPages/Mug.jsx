@@ -10,7 +10,7 @@ const Mug = () => {
       <Header />
       <div className={styles.mainPageCont}>
         <div className={styles.productCont}>
-          <Title title={"جا کلیدی/کارتی "} />
+          <Title title={"ماگ"} />
           {mug.map((item) => (
             <SquareProductItem
               img={item.image}

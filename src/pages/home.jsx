@@ -9,6 +9,7 @@ const home = () => {
     {
       name: "خدمات چاپ",
       icon: "print.png",
+      link: "/print"
     },
     {
       name: "هدایای تبلیغاتی",

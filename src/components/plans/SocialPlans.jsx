@@ -49,7 +49,7 @@ const Plans = () => {
           ))}
 
           <div className={styles.footer}>
-            <h3>اشتراک ماهیانه 5 میلیون</h3>
+            <h3>اشتراک ماهیانه 7 میلیون</h3>
           </div>
         </div>
       </div>
@@ -69,7 +69,7 @@ const Plans = () => {
           ))}
 
           <div className={styles.footer}>
-            <h3>اشتراک ماهیانه 10 میلیون</h3>
+            <h3>اشتراک ماهیانه 12 میلیون</h3>
           </div>
         </div>
       </div>
@@ -90,7 +90,7 @@ const Plans = () => {
           ))}
 
           <div className={styles.footer}>
-            <h3>اشتراک ماهیانه 15 میلیون</h3>
+            <h3>اشتراک ماهیانه 18 میلیون</h3>
           </div>
         </div>
       </div>

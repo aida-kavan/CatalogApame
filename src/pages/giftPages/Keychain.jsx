@@ -10,7 +10,7 @@ const Keychain = () => {
       <Header />
       <div className={styles.mainPageCont}>
         <div className={styles.productCont}>
-          <Title title={"جا کلیدی/کارتی "} />
+          <Title title={"جاکلیدی/کارتی"} />
           {keychain.map((item) => (
             <SquareProductItem
               img={item.image}

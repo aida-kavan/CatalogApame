@@ -1,9 +1,48 @@
-import React from 'react'
+import Header from "../components/header";
+import Footer from "../components/Footer";
+import styles from "../components.style/home.module.scss";
+import { Link } from "react-router-dom";
 
 const print = () => {
   return (
-    <div>print</div>
-  )
-}
+    <>
+      <Header />
+      <div className={styles.mainDiv}>
+        <div className={styles.gridCont}>
+          <Link to="/print/offset">
+            <div className={styles.item} >
+              <img src="/icons/clip.png" alt="" />
 
-export default print
+              <p>چاپ آفست</p>
+            </div>
+          </Link>
+          <Link to="/print/digital">
+            <div className={styles.item} >
+              <img src="/icons/clip.png" alt="" />
+
+              <p>چاپ دیجیتال</p>
+            </div>
+          </Link>
+          <Link to="/print/sublimation">
+            <div className={styles.item} >
+              <img src="/icons/clip.png" alt="" />
+
+              <p>چاپ سابلیمیشن</p>
+            </div>
+          </Link>
+          <Link to="/print/sublimation">
+            <div className={styles.item} >
+              <img src="/icons/clip.png" alt="" />
+
+              <p>خدمات بعد از چاپ</p>
+            </div>
+          </Link>
+          
+        </div>
+      </div>
+      <Footer />
+    </>
+  );
+};
+
+export default print;

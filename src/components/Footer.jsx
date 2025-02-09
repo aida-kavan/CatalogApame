@@ -5,7 +5,7 @@ import { PhoneCall } from 'lucide-react'
 const Footer = () => {
   return (
     <footer>
-        <a href="">
+        <a href="tel:02634001215">
         <PhoneCall color='#11176b'/>
         </a>
         <a href="https://t.me/apamehtabligh">

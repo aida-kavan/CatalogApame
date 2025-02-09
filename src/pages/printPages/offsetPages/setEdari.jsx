@@ -3,17 +3,17 @@ import Footer from "../../../components/Footer";
 import styles from "../../../components.style/page.module.scss";
 import Title from "../../../components/title";
 import ProductItem from "../../../components/productItem";
-import { food } from "../../../datas/food";
+import { Setedari } from "../../../datas/setEdari";
 
-const Fastfood = () => {
+const SetEdari = () => {
   return (
     <>
       <Header />
       <div className={styles.mainPageCont}>
         <div className={styles.productCont}>
-          <Title title={"ظروف غذایی"} />
+          <Title title={"ست اداری"} />
 
-          {food.map((item) => (
+          {Setedari.map((item) => (
             <ProductItem
               img={item.image}
               title={item.name}
@@ -30,4 +30,4 @@ const Fastfood = () => {
   );
 };
 
-export default Fastfood;
+export default SetEdari;

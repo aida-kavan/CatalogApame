@@ -1,9 +1,33 @@
-import React from 'react'
+import Header from "../../../components/header";
+import Footer from "../../../components/Footer";
+import styles from "../../../components.style/page.module.scss";
+import Title from "../../../components/title";
+import ProductItem from "../../../components/productItem";
+import { brochure } from "../../../datas/brochure";
 
-const brochure = () => {
+const Brochure = () => {
   return (
-    <div>brochure</div>
-  )
-}
+    <>
+      <Header />
+      <div className={styles.mainPageCont}>
+        <div className={styles.productCont}>
+          <Title title={"بروشور ها"} />
 
-export default brochure
+          {brochure.map((item) => (
+            <ProductItem
+              img={item.image}
+              title={item.name}
+              code={item.Pcode}
+              desc={item.desc}
+              type={item.type}
+              price={item.price}
+            />
+          ))}
+        </div>
+      </div>
+      <Footer/>
+    </>
+  );
+};
+
+export default Brochure;

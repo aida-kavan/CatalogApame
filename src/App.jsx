@@ -40,8 +40,8 @@ import Pocket from  "./pages/printPages/offsetPages/packet"
 import Paperbag from  "./pages/printPages/offsetPages/paperbag"
 import Papercup from  "./pages/printPages/offsetPages/papercup"
 import Sarbarg from  "./pages/printPages/offsetPages/sarbarg"
-import Sarnoskhe from  "./pages/printPages/offsetPages/sarnoskhe"
 import Visit from  "./pages/printPages/offsetPages/visit"
+import SetEdari from "./pages/printPages/offsetPages/setEdari";
 
 
 
@@ -173,8 +173,8 @@ const router = createBrowserRouter([
     element: <Sarbarg />,
   },
   {
-    path: "/print/offset/Sarnoskhe",
-    element: <Sarnoskhe />,
+    path: "/print/offset/setedari",
+    element: <SetEdari />,
   },
   {
     path: "/print/offset/Visit",

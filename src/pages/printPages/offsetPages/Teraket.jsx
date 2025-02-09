@@ -5,7 +5,7 @@ import Title from "../../../components/title";
 import ProductItem from "../../../components/productItem";
 import { teraket } from "../../../datas/teraket";
 
-const Notebook = () => {
+const Teraket = () => {
   return (
     <>
       <Header />
@@ -30,4 +30,4 @@ const Notebook = () => {
   );
 };
 
-export default Notebook;
+export default Teraket;

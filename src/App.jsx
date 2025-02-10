@@ -20,6 +20,7 @@ import Powerbank from "./pages/giftPages/Powerbank";
 import Social from "./pages/Social";
 import FirstPage from "./pages/firstPage";
 import Design from "./pages/design";
+import Stamp from "./pages/stamp"
 
 
 ///////کل خدمات چاپ //////////
@@ -46,6 +47,7 @@ import SetEdari from "./pages/printPages/offsetPages/setEdari";
 
 
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -62,6 +64,10 @@ const router = createBrowserRouter([
   {
     path: "/design",
     element: <Design />,
+  },
+  {
+    path: "/stamp",
+    element: <Stamp />,
   },
 
   //هدایای تبلیغاتی

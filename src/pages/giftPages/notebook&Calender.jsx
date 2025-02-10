@@ -24,7 +24,7 @@ const Notebook = () => {
           <Title title={"تقویم ها"} />
 
           {Calender.map((item)=>(
-            <ProductItem img={item.image} title={item.name} code={item.Pcode} desc={item.desc} type={item.type}/>
+            <ProductItem img={item.image} title={item.name} code={item.Pcode} desc={item.desc} type={item.type} price={item.price}/>
           ))}
           
 

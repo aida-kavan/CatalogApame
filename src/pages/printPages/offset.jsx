@@ -10,6 +10,7 @@ const offset = () => {
     { name: "سربرگ", link: "/print/offset/Sarbarg" },
     { name: "بروشور",  link: "/print/offset/brochure" },
     { name: "ست اداری",  link: "/print/offset/setedari" },
+    { name: "لیبل",  link: "/print/offset/offsetlabel" },
     { name: "بگ کاغذی", link: "/print/offset/Paperbag" },
     { name: "فولدر",  link: "/print/offset/Folder" },
     { name: "ظرف غذا", link: "/print/offset/fastfood" },

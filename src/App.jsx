@@ -45,7 +45,7 @@ import Visit from  "./pages/printPages/offsetPages/visit"
 import SetEdari from "./pages/printPages/offsetPages/setEdari";
 import Poster from "./pages/printPages/offsetPages/Poster";
 import Invoice from "./pages/printPages/offsetPages/Invoice";
-
+import OffsetLabel from "./pages/printPages/offsetPages/label";
 
 
 
@@ -195,6 +195,10 @@ const router = createBrowserRouter([
   {
     path: "/print/offset/invoice",
     element: <Invoice />,
+  },
+  {
+    path: "/print/offset/offsetlabel",
+    element: <OffsetLabel />,
   },
 
 

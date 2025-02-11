@@ -43,6 +43,8 @@ import Papercup from  "./pages/printPages/offsetPages/papercup"
 import Sarbarg from  "./pages/printPages/offsetPages/sarbarg"
 import Visit from  "./pages/printPages/offsetPages/visit"
 import SetEdari from "./pages/printPages/offsetPages/setEdari";
+import Poster from "./pages/printPages/offsetPages/Poster";
+import Invoice from "./pages/printPages/offsetPages/Invoice";
 
 
 
@@ -185,6 +187,14 @@ const router = createBrowserRouter([
   {
     path: "/print/offset/Visit",
     element: <Visit />,
+  },
+  {
+    path: "/print/offset/poster",
+    element: <Poster />,
+  },
+  {
+    path: "/print/offset/invoice",
+    element: <Invoice />,
   },
 
 

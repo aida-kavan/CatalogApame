@@ -3,17 +3,17 @@ import Footer from "../../../components/Footer";
 import styles from "../../../components.style/page.module.scss";
 import Title from "../../../components/title";
 import ProductItem from "../../../components/productItem";
-import { visit } from "../../../datas/visit";
+import { poster } from "../../../datas/poster";
 
-const Visit = () => {
+const Poster = () => {
   return (
     <>
       <Header />
       <div className={styles.mainPageCont}>
         <div className={styles.productCont}>
-          <Title title={"کارت ویزیت"} />
+          <Title title={"پوستر"} />
 
-          {visit.map((item) => (
+          {poster.map((item) => (
             <ProductItem
               img={item.image}
               title={item.name}
@@ -30,4 +30,4 @@ const Visit = () => {
   );
 };
 
-export default Visit;
+export default Poster;

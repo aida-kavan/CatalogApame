@@ -5,14 +5,17 @@ import { Link } from "react-router-dom";
 
 const offset = () => {
   const category = [
-    { name: "کارت ویزیت", icon: "print.png", link: "/print/offset/visit" },
-    { name: "تراکت", icon: "print.png", link: "/print/offset/teraket" },
-    { name: "سربرگ", icon: "print.png", link: "/print/offset/Sarbarg" },
-    { name: "بروشور", icon: "print.png", link: "/print/offset/brochure" },
-    { name: "ست اداری", icon: "print.png", link: "/print/offset/setedari" },
-    { name: "بگ کاغذی", icon: "print.png", link: "/print/offset/Paperbag" },
-    { name: "فولدر", icon: "print.png", link: "/print/offset/Folder" },
-    { name: "ظرف غذا", icon: "print.png", link: "/print/offset/fastfood" },
+    { name: "کارت ویزیت", link: "/print/offset/visit" },
+    { name: "تراکت",  link: "/print/offset/teraket" },
+    { name: "سربرگ", link: "/print/offset/Sarbarg" },
+    { name: "بروشور",  link: "/print/offset/brochure" },
+    { name: "ست اداری",  link: "/print/offset/setedari" },
+    { name: "بگ کاغذی", link: "/print/offset/Paperbag" },
+    { name: "فولدر",  link: "/print/offset/Folder" },
+    { name: "ظرف غذا", link: "/print/offset/fastfood" },
+    { name: "پوستر", link: "/print/offset/poster" },
+    { name: "فاکتور", link: "/print/offset/invoice" },
+    { name: "پاکت", link: "/print/offset/pocket" },
   ];
   return (
     <>

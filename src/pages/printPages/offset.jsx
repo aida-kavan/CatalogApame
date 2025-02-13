@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const offset = () => {
   const category = [
-    { name: "کارت ویزیت", link: "/print/offset/visit" },
+    { name: "کارت ویزیت", link: "/print/offset/visit" , icon: "visit.png" },
     { name: "تراکت",  link: "/print/offset/teraket" },
     { name: "سربرگ", link: "/print/offset/Sarbarg" },
     { name: "بروشور",  link: "/print/offset/brochure" },
@@ -25,10 +25,9 @@ const offset = () => {
         <div className={styles.gridCont}>
           {category.map((item) => (
             <Link to={item.link}>
-              <div className={styles.item} key={item.name}>
-                <img src={`/icons/${item.icon}`} alt="" />
-
-                <p>{item.name}</p>
+              <div className={styles.item} style={{backgroundColor: "#ffffff3b", fontSize:"20px", color: "white", width: "150px", height: "80px" , display: "flex", alignItems:"center", justifyContent: "center"}} key={item.name}>
+               
+                {item.name}
               </div>
             </Link>
           ))}

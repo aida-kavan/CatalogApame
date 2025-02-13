@@ -21,6 +21,7 @@ const Teraket = () => {
               desc={item.desc}
               type={item.type}
               price={item.price}
+              size={item.size}
             />
           ))}
         </div>

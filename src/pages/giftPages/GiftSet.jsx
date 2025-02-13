@@ -1,5 +1,6 @@
 import { giftset } from "../../datas/giftset";
 import Header from "../../components/header";
+import Footer from "../../components/Footer";
 import Title from "../../components/title";
 import styles from "../../components.style/page.module.scss";
 import SquareProductItem from "../../components/squareProductItem";

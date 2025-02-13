@@ -2,7 +2,7 @@ import Header from "../components/header";
 import Footer from "../components/Footer";
 import styles from "../components.style/page.module.scss";
 import Title from "../components/title";
-import ProductItem from "../components/productItem";
+import SquareProductItem from "../components/squareProductItem";
 import { stamp } from "../datas/stamp";
 
 const Folder = () => {
@@ -14,7 +14,7 @@ const Folder = () => {
           <Title title={"مهر ها"} />
 
           {stamp.map((item) => (
-            <ProductItem
+            <SquareProductItem
               img={item.image}
               title={item.name}
               code={item.Pcode}

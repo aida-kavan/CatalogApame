@@ -20,6 +20,7 @@ const PaperBag = () => {
               code={item.Pcode}
               desc={item.desc}
               type={item.type}
+              size={item.size}
               price={item.price}
             />
           ))}

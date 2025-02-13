@@ -3,7 +3,7 @@ import ImageModal from "./imageModal";
 import { useState } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
-const SquareProductItem = ({ img, title, code, size, desc, type }) => {
+const SquareProductItem = ({ img, title, code, size, desc, type, price }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <div className={styles.SproductItem}>
@@ -23,6 +23,11 @@ const SquareProductItem = ({ img, title, code, size, desc, type }) => {
         {desc && (
           <p>
             توضیحات محصول: <span>{desc}</span>
+          </p>
+        )}
+        {price && (
+          <p>
+            قیمت محصول: <span>{price}</span>
           </p>
         )}
       </div>

@@ -28,7 +28,7 @@ import Print from "./pages/print"
 import Sublimation from "./pages/printPages/sublimation"
 import Digital from "./pages/printPages/digital"
 import PostPrinting from "./pages/printPages/Postprinting"
-
+import Silk from "./pages/printPages/Silk"
 //صفحه های آفست
 import Offset from "./pages/printPages/offset"
 import Teraket from "./pages/printPages/offsetPages/Teraket"
@@ -213,13 +213,17 @@ const router = createBrowserRouter([
     path: "/print/digital",
     element: <Digital />,
   },
+  {
+    path: "/print/silk",
+    element: <Silk />,
+  },
  
   {
     path: "/print/sublimation",
     element: <Sublimation />,
   },
   {
-    path: "/print/Postprinting ",
+    path: "/print/postprint",
     element: <PostPrinting />,
   },
 ]);

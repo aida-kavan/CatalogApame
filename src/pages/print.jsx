@@ -30,11 +30,18 @@ const print = () => {
               <p>چاپ سابلیمیشن</p>
             </div>
           </Link>
-          <Link to="/print/sublimation">
+          <Link to="/print/postprint">
             <div className={styles.item} >
               <img src="/icons/clip.png" alt="" />
 
               <p>خدمات بعد از چاپ</p>
+            </div>
+          </Link>
+          <Link to="/print/silk">
+            <div className={styles.item} >
+              <img src="/icons/silk.png" alt="" />
+
+              <p>چاپ سیلک</p>
             </div>
           </Link>
           

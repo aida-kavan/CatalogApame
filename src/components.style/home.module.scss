@@ -16,7 +16,7 @@
     img {
         width: 150px;
       animation: float 5s infinite ease-in-out alternate;
-      padding: 15px;
+      padding: 5px;
     }
     p {
       font-family: doran;
@@ -53,6 +53,27 @@
     100% {
       transform: translateY(3px);
       scale: 1.07;
+    }
+  }
+
+.silk{
+    width: 90%;
+    background-color: white;
+    min-height: 160px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    h2{
+      text-align: center;
+    }
+    p{
+      font-family: vazir;
+      text-align: center;
+      font-size: 14px;
+    }
+    ul{
+      width: 80%;
+      text-align: center;
     }
   }
   

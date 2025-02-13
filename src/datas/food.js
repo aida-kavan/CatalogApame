@@ -2,77 +2,92 @@ export const food =[
     {
         name: "جعبه ساندویچ کلاسیک",
         Pcode: 10113,
-        image: "10113.png"
+        image: "10113.png",
+        size:"446*296 mm"
     },
     {
         name: "جعبه سوخاری بیرون بر",
         Pcode: 10114,
-        image: "10114.png"
+        image: "10114.png",
+        size:"235*695 mm"
     },
     {
         name: "جعبه سیب زمینی داروئی",
         Pcode: 10115,
-        image: "10115.png"
+        image: "10115.png",
+        size:"255*320 mm"
     },
     {
         name: "جعبه سیب زمینی سرخ کرده",
         Pcode: 10116,
-        image: "10116.png"
+        image: "10116.png",
+        size:"290*290 mm"
     },
     {
         name: "جعبه سیب زمینی صندوقی",
         Pcode: 10117,
-        image: "10117.png"
+        image: "10117.png",
+        size:"234*422 mm"
     },
     {
         name: "جعبه سیب زمینی قفلی",
         Pcode: 10118,
-        image: "10118.png"
+        image: "10118.png",
+        size:"445*205 mm"
     },
     {
         name: "جعبه سیب زمینی مخروطی",
         Pcode: 10119,
-        image: "10119.png"
+        image: "10119.png",
+        size:"217*314 mm"
     },
     {
         name: "جعبه همبرگر بیرون بر",
         Pcode: 10120,
-        image: "10120.png"
+        image: "10120.png",
+        size:"230*545 mm"
     },
     {
         name: "جعبه همبرگر صدفی",
         Pcode: 10121,
-        image: "10121.png"
+        image: "10121.png",
+        size:"440*230 mm"
     },
     {
         name: "جعبه همبرگر قفلی کوچک",
         Pcode: 10122,
-        image: "10122.png"
+        image: "10122.png",
+        size:"491*239 mm"
     },
     {
         name: "ظرف داخل سالن بزرگ",
         Pcode: 10123,
-        image: "10123.png"
+        image: "10123.png",
+        size:"290*297 mm"
     },
     {
         name: "ظرف داخل سالن کوچک",
         Pcode: 10124,
-        image: "10124.png"
+        image: "10124.png",
+        size:"240*230 mm"
     },
     {
         name: "ظرف سوخاری داخل سالن",
         Pcode: 10125,
-        image: "10125.png"
+        image: "10125.png",
+        size:"192*277 mm"
     },
     {
         name: "ظرف سیب زمینی داخل سالن",
         Pcode: 10126,
-        image: "10126.png"
+        image: "10126.png",
+        size:"249*168 mm"
     },
     {
         name: "ظرف پاپ کورن",
         Pcode: 10127,
-        image: "10127.png"
+        image: "10127.png",
+        size:"458*271 mm"
     },
     {
         name: "زیر بشقابی پوستی 40 گرم تک رنگ",
@@ -82,7 +97,7 @@ export const food =[
     {
         name: "زیر بشقابی پوستی 40 گرم دو رنگ",
         Pcode: 10129,
-        image: "10129.png"
+        image: "10129.png" 
     },
     {
         name: "زیر بشقابی تحریر80گرم تک رنگ",

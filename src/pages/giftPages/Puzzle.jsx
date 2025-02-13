@@ -3,7 +3,7 @@ import SquareProductItem from "../../components/squareProductItem";
 import Header from "../../components/header";
 import Title from "../../components/title";
 import styles from "../../components.style/page.module.scss";
-
+import Footer from "../../components/Footer";
 const Puzzle = () => {
   return (
     <>
@@ -23,6 +23,7 @@ const Puzzle = () => {
           ))}
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

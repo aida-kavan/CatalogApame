@@ -1,10 +1,14 @@
 import React from 'react'
 import styles from "../components.style/page.module.scss"
-import { PhoneCall } from 'lucide-react'
+import { Home, PhoneCall } from 'lucide-react'
+import {Link} from "react-router-dom"
 
 const Footer = () => {
   return (
     <footer>
+        <Link to={"/"}>
+        <Home color='#11176b'/>
+        </Link>
         <a href="tel:02634001215">
         <PhoneCall color='#11176b'/>
         </a>

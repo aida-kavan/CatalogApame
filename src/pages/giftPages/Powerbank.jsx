@@ -3,7 +3,7 @@ import Header from "../../components/header";
 import styles from "../../components.style/page.module.scss";
 import Title from "../../components/title";
 import SquareProductItem from "../../components/squareProductItem"
-
+import Footer from "../../components/Footer"
 
 const Powerbank = () => {
   return (
@@ -17,6 +17,7 @@ const Powerbank = () => {
             ))}
         </div>
     </div>
+    <Footer/>
     </>
   )
 }

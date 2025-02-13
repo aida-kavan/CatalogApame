@@ -11,14 +11,14 @@ const print = () => {
         <div className={styles.gridCont}>
           <Link to="/print/offset">
             <div className={styles.item} >
-              <img src="/icons/clip.png" alt="" />
+              <img src="/icons/offset.png" alt="" />
 
               <p>چاپ آفست</p>
             </div>
           </Link>
           <Link to="/print/digital">
             <div className={styles.item} >
-              <img src="/icons/clip.png" alt="" />
+              <img src="/icons/digitalprint.png" alt="" />
 
               <p>چاپ دیجیتال</p>
             </div>

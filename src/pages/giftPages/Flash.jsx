@@ -3,6 +3,7 @@ import styles from "../../components.style/page.module.scss"
 import Title from "../../components/title";
 import SquareProductItem from "../../components/squareProductItem"
 import { flash } from "../../datas/flash";
+import Footer from "../../components/Footer";
 
 const Flash = () => {
   return (
@@ -16,6 +17,7 @@ const Flash = () => {
             ))}
         </div>
     </div>
+    <Footer/>
     </>
   )
 }

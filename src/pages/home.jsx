@@ -33,7 +33,7 @@ const home = () => {
     {
       name: "طراحی گرافیک",
       icon: "design.png",
-      link: "/stamp"
+      link: "/design"
     },
     {
       name: "مهر",
@@ -43,6 +43,7 @@ const home = () => {
     {
       name: "پرچم",
       icon: "design.png",
+      link : "/flag"
     },
     {
       name: "عکاسی و فیلمبرداری",

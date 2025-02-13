@@ -24,6 +24,7 @@ const GiftSet = () => {
           ))}
         </div>
       </div>
+      <Footer/>
     </>
   )
 }

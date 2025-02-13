@@ -1,0 +1,39 @@
+.tableContainer {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+    direction: rtl;
+
+  }
+  
+  h2 {
+    margin-bottom: 15px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #e6e6e6;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 5px;
+    font-size: 12px;
+    font-family: vazir;
+  }
+  
+  th {
+    background-color: #4f58d9;
+    color: white;
+    font-size: 14px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  

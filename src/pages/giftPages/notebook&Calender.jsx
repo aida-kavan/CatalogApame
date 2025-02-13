@@ -5,6 +5,7 @@ import ProductItem from "../../components/productItem";
 import { NoteBook } from "../../datas/notebook";
 import { Calender } from "../../datas/calender";
 import { useState } from "react";
+import Footer from "../../components/Footer";
 
 
 const Notebook = () => {
@@ -30,6 +31,7 @@ const Notebook = () => {
 
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

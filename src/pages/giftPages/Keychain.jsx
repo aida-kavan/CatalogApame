@@ -21,6 +21,7 @@ const Keychain = () => {
           ))}
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

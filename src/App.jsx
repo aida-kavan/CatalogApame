@@ -18,9 +18,9 @@ import Website from "./pages/Website";
 import styles from "./components.style/page.module.scss"
 import Powerbank from "./pages/giftPages/Powerbank";
 import Social from "./pages/Social";
-import FirstPage from "./pages/firstPage";
 import Design from "./pages/design";
-import Stamp from "./pages/stamp"
+import Stamp from "./pages/stamp";
+import Flag from "./pages/Flag"
 
 
 ///////کل خدمات چاپ //////////
@@ -31,21 +31,24 @@ import PostPrinting from "./pages/printPages/Postprinting"
 
 //صفحه های آفست
 import Offset from "./pages/printPages/offset"
-import Teraket from  "./pages/printPages/offsetPages/Teraket"
-import Box from  "./pages/printPages/offsetPages/box"
-import Brochure from  "./pages/printPages/offsetPages/brochure"
-import Catalog from  "./pages/printPages/offsetPages/catalog"
-import Fastfood from  "./pages/printPages/offsetPages/fastfood"
-import Folder from  "./pages/printPages/offsetPages/folder"
-import Pocket from  "./pages/printPages/offsetPages/packet"
-import Paperbag from  "./pages/printPages/offsetPages/paperbag"
-import Papercup from  "./pages/printPages/offsetPages/papercup"
-import Sarbarg from  "./pages/printPages/offsetPages/sarbarg"
-import Visit from  "./pages/printPages/offsetPages/visit"
+import Teraket from "./pages/printPages/offsetPages/Teraket"
+import Box from "./pages/printPages/offsetPages/box"
+import Brochure from "./pages/printPages/offsetPages/brochure"
+import Catalog from "./pages/printPages/offsetPages/catalog"
+import Fastfood from "./pages/printPages/offsetPages/fastfood"
+import Folder from "./pages/printPages/offsetPages/folder"
+import Pocket from "./pages/printPages/offsetPages/packet"
+import Paperbag from "./pages/printPages/offsetPages/paperbag"
+import Papercup from "./pages/printPages/offsetPages/papercup"
+import Sarbarg from "./pages/printPages/offsetPages/sarbarg"
+import Visit from "./pages/printPages/offsetPages/visit"
 import SetEdari from "./pages/printPages/offsetPages/setEdari";
 import Poster from "./pages/printPages/offsetPages/Poster";
 import Invoice from "./pages/printPages/offsetPages/Invoice";
 import OffsetLabel from "./pages/printPages/offsetPages/label";
+import Eco from "./pages/printPages/digitalPages/eco";
+import Konica from "./pages/printPages/digitalPages/konica";
+import Plotter from "./pages/printPages/digitalPages/plotter";
 
 
 
@@ -53,7 +56,7 @@ import OffsetLabel from "./pages/printPages/offsetPages/label";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home/>,
+    element: <Home />,
   },
   {
     path: "/website",
@@ -70,6 +73,10 @@ const router = createBrowserRouter([
   {
     path: "/stamp",
     element: <Stamp />,
+  },
+  {
+    path: "/flag",
+    element: <Flag />,
   },
 
   //هدایای تبلیغاتی
@@ -206,6 +213,7 @@ const router = createBrowserRouter([
     path: "/print/digital",
     element: <Digital />,
   },
+ 
   {
     path: "/print/sublimation",
     element: <Sublimation />,
@@ -219,8 +227,8 @@ const router = createBrowserRouter([
 const App = () => {
   return (
     <main className={styles.mainPageCont2}>
-    <RouterProvider router={router}></RouterProvider>
-    
+      <RouterProvider router={router}></RouterProvider>
+
     </main>
   );
 };

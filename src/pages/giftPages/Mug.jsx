@@ -3,6 +3,7 @@ import styles from "../../components.style/page.module.scss";
 import Title from "../../components/title";
 import SquareProductItem from "../../components/squareProductItem";
 import { mug } from "../../datas/mug";
+import Footer from "../../components/Footer";
 
 const Mug = () => {
   return (
@@ -21,6 +22,7 @@ const Mug = () => {
           ))}
         </div>
       </div>
+      <Footer/>
     </>
   )
 }

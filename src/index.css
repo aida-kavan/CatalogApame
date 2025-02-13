@@ -36,7 +36,8 @@ body{
 
 
 body{
-  background-image: url(/bg.webp);
+  background-image: url(/2.png);
+  background-blend-mode:darken ;
   background-attachment: fixed;
   background-size: cover;
   width: 100vw;

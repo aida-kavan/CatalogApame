@@ -3,6 +3,7 @@ import styles from "../../components.style/page.module.scss";
 import Title from "../../components/title";
 import ProductItem from "../../components/productItem"
 import { bag } from "../../datas/bag";
+import Footer from "../../components/Footer";
 
 
 const Bag = () => {
@@ -22,6 +23,7 @@ const Bag = () => {
           ))}
         </div>
       </div>
+      <Footer/>
     </>
   )
 }

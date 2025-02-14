@@ -293,6 +293,9 @@ const plotter = [
         <EcoPriceTable data={plotter} />
         
       </div>
+      <div className={styles.text}>
+        <p>در صورت مشتری ثابت شدن در مجموعه چاپ و تبیلغات آپامه قیمت ها 10% تا 30% تخفیف خواهد داشت!</p>
+      </div>
       <Footer />
     </>
   );

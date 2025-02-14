@@ -1,6 +1,11 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+
+
 import Home from "./pages/home";
+import Photo from "./pages/Photo";
+
 import Notebook from "./pages/giftPages/notebook&Calender";
 import Flash from "./pages/giftPages/Flash";
 import Gift from "./pages/gift";
@@ -77,6 +82,10 @@ const router = createBrowserRouter([
   {
     path: "/flag",
     element: <Flag />,
+  },
+  {
+    path: "/photo",
+    element: <Photo />,
   },
 
   //هدایای تبلیغاتی

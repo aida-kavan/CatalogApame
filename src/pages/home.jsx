@@ -48,6 +48,7 @@ const home = () => {
     {
       name: "عکاسی و فیلمبرداری",
       icon: "photo.png",
+      link: "/photo"
     },
     {
       name: "موشن گرافیک",

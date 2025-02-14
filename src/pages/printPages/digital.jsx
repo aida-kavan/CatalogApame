@@ -146,83 +146,127 @@ const blackA3 =[
 ];
 
 
+const eco = [
+  {
+    "materialType": "چاپ بنر (۴ پاس) ۱۵ انس *خارجی*",
+    "above10m": "۱۰۵۰۰۰",
+    "above50m": "۹۹۰۰۰",
+    "above100m": "۹۰۰۰۰"
+  },
+  {
+    "materialType": "چاپ بنر (۴ پاس) ۱۵ انس *ایرانی*",
+    "above10m": "۱۰۵۰۰۰",
+    "above50m": "-",
+    "above100m": "-"
+  },
+  {
+    "materialType": "چاپ فلکسی ۱۸ انس (خارجی)",
+    "above10m": "۳۵۰۰۰۰",
+    "above50m": "۳۰۵۰۰۰",
+    "above100m": "۲۷۰۰۰۰"
+  },
+  {
+    "materialType": "چاپ وینیل (استیکر) براق",
+    "above10m": "۲۷۰۰۰۰",
+    "above50m": "۲۳۰۰۰۰",
+    "above100m": "۲۱۰۰۰۰"
+  },
+  {
+    "materialType": "چاپ وینیل (استیکر) مات",
+    "above10m": "۳۹۰۰۰۰",
+    "above50m": "۲۴۰۰۰۰",
+    "above100m": "۲۲۰۰۰۰"
+  },
+  {
+    "materialType": "چاپ وینیل (استیکر) شیشه‌ای",
+    "above10m": "۲۹۰۰۰۰",
+    "above50m": "۲۵۰۰۰۰",
+    "above100m": "۲۵۰۰۰۰"
+  },
+  {
+    "materialType": "چاپ وینیل (استیکر) مات ابریشمی",
+    "above10m": "۲۹۰۰۰۰",
+    "above50m": "۲۵۰۰۰۰",
+    "above100m": "۲۵۰۰۰۰"
+  },
+  {
+    "materialType": "چاپ مش",
+    "above10m": "۲۹۰۰۰۰",
+    "above50m": "-",
+    "above100m": "-"
+  },
+  {
+    "materialType": "چاپ بک لایت",
+    "above10m": "۳۵۰۰۰۰",
+    "above50m": "۳۳۰۰۰۰",
+    "above100m": "۳۱۰۰۰۰"
+  },
+  {
+    "materialType": "چاپ سولیت",
+    "above10m": "۳۹۵۰۰۰",
+    "above50m": "۳۷۰۰۰۰",
+    "above100m": "۳۶۰۰۰۰"
+  },
+  {
+    "materialType": "چاپ کنواس (بوم)",
+    "above10m": "۲۶۰۰۰۰",
+    "above50m": "۲۵۰۰۰۰",
+    "above100m": "۲۳۰۰۰۰"
+  }
+];
 
-const eco =[
-  
-    {
-      "materialType": "چاپ بنر (۴ پاس) ۱۵ انس *خارجی*",
-      "above10m": "",
-      "above50m": "",
-      "above100m": ""
-    },
-    {
-      "materialType": "چاپ بنر (۴ پاس) ۱۵ انس *ایرانی*",
-      "above10m": "",
-      "above50m": "",
-      "above100m": ""
-    },
-    {
-      "materialType": "چاپ فلکسی ۱۸ انس (خارجی)",
-      "above10m": "",
-      "above50m": "",
-      "above100m": ""
-    },
-    {
-      "materialType": "چاپ وینیل (استیکر) براق",
-      "above10m": "",
-      "above50m": "",
-      "above100m": ""
-    },
-    {
-      "materialType": "چاپ وینیل (استیکر) مات",
-      "above10m": "",
-      "above50m": "",
-      "above100m": ""
-    },
-    {
-      "materialType": "چاپ وینیل (استیکر) شیشه‌ای",
-      "above10m": "",
-      "above50m": "",
-      "above100m": ""
-    },
-    {
-      "materialType": "چاپ وینیل (استیکر) مات ابریشمی",
-      "above10m": "",
-      "above50m": "",
-      "above100m": ""
-    },
-    {
-      "materialType": "چاپ مش",
-      "above10m": "",
-      "above50m": "",
-      "above100m": ""
-    },
-    {
-      "materialType": "چاپ بک لایت",
-      "above10m": "",
-      "above50m": "",
-      "above100m": ""
-    },
-    {
-      "materialType": "چاپ سولیت",
-      "above10m": "",
-      "above50m": "",
-      "above100m": ""
-    },
-    {
-      "materialType": "چاپ کنواس (خام)",
-      "above10m": "",
-      "above50m": "",
-      "above100m": ""
-    },
-    {
-      "materialType": "چاپ روی چرم",
-      "above10m": "--",
-      "above50m": "--",
-      "above100m": "--"
-    }
-  ]
-  
+const plotter = [
+  {
+    "materialType": "چاپ بک لایت",
+    "above10m": "۳۲۰۰۰۰",
+    "above50m": "۲۹۰۰۰۰",
+    "above100m": "۲۶۰۰۰۰"
+  },
+  {
+    "materialType": "چاپ PP پشت چسبدار",
+    "above10m": "۲۹۰۰۰۰",
+    "above50m": "۲۷۵۰۰۰",
+    "above100m": "۲۶۰۰۰۰"
+  },
+  {
+    "materialType": "چاپ فوتوگلاسه براق ۲۰۰ گرم",
+    "above10m": "۱۸۰۰۰۰",
+    "above50m": "۱۷۰۰۰۰",
+    "above100m": "۱۶۰۰۰۰"
+  },
+  {
+    "materialType": "چاپ فوتوگلاسه مات ۲۰۰ گرم",
+    "above10m": "۱۹۰۰۰۰",
+    "above50m": "۱۷۵۰۰۰",
+    "above100m": "۱۶۵۰۰۰"
+  },
+  {
+    "materialType": "چاپ تحریر ۱۸۰ گرم",
+    "above10m": "۱۲۰۰۰۰",
+    "above50m": "۱۱۰۰۰۰",
+    "above100m": "۱۰۰۰۰۰"
+  },
+  {
+    "materialType": "چاپ تحریر ۲۰۰ گرم",
+    "above10m": "۱۳۰۰۰۰",
+    "above50m": "۱۲۰۰۰۰",
+    "above100m": "۱۰۵۰۰۰"
+  },
+  {
+    "materialType": "چاپ کوتد ۱۸۰ گرم",
+    "above10m": "۱۵۰۰۰۰",
+    "above50m": "۱۳۵۰۰۰",
+    "above100m": "۱۲۵۰۰۰"
+  },
+  {
+    "materialType": "چاپ کوتد ۲۰۰ گرم",
+    "above10m": "۱۵۵۰۰۰",
+    "above50m": "۱۴۵۰۰۰",
+    "above100m": "۱۳۵۰۰۰"
+  }
+];
+
+
 
 
 
@@ -244,14 +288,10 @@ const eco =[
 
         <Title title={"اکوسالونت"} />
         <EcoPriceTable data={eco} />
-        {/* <Title title={"گلاسه ۱۳۵ گرم"} /> */}
-        {/* <DigitalPriceTable data={glassColorData} /> */}
-        {/* <Title title={"گلاسه ۲۰۰ گرم"} /> */}
-        {/* <DigitalPriceTable data={glass3} />
-        <Title title={"گلاسه ۲۵۰  گرم"} />
-        <DigitalPriceTable data={glass4} />
-        <Title title={"گلاسه ۳۰۰   گرم"} />
-        <DigitalPriceTable data={glass5} /> */}
+        
+        <Title title={"پلاتر (عرض 106)"} />
+        <EcoPriceTable data={plotter} />
+        
       </div>
       <Footer />
     </>

@@ -32,22 +32,22 @@ export const flag = [
 
 {
     name: "پرچم بادبانی",
-    Pcode: "",
-    image: "",
+    Pcode: "10210-1",
+    image: "10210.jpg",
     type: "سایز بزرگ",
     size: "280 * 75 cm",
 },
 {
     name: "پرچم بادبانی",
-    Pcode: "",
-    image: "",
+    Pcode: "10210-2",
+    image: "10210.jpg",
     type: "سایز متوسط",
     size: "240 * 75 cm",
 },
 {
     name: "پرچم بادبانی",
-    Pcode: "",
-    image: "",
+    Pcode: "10210-3",
+    image: "10210.jpg",
     type: "سایز کوچک",
     size: "200 * 75 cm",
 },

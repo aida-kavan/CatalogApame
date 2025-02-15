@@ -54,6 +54,11 @@ const home = () => {
       name: "موشن گرافیک",
       icon: "clip.png",
     },
+    {
+      name: "بسته بندی",
+      icon: "clip.png",
+      link: "/packaging"
+    },
   ];
   return (
     <>

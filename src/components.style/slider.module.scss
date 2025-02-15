@@ -1,1 +1,105 @@
-    
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 340px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.sliderContent {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 250px; 
+    background-color: #f0f0f0; 
+    border-radius: 20px;
+    img{
+        width: 100%;
+    }
+}
+
+.sliderButton {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.447);
+    border-radius: 2px;
+    border: none;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.sliderButton:first-of-type {
+    left: 10px;
+}
+
+.sliderButton:last-of-type {
+    right: 10px;
+}
+
+.dotContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #3b1e1e;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dotactive {
+    background-color: #717171;
+}
+
+
+.imageContainer{
+    width: 95%;
+    height: 180px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.425);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .modalContent {
+    position: relative;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    max-width: max-content;
+    max-height: 90%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .modalImage {
+    max-width: 100%;
+  }

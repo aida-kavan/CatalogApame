@@ -54,6 +54,9 @@ import OffsetLabel from "./pages/printPages/offsetPages/label";
 import Eco from "./pages/printPages/digitalPages/eco";
 import Konica from "./pages/printPages/digitalPages/konica";
 import Plotter from "./pages/printPages/digitalPages/plotter";
+import Packaging from "./pages/Packaging";
+import FabricBag from "./pages/Fabric";
+import Gallery from "./pages/gallery";
 
 
 
@@ -82,6 +85,10 @@ const router = createBrowserRouter([
   {
     path: "/flag",
     element: <Flag />,
+  },
+  {
+    path: "/packaging",
+    element: <Packaging />,
   },
   {
     path: "/photo",
@@ -142,8 +149,19 @@ const router = createBrowserRouter([
     element: <Bag />,
   },
   {
+    path:"/packaging/bag",
+    element: <FabricBag/>
+  },
+
+  
+
+  {
     path: "/gift/powerbank",
     element: <Powerbank />,
+  },
+  {
+    path: "/gallery",
+    element: <Gallery />,
   },
 
 

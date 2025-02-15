@@ -30,17 +30,17 @@ header {
   }
 }
 
-footer{
+footer {
   width: 100vw;
   height: 60px;
-  background-color: rgb(255, 255, 255) ;
+  background-color: rgb(255, 255, 255);
   padding: 10px;
   position: fixed;
   left: 0;
   bottom: 0;
   display: flex;
   justify-content: space-evenly;
-  a{
+  a {
     background-color: rgb(219, 219, 219);
     display: flex;
     align-items: center;
@@ -48,22 +48,32 @@ footer{
     border-radius: 50%;
     width: 40px;
     height: 40px;
-  
-    img{
+
+    img {
       width: 30px;
       height: 30px;
       animation: oom 5s infinite ease-in-out alternate;
     }
   }
-  
-  }  
+}
 
-
+.titlecont {
+  margin-bottom: 10px;
+  margin: 10px;
+}
 .title {
   font-size: 20px;
   text-align: center;
-  margin-bottom: 10px;
-  margin: 10px;
+
+  color: white;
+}
+
+.subtitle {
+  font-family: doran-thin;
+  font-size: 14px;
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto;
   color: white;
 }
 
@@ -86,7 +96,6 @@ footer{
   align-items: center;
 }
 
-
 .productCont {
   display: flex;
   width: 310px;
@@ -108,8 +117,6 @@ footer{
       transition: 0.5s;
     }
   }
-
-  
 }
 
 .productItem {
@@ -124,8 +131,6 @@ footer{
   margin-bottom: 10px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.459);
 }
-
-
 
 .SproductItem {
   width: 100%;
@@ -159,7 +164,7 @@ footer{
   h2 {
     color: #11176b;
     font-size: 16px;
-    border-bottom:solid 0.5px #aaaaaa81;
+    border-bottom: solid 0.5px #aaaaaa81;
   }
   p {
     font-size: 14px;
@@ -171,12 +176,10 @@ footer{
     font-family: doran-thin;
     font-size: 12px;
   }
-
-  
 }
-#price{
-    font-size: 1px;
-  }
+#price {
+  font-size: 1px;
+}
 .Sdetail {
   width: 50%;
   h2 {
@@ -250,7 +253,6 @@ footer{
   }
 }
 
-
 @media screen and (orientation: landscape) {
   .modalContent {
     width: max-content;
@@ -273,12 +275,19 @@ footer{
 }
 
 
-
-@keyframes oom {
-  0% {
-    scale: 1;
-  }
-  100% {
-    scale: 1.1;
-  }
+.galleryBtn{
+  margin: 0 auto;
+  height: 50px;
+  background-color: #4561b0;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+  margin-top: 10px;
+  border: 0.5px white solid;
+}
+.galleryBtn:hover{
+  background-color: #253f87;
 }

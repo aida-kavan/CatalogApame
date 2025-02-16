@@ -57,6 +57,9 @@ import Plotter from "./pages/printPages/digitalPages/plotter";
 import Packaging from "./pages/Packaging";
 import FabricBag from "./pages/Fabric";
 import Gallery from "./pages/gallery";
+import Laser from "./pages/Laser";
+import Engraving from "./pages/laserPages/engraving";
+import Tablo from "./pages/laserPages/Tablo";
 
 
 
@@ -69,6 +72,18 @@ const router = createBrowserRouter([
   {
     path: "/website",
     element: <Website />,
+  },
+  {
+    path: "/laserandsign",
+    element: <Laser />,
+  },
+  {
+    path: "/laserandsign/engraving",
+    element: <Engraving />,
+  },
+  {
+    path: "/laserandsign/tablo",
+    element: <Tablo />,
   },
   {
     path: "/social",

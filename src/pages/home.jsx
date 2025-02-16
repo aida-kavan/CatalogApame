@@ -29,6 +29,7 @@ const home = () => {
     {
       name: "خدمات تابلو و لیزر",
       icon: "laser.png",
+      link: "/laserandsign"
     },
     {
       name: "طراحی گرافیک",

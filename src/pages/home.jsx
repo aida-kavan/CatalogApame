@@ -27,29 +27,29 @@ const home = () => {
       link: "/social"
     },
     {
-      name: "خدمات تابلو و لیزر",
+      name: "تابلو، لیزر و برش",
       icon: "laser.png",
       link: "/laserandsign"
     },
-    {
-      name: "طراحی گرافیک",
-      icon: "design.png",
-      link: "/design"
-    },
-    {
-      name: "مهر",
-      icon: "design.png",
-      link: "/stamp"
-    },
-    {
-      name: "پرچم",
-      icon: "design.png",
-      link : "/flag"
-    },
+    // {
+    //   name: "طراحی گرافیک",
+    //   icon: "design.png",
+    //   link: "/design"
+    // },
     {
       name: "عکاسی و فیلمبرداری",
       icon: "photo.png",
       link: "/photo"
+    },
+    {
+      name: "مهر",
+      icon: "stamp.png",
+      link: "/stamp"
+    },
+    {
+      name: "پرچم",
+      icon: "flag.png",
+      link : "/flag"
     },
     {
       name: "موشن گرافیک",
@@ -57,7 +57,7 @@ const home = () => {
     },
     {
       name: "بسته بندی",
-      icon: "clip.png",
+      icon: "packaging.png",
       link: "/packaging"
     },
   ];

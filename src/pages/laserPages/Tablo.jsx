@@ -1,9 +1,10 @@
-import { tablo } from "../../datas/tablo";
+import { tablo, lightbox } from "../../datas/tablo";
 import Header from "../../components/header";
 import Footer from "../../components/Footer";
 import Title from "../../components/title";
 import styles from "../../components.style/page.module.scss";
 import ProductItem from "../../components/productItem";
+import SquareProductItem from "../../components/squareProductItem";
 
 
 const Tablo = () => {
@@ -18,6 +19,18 @@ const Tablo = () => {
             <ProductItem
               img={item.image}
               title={item.name}
+              code={item.Pcode}
+              desc={item.desc}
+              
+            />
+          ))}
+          <Title title={" لایت باکس"} />
+
+          {lightbox.map((item) => (
+            <SquareProductItem
+              img={item.image}
+              title={item.name}
+              size={item.size}
               code={item.Pcode}
               desc={item.desc}
               

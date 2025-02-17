@@ -1,4 +1,4 @@
-import { engravingNonMetal } from "../../datas/laser";
+import { engravingNonMetal, badge } from "../../datas/laser";
 import Header from "../../components/header";
 import Footer from "../../components/Footer";
 import Title from "../../components/title";
@@ -12,9 +12,9 @@ const Engraving = () => {
       <Header />
       <div className={styles.mainPageCont}>
         <div className={styles.productCont}>
-          <Title title={"حکاکی لیزری"} subtitle={"روی متریال های غیر فلزی"}/>
+          <Title title={"بج و اتیکت"} />
 
-          {engravingNonMetal.map((item) => (
+          {badge.map((item) => (
             <SquareProductItem
               img={item.image}
               title={item.name}

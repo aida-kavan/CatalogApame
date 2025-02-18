@@ -60,6 +60,7 @@ import Gallery from "./pages/gallery";
 import Laser from "./pages/Laser";
 import Engraving from "./pages/laserPages/engraving";
 import Tablo from "./pages/laserPages/Tablo";
+import PlasticBag from "./pages/PlasticBag";
 
 
 
@@ -166,6 +167,10 @@ const router = createBrowserRouter([
   {
     path:"/packaging/bag",
     element: <FabricBag/>
+  },
+  {
+    path:"/packaging/plasticbag",
+    element: <PlasticBag/>
   },
 
   

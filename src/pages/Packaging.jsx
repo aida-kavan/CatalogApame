@@ -10,6 +10,7 @@ const Packaging = () => {
         {name: "لیبل دیجیتال" , link: "/print/digital"},
         {name: "بگ کاغذی" , link: "/gift/bag"},
         {name: "بگ پارچه ای" , link: "/packaging/bag"},
+        {name: "بگ نایلونی" , link: "/packaging/plasticbag"},
     ]
   return (
     <>

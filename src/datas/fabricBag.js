@@ -588,3 +588,22 @@ export const fabricBag90 = [
     desc: "این آیتم فقط مدل فلت دارد.",
   },
 ];
+
+
+export const plastic =[
+  {
+    name: "بگ نایلونی",
+    image: "بگ نایلونی یک.png",
+    size: "30*40*10"
+  },
+  {
+    name: "بگ نایلونی",
+    image: "بگ نایلونی دو.png",
+    size: "35*45*10"
+  },
+  {
+    name: "بگ نایلونی",
+    image: "بگ نایلونی سه.png",
+    size: "35*50"
+  },
+]

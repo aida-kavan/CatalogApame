@@ -5,7 +5,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Home from "./pages/home";
 import Photo from "./pages/Photo";
-
 import Notebook from "./pages/giftPages/notebook&Calender";
 import Flash from "./pages/giftPages/Flash";
 import Gift from "./pages/gift";
@@ -26,15 +25,11 @@ import Social from "./pages/Social";
 import Design from "./pages/design";
 import Stamp from "./pages/stamp";
 import Flag from "./pages/Flag"
-
-
-///////کل خدمات چاپ //////////
 import Print from "./pages/print"
 import Sublimation from "./pages/printPages/sublimation"
 import Digital from "./pages/printPages/digital"
 import PostPrinting from "./pages/printPages/Postprinting"
 import Silk from "./pages/printPages/Silk"
-//صفحه های آفست
 import Offset from "./pages/printPages/offset"
 import Teraket from "./pages/printPages/offsetPages/Teraket"
 import Box from "./pages/printPages/offsetPages/box"
@@ -63,7 +58,11 @@ import Tablo from "./pages/laserPages/Tablo";
 import PlasticBag from "./pages/PlasticBag";
 import Curtain from "./pages/printPages/Curtain";
 import HardBox from "./pages/hardbox";
-
+import Boresh from "./pages/laserPages/Boresh"
+import Stand from "./pages/Stand";
+import Flask from "./pages/giftPages/Flask"
+import Branding from "./pages/Branding"
+import JewerlyBox from "./pages/JewerlyBox";
 
 
 
@@ -71,6 +70,10 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+  },
+  {
+    path: "/Branding",
+    element: <Branding />,
   },
   {
     path: "/website",
@@ -87,6 +90,14 @@ const router = createBrowserRouter([
   {
     path: "/laserandsign/tablo",
     element: <Tablo />,
+  },
+  {
+    path: "/laserandsign/boresh",
+    element: <Boresh />,
+  },
+  {
+    path: "/laserandsign/stand",
+    element: <Stand />,
   },
   {
     path: "/social",
@@ -159,6 +170,10 @@ const router = createBrowserRouter([
     element: <Hat />,
   },
   {
+    path: "/gift/flask",
+    element: <Flask />,
+  },
+  {
     path: "/gift/mousepad",
     element: <MousePad />,
   },
@@ -177,6 +192,10 @@ const router = createBrowserRouter([
   {
     path:"/packaging/hardbox",
     element: <HardBox/>
+  },
+  {
+    path:"/packaging/jewerlybox",
+    element: <JewerlyBox/>
   },
 
   

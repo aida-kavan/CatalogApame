@@ -12,6 +12,7 @@ const Packaging = () => {
         {name: "بگ پارچه ای" , link: "/packaging/bag"},
         {name: "بگ نایلونی" , link: "/packaging/plasticbag"},
         {name: "هاردباکس" , link: "/packaging/hardbox"},
+        {name: "جعبه جواهر" , link: "/packaging/jewerlybox"},
     ]
   return (
     <>

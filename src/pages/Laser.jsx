@@ -6,8 +6,9 @@ import Footer from '../components/Footer'
 export default function Laser() {
     const items = [
         { name: "خدمات لیزر و حکاکی", link: "/laserandsign/engraving" },
-        { name: "خدمات برش", link: "/laser/cut" },
+        { name: "خدمات برش", link: "/laserandsign/boresh" },
         { name: "خدمات تابلو", link: "/laserandsign/tablo" },
+        { name: "استند و رول آپ", link: "/laserandsign/stand" },
       ]
     
   return (

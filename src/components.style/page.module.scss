@@ -291,3 +291,21 @@ footer {
 .galleryBtn:hover{
   background-color: #253f87;
 }
+
+.desc{
+  color: black;
+  background-color: white;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 10px;
+  .p{
+    font-family: vazir;
+  }
+
+  .p::before{
+    content: "●" ;
+    margin-left: 5px;
+    
+  }
+  
+}

@@ -26,25 +26,35 @@ const home = () => {
       icon: "social.png",
       link: "/social"
     },
-    {
-      name: "تابلو، لیزر و برش",
-      icon: "laser.png",
-      link: "/laserandsign"
-    },
     // {
-    //   name: "طراحی گرافیک",
-    //   icon: "design.png",
-    //   link: "/design"
-    // },
-    {
-      name: "عکاسی و فیلمبرداری",
-      icon: "photo.png",
-      link: "/photo"
-    },
+      //   name: "طراحی گرافیک",
+      //   icon: "design.png",
+      //   link: "/design"
+      // },
+      {
+        name: "عکاسی و فیلمبرداری",
+        icon: "photo.png",
+        link: "/photo"
+      },
+      {
+        name: "موشن گرافیک",
+        icon: "clip.png",
+      },
+      {
+        name: "تابلو، لیزر و برش",
+        icon: "laser.png",
+        link: "/laserandsign"
+      },
+      
     {
       name: "مهر",
       icon: "stamp.png",
       link: "/stamp"
+    },
+    {
+      name: "برندینگ و لیبل",
+      icon: "branding.png",
+      link: "/branding"
     },
     {
       name: "پرچم",
@@ -52,11 +62,7 @@ const home = () => {
       link : "/flag"
     },
     {
-      name: "موشن گرافیک",
-      icon: "clip.png",
-    },
-    {
-      name: "بسته بندی",
+      name: "جعبه و بسته بندی",
       icon: "packaging.png",
       link: "/packaging"
     },

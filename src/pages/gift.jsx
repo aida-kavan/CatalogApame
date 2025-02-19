@@ -14,6 +14,7 @@ const Gift = () => {
     { name: "ساک", icon: "bag.png", link: "/gift/bag" },
     { name: "چاپ روی لیوان", icon: "mug.svg", link: "/gift/mug" },
     { name: "جاکلیدی", icon: "keychain.png", link: "/gift/keychain" },
+    { name: "هاردباکس", icon: "keychain.png", link: "/packaging/hardbox" },
     // { name: "کوسن", icon: "pillow.png", link: "/pillow" },
     // { name: "بشقاب", icon: "plate.png", link: "/plate" },
     // { name: "موس پد", icon: "mousepad.png", link: "/mousepad" },

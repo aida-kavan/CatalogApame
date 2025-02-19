@@ -61,6 +61,8 @@ import Laser from "./pages/Laser";
 import Engraving from "./pages/laserPages/engraving";
 import Tablo from "./pages/laserPages/Tablo";
 import PlasticBag from "./pages/PlasticBag";
+import Curtain from "./pages/printPages/Curtain";
+import HardBox from "./pages/hardbox";
 
 
 
@@ -172,6 +174,10 @@ const router = createBrowserRouter([
     path:"/packaging/plasticbag",
     element: <PlasticBag/>
   },
+  {
+    path:"/packaging/hardbox",
+    element: <HardBox/>
+  },
 
   
 
@@ -189,6 +195,10 @@ const router = createBrowserRouter([
   {
     path: "/print",
     element: <Print />,
+  },
+  {
+    path: "/print/curtain",
+    element: <Curtain />,
   },
   {
     path: "/print/offset",

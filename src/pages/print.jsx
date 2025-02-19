@@ -4,47 +4,59 @@ import styles from "../components.style/home.module.scss";
 import { Link } from "react-router-dom";
 
 const print = () => {
+  const category = [
+    {
+      name: "چاپ آفست",
+      link: "/print/offset",
+    },
+    {
+      name: "چاپ دیجیتال",
+      link: "/print/digital",
+    },
+    {
+      name: "چاپ سابلیمیشن",
+      link: "/print/postprint",
+    },
+    {
+      name: "خدمات بعد از چاپ",
+      link: "/print/postprint",
+    },
+    {
+      name: "چاپ سیلک",
+      link: "/print/silk",
+    },
+    {
+      name: "چاپ پرده",
+      link: "/print/curtain",
+    },
+  ];
+
   return (
     <>
       <Header />
       <div className={styles.mainDiv}>
         <div className={styles.gridCont}>
-          <Link to="/print/offset">
-            <div className={styles.item} >
-              <img src="/icons/offset.png" alt="" />
-
-              <p>چاپ آفست</p>
-            </div>
-          </Link>
-          <Link to="/print/digital">
-            <div className={styles.item} >
-              <img src="/icons/digitalprint.png" alt="" />
-
-              <p>چاپ دیجیتال</p>
-            </div>
-          </Link>
-          <Link to="/print/sublimation">
-            <div className={styles.item} >
-              <img src="/icons/clip.png" alt="" />
-
-              <p>چاپ سابلیمیشن</p>
-            </div>
-          </Link>
-          <Link to="/print/postprint">
-            <div className={styles.item} >
-              <img src="/icons/clip.png" alt="" />
-
-              <p>خدمات بعد از چاپ</p>
-            </div>
-          </Link>
-          <Link to="/print/silk">
-            <div className={styles.item} >
-              <img src="/icons/silk.png" alt="" />
-
-              <p>چاپ سیلک</p>
-            </div>
-          </Link>
-          
+          {category.map((item) => (
+            <Link to={item.link}>
+              <div
+                className={styles.item}
+                style={{
+                  backgroundColor: "#ffffff3b",
+                  textAlign: "center",
+                  fontSize: "20px",
+                  color: "white",
+                  width: "160px",
+                  height: "80px",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+                key={item.name}
+              >
+                {item.name}
+              </div>
+            </Link>
+          ))}
         </div>
       </div>
       <Footer />

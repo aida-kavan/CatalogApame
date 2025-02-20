@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../components.style/home.module.scss";
 import Header from "../components/header";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 import { Link } from "react-router";
 const home = () => {
   const category = [
@@ -35,7 +35,7 @@ const home = () => {
         icon: "photo.png",
         link: "/photo"
       },
-      
+
       {
         name: "موشن گرافیک",
         icon: "clip.png",

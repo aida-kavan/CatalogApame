@@ -17,7 +17,7 @@ const Pen = () => {
               img={item.image}
               code={item.Pcode}
               title={item.name}
-              desc={item.desc}
+              price={item.price}
             />
           ))}
         </div>

@@ -63,6 +63,7 @@ import Stand from "./pages/Stand";
 import Flask from "./pages/giftPages/Flask"
 import Branding from "./pages/Branding"
 import JewerlyBox from "./pages/JewerlyBox";
+import Videomotion from "./pages/Videomotion";
 
 
 
@@ -207,6 +208,10 @@ const router = createBrowserRouter([
   {
     path: "/gallery",
     element: <Gallery />,
+  },
+  {
+    path: "/videomotion",
+    element: <Videomotion />,
   },
 
 

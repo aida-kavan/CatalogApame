@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 const home = () => {
   const category = [
     {
-      name: "خدمات چاپ",
+      name: " چاپ",
       icon: "print.png",
       link: "/print"
     },
@@ -26,11 +26,11 @@ const home = () => {
       icon: "social.png",
       link: "/social"
     },
-    // {
-      //   name: "طراحی گرافیک",
-      //   icon: "design.png",
-      //   link: "/design"
-      // },
+    {
+        name: "طراحی گرافیک",
+        icon: "design.png",
+        link: "/design"
+      },
       {
         name: "عکاسی و فیلمبرداری",
         icon: "photo.png",
@@ -39,6 +39,7 @@ const home = () => {
       {
         name: "موشن گرافیک",
         icon: "clip.png",
+        link: "/videomotion"
       },
       {
         name: "تابلو، لیزر و برش",

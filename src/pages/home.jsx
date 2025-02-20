@@ -6,7 +6,7 @@ import { Link } from "react-router";
 const home = () => {
   const category = [
     {
-      name: " چاپ",
+      name: "چاپ",
       icon: "print.png",
       link: "/print"
     },
@@ -26,7 +26,7 @@ const home = () => {
       link: "/social"
     },
     {
-        name: "طراحی گرافیک",
+        name: "طراحی گرافیک و برندبوک",
         icon: "design.png",
         link: "/design"
       },

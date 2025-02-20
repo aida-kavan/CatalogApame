@@ -1,9 +1,8 @@
 import React from "react";
 import styles from "../components.style/home.module.scss";
 import Header from "../components/header";
+import Footer from "../components/footer";
 import { Link } from "react-router";
-
-import Footer from "../components/Footer";
 const home = () => {
   const category = [
     {

@@ -1,6 +1,6 @@
 import { keychain } from "../../datas/keychain";
 import Header from "../../components/header";
-import Footer from "../../components/ّFooter"
+import Footer from "../../components/Footer"
 import styles from "../../components.style/page.module.scss";
 import Title from "../../components/title";
 import SquareProductItem from "../../components/squareProductItem"

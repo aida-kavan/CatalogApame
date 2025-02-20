@@ -35,6 +35,7 @@ const home = () => {
         icon: "photo.png",
         link: "/photo"
       },
+      
       {
         name: "موشن گرافیک",
         icon: "clip.png",

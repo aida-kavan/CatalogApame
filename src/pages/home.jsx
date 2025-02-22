@@ -8,7 +8,7 @@ const home = () => {
     {
       name: "چاپ",
       icon: "print.png",
-      link: "/print"
+      link: "/print",
     },
     {
       name: "هدایای تبلیغاتی",
@@ -23,55 +23,60 @@ const home = () => {
     {
       name: "سوشال مدیا",
       icon: "social.png",
-      link: "/social"
+      link: "/social",
     },
     {
-        name: "طراحی گرافیک و برندبوک",
-        icon: "design.png",
-        link: "/design"
-      },
-      {
-        name: "عکاسی و فیلمبرداری",
-        icon: "photo.png",
-        link: "/photo"
-      },
+      name: "طراحی گرافیک و برندبوک",
+      icon: "design.png",
+      link: "/design",
+    },
+    {
+      name: "عکاسی و فیلمبرداری",
+      icon: "photo.png",
+      link: "/photo",
+    },
 
-      {
-        name: "موشن گرافیک",
-        icon: "clip.png",
-        link: "/videomotion"
-      },
-      {
-        name: "تابلو، لیزر و برش",
-        icon: "laser.png",
-        link: "/laserandsign"
-      },
-      
+    {
+      name: "موشن گرافیک",
+      icon: "clip.png",
+      link: "/videomotion",
+    },
+    {
+      name: "تابلو، لیزر و برش",
+      icon: "laser.png",
+      link: "/laserandsign",
+    },
+
     {
       name: "مهر",
       icon: "stamp.png",
-      link: "/stamp"
+      link: "/stamp",
     },
     {
       name: "برندینگ و لیبل",
       icon: "branding.png",
-      link: "/branding"
+      link: "/branding",
     },
     {
       name: "پرچم",
       icon: "flag.png",
-      link : "/flag"
+      link: "/flag",
     },
     {
       name: "جعبه و بسته بندی",
       icon: "packaging.png",
-      link: "/packaging"
+      link: "/packaging",
     },
   ];
   return (
     <>
       <Header />
       <div className={styles.mainDiv}>
+        <Link to={"/poyesh"}>
+        <div style={{ width: "100%", maxWidth: "380px", margin: "0 auto" }}>
+          <img style={{ width: "100%" }} src="/icons/poyesh.png" alt="" />
+        </div>
+        </Link>
         <div className={styles.gridCont}>
           {category.map((item) => (
             <Link to={item.link}>
@@ -84,7 +89,7 @@ const home = () => {
           ))}
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };

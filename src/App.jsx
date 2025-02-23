@@ -64,6 +64,8 @@ import Poyesh from "./pages/poyesh";
 import Videomotion from "./pages/Videomotion";
 import Saze from "./pages/saze"
 import UniqueLabel from "./pages/printPages/uniqueLabel";
+import Flasko from "./pages/printPages/Flasko"
+import FoodPocket from "./pages/printPages/foodPocket";
 
 
 
@@ -240,6 +242,16 @@ const router = createBrowserRouter([
     path: "/print/offset",
     element: <Offset />,
   },
+  {
+    path: "/print/flasko",
+    element: <Flasko />,
+  },
+  
+  {
+    path: "/print/foodpocket",
+    element: <FoodPocket />,
+  },
+
   {
     path: "/print/offset/teraket",
     element: <Teraket />,

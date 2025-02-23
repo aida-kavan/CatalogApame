@@ -15,6 +15,10 @@ const print = () => {
       link: "/print/digital",
     },
     {
+      name: "چاپ فلسکو",
+      link: "/print/flasko",
+    },
+    {
       name: "چاپ سابلیمیشن",
       link: "/print/postprint",
     },

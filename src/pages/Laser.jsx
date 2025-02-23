@@ -2,6 +2,7 @@ import Header from '../components/header'
 import styles from '../components.style/home.module.scss'
 import { Link } from 'react-router-dom'
 import Footer from '../components/Footer'
+import Descreption from '../components/Descreption'
 
 export default function Laser() {
     const items = [
@@ -14,7 +15,15 @@ export default function Laser() {
   return (
     <>
     <Header />
-    <div className={styles.mainDiv}>
+    <div className={styles.mainDiv} style={{paddingTop: "70px"}}>
+      <Descreption title={"طراحی و تولید تابلو و خدمات برش لیزری"}
+      main={"ساخت انواع تابلوهای تبلیغاتی مانند تابلوهای حروف برجسته، تابلوهای نئون، تابلوهای لایت‌باکس و همچنین خدمات برش لیزری برای تولید محصولات دکوراتیو و تبلیغاتی ارائه می‌شود."}
+      items={[
+        "افزایش دیده شدن برند در محیط‌های شهری" ,
+        "ایجاد جلوه‌های بصری جذاب برای کسب‌وکار",
+        "تولید محصولات خاص با برش دقیق"
+      ]}
+      />
       <div className={styles.gridCont}>
         {items.map((item) => (
           <Link to={item.link} key={item.name}>

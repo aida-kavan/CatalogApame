@@ -2,6 +2,7 @@ import Header from "../components/header";
 import styles from "../components.style/home.module.scss";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
+import Descreption from "../components/Descreption";
 
 const Branding = () => {
   const items = [
@@ -14,7 +15,19 @@ const Branding = () => {
   return (
     <>
       <Header />
-      <div className={styles.mainDiv}>
+      <div className={styles.mainDiv} style={{paddingTop: "70px"}}>
+        <Descreption
+          title={"ایجاد لیبل‌های اختصاصی برای محصولات"}
+          main={
+            "لیبل‌ها نقش مهمی در معرفی برند و اطلاعات محصول دارند. این خدمات شامل طراحی و چاپ لیبل‌های پشت چسب‌دار، متالایز، شفاف و لیبل‌های خاص برای بسته‌بندی محصولات است."
+          }
+          items={[
+            " افزایش جذابیت بصری محصولات",
+            "ارائه اطلاعات محصول به مشتریان",
+            "ایجاد حس اعتماد و اصالت در برند",
+            "تمایز محصولات در قفسه‌های فروش",
+          ]}
+        />
         <div className={styles.gridCont}>
           {items.map((item) => (
             <Link to={item.link} key={item.name}>

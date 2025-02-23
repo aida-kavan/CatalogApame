@@ -67,6 +67,16 @@ const home = () => {
       icon: "packaging.png",
       link: "/packaging",
     },
+    {
+      name: "تبلیغات محیطی",
+      icon: "adverb.png",
+      link: "/ooh",
+    },
+    {
+      name: "سازه های نمایشگاهی",
+      icon: "ad bulid.png",
+      link: "/ooh",
+    },
   ];
   return (
     <>

@@ -46,9 +46,6 @@ import SetEdari from "./pages/printPages/offsetPages/setEdari";
 import Poster from "./pages/printPages/offsetPages/Poster";
 import Invoice from "./pages/printPages/offsetPages/Invoice";
 import OffsetLabel from "./pages/printPages/offsetPages/label";
-import Eco from "./pages/printPages/digitalPages/eco";
-import Konica from "./pages/printPages/digitalPages/konica";
-import Plotter from "./pages/printPages/digitalPages/plotter";
 import Packaging from "./pages/Packaging";
 import FabricBag from "./pages/Fabric";
 import Gallery from "./pages/gallery";
@@ -65,6 +62,8 @@ import Branding from "./pages/Branding"
 import JewerlyBox from "./pages/JewerlyBox";
 import Poyesh from "./pages/poyesh";
 import Videomotion from "./pages/Videomotion";
+import Saze from "./pages/saze"
+import UniqueLabel from "./pages/printPages/uniqueLabel";
 
 
 
@@ -76,6 +75,10 @@ const router = createBrowserRouter([
   {
     path: "/poyesh",
     element: <Poyesh />,
+  },
+  {
+    path: "/saze",
+    element: <Saze />,
   },
   {
     path: "/Branding",
@@ -224,6 +227,10 @@ const router = createBrowserRouter([
   {
     path: "/print",
     element: <Print />,
+  },
+  {
+    path: "/print/uniquelabel",
+    element: <UniqueLabel />,
   },
   {
     path: "/print/curtain",

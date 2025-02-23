@@ -7,7 +7,7 @@ const Branding = () => {
   const items = [
     { name: "لیبل افست", link: "/print/offset/offsetlabel" },
     { name: "لیبل دیجیتال", link: "/print/digital" },
-    { name: "لیبل خاص", link: "/laserandsign/tablo" },
+    { name: "لیبل خاص", link: "/print/uniquelabel" },
     { name: "استند و رول آپ", link: "/laserandsign/stand" },
   ];
 

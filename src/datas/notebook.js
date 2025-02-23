@@ -5,7 +5,7 @@ export const NoteBook = [
     Pcode: 3000,
     desc: "جلدسخت/ کاغذ 70 گرمی سفید/ رنگبندی طوسی و مشکی",
     type: "اروپایی",
-    price: "183،000",
+    price: "220،000",
   },
   {
     image: "فدک 3001-01.jpg",
@@ -13,7 +13,7 @@ export const NoteBook = [
     Pcode: 3001,
     desc: "جلدسخت/ کاغذ 70 گرمی سفید/ رنگبندی قرمز و مشکی",
     type: "اروپایی",
-    price: "183،000",
+    price: "220،000",
   },
   {
     image: "فدک 3002-01.jpg",
@@ -21,7 +21,7 @@ export const NoteBook = [
     Pcode: 3002,
     desc: "جلدسخت جاکارتی و جاخودکاری دار/ کاغذ 70 گرمی کرم/ رنگبندی طوسی و مشکی",
     type: "اروپایی",
-    price: "215،000",
+    price: "245،000",
   },
   {
     image: "فدک 3003-01.jpg",
@@ -29,7 +29,7 @@ export const NoteBook = [
     Pcode: 3003,
     desc: "جلدسخت زبانه و جا خودکاری دار/ کاغذ 70 گرمی کرم/ رنگبندی طوسی و آبی",
     type: "اروپایی",
-    price: "250،000",
+    price: "280،000",
   },
   {
     image: "فدک3004-01.jpg",
@@ -37,7 +37,7 @@ export const NoteBook = [
     Pcode: 3004,
     desc: "جلدسخت زبانه و جا خودکاری دار/ کاغذ 70 گرمی سفید/ رنگبندی طوسی و مشکی",
     type: "اروپایی",
-    price: "210،000",
+    price: "250،000",
   },
   {
     image: "فدک3005-01.jpg",
@@ -45,7 +45,7 @@ export const NoteBook = [
     Pcode: 3005,
     desc: "جلدسخت/ کاغذ 70 گرمی سفید/ رنگبندی قرمز",
     type: "اروپایی",
-    price: "190،000",
+    price: "220،000",
   },
   {
     image: "فدک3006-01.jpg",
@@ -53,7 +53,7 @@ export const NoteBook = [
     Pcode: 3006,
     desc: "جلدسخت جاخودکاری/ کاغذ 70 گرمی کرم/ رنگبندی طوسی تیره",
     type: "اروپایی",
-    price: "193،000",
+    price: "233،000",
   },
   {
     image: "فدک 3007-01.jpg",
@@ -61,7 +61,7 @@ export const NoteBook = [
     Pcode: 3007,
     desc: "جلدسخت/ کاغذ 70 گرمی کرم/ رنگبندی قهوه ای مارون",
     type: "اروپایی",
-    price: "193،000",
+    price: "233،000",
   },
   {
     image: "فدک 3008-01.jpg",
@@ -69,7 +69,7 @@ export const NoteBook = [
     Pcode: 3008,
     desc: "جلدسخت/ کاغذ 70 گرمی سفید/ رنگبندی سبز دریایی",
     type: "اروپایی",
-    price: "180،000",
+    price: "220،000",
   },
   {
     image: "فدک3009-01.jpg",
@@ -77,7 +77,7 @@ export const NoteBook = [
     Pcode: 3009,
     desc: "جلدسخت/ کاغذ 70 گرمی کرم/ رنگبندی نسکافه ای",
     type: "اروپایی",
-    price: "185،000",
+    price: "225،000",
   },
   {
     image: "فدک3010-01.jpg",
@@ -85,7 +85,7 @@ export const NoteBook = [
     Pcode: 3010,
     desc: "جلدسخت/ کاغذ 70 گرمی سفید/ رنگبندی طوسی",
     type: "اروپایی",
-    price: "180،000",
+    price: "220،000",
   },
   {
     image: "فدک3011-01.jpg",
@@ -93,7 +93,7 @@ export const NoteBook = [
     Pcode: 3011,
     desc: "جلدسخت/ کاغذ 70 گرمی سفید/ رنگبندی مشکی",
     type: "اروپایی",
-    price: "180،000",
+    price: "220،000",
   },
   {
     image: "فدک3012-01.jpg",
@@ -101,7 +101,7 @@ export const NoteBook = [
     Pcode: 3012,
     desc: "جلدسخت/ کاغذ 70 گرمی سفید/ رنگبندی عسلی",
     type: "اروپایی",
-    price: "165،000",
+    price: "205،000",
   },
   {
     image: "فدک3013-01.jpg",
@@ -109,7 +109,7 @@ export const NoteBook = [
     Pcode: 3013,
     desc: "جلد نرم / کاغذ 70 گرمی کرم/ رنگبندی طوسی تیره",
     type: "اروپایی",
-    price: "180،000",
+    price: "220،000",
   },
   {
     image: "فدک 3014-01.jpg",
@@ -117,7 +117,7 @@ export const NoteBook = [
     Pcode: 3014,
     desc: "جلد نرم / کاغذ 70 گرمی کرم/ رنگبندی طوسی تیره",
     type: "اروپایی",
-    price: "180،000",
+    price: "220،000",
   },
   {
     image: "فدک3015-01.jpg",
@@ -125,7 +125,7 @@ export const NoteBook = [
     Pcode: 3015,
     desc: "جلد سخت / کاغذ 70 گرمی کرم/ رنگبندی مشکی",
     type: "اروپایی",
-    price: "170،000",
+    price: "210،000",
   },
   {
     image: "فدک3020-01.jpg",
@@ -133,7 +133,7 @@ export const NoteBook = [
     Pcode: 3020,
     desc: "جلد سخت / کاغذ 70 گرمی کرم/ رنگبندی قهوه ای تیره و روشن",
     type: "اروپایی",
-    price: "170،000",
+    price: "210،000",
   },
   {
     image: "فدک3023-01.jpg",
@@ -141,7 +141,7 @@ export const NoteBook = [
     Pcode: 3023,
     desc: "جلد سخت / کاغذ 70 گرمی سفید/ رنگبندی عسلی، نسکافه ای و طوسی",
     type: "اروپایی",
-    price: "160،000",
+    price: "200،000",
   },
   {
     image: "فدک 3024-01.jpg",
@@ -157,7 +157,7 @@ export const NoteBook = [
     Pcode: 3025,
     desc: "جلد سخت / کاغذ 70 گرمی سفید/ رنگبندی نقره ای و قهوه ای و سربی",
     type: "اروپایی",
-    price: "160،000",
+    price: "200،000",
   },
   {
     image: "فدک 3026-01.jpg",
@@ -165,7 +165,7 @@ export const NoteBook = [
     Pcode: 3026,
     desc: "جلد سخت / کاغذ 70 گرمی کرم/ رنگبندی عسلی",
     type: "اروپایی",
-    price: "175،000",
+    price: "205،000",
   },
   {
     image: "فدک 3028-01.jpg",
@@ -173,7 +173,7 @@ export const NoteBook = [
     Pcode: 3028,
     desc: "جلد سخت / کاغذ 70 گرمی کرم/ رنگبندی قهوه ای",
     type: "اروپایی",
-    price: "183،000",
+    price: "223،000",
   },
   {
     image: "فدک 3029-01.jpg",
@@ -181,7 +181,7 @@ export const NoteBook = [
     Pcode: 3029,
     desc: "جلد سخت / کاغذ 70 گرمی کرم/ رنگبندی آبی کاربنی",
     type: "اروپایی",
-    price: "170،000",
+    price: "210،000",
   },
   {
     image: "فدک3032-01.jpg",
@@ -189,7 +189,7 @@ export const NoteBook = [
     Pcode: 3032,
     desc: "جلد سخت / کاغذ 70 گرمی سفید/ رنگبندی آبی و نارنجی",
     type: "اروپایی",
-    price: "150،000",
+    price: "190،000",
   },
   {
     image: "فدک3011-01.jpg",
@@ -197,7 +197,7 @@ export const NoteBook = [
     Pcode: 3034,
     desc: "جلد سخت / کاغذ 70 گرمی سفید/ رنگبندی طوسی",
     type: "اروپایی",
-    price: "160،000",
+    price: "200،000",
   },
   {
     image: "فدک 3035-01.jpg",
@@ -205,7 +205,7 @@ export const NoteBook = [
     Pcode: 3035,
     desc: "جلد سخت / کاغذ 70 گرمی سفید/ رنگبندی مشکی زیر رنگ زرد",
     type: "اروپایی",
-    price: "170،000",
+    price: "200،000",
   },
   {
     image: "فدک 3037-01.jpg",
@@ -213,42 +213,42 @@ export const NoteBook = [
     Pcode: 3037,
     desc: "جلد نرم / کاغذ 70 گرمی سفید/ رنگبندی سه رنگ جور",
     type: "اروپایی",
-    price: "150،000",
+    price: "190،000",
   },
   {
     image: "3038.jpg",
     name: "سالنامه اروپایی",
     Pcode: 3038,
     type: "اروپایی",
-    price: "135،000",
+    price: "175،000",
   },
   {
     image: "3039.jpg",
     name: "سالنامه اروپایی",
     Pcode: 3039,
     type: "اروپایی",
-    price: "180،000",
+    price: "220،000",
   },
   {
     image: "3040.jpg",
     name: "سالنامه اروپایی",
     Pcode: 3040,
     type: "اروپایی",
-    price: "180،000",
+    price: "220،000",
   },
   {
     image: "3041.jpg",
     name: "سالنامه اروپایی",
     Pcode: 3041,
     type: "اروپایی",
-    price: "190،000",
+    price: "220،000",
   },
   {
     image: "3042.jpg",
     name: "سالنامه اروپایی",
     Pcode: 3042,
     type: "اروپایی",
-    price: "175،000",
+    price: "195،000",
   },
 
   //مدل وزیری
@@ -259,7 +259,7 @@ export const NoteBook = [
     Pcode: 2000,
     desc: "جلد سخت / کاغذ 70 گرمی سفید/ رنگبندی مشکی .و طوسی",
     type: "وزیری/رقعی",
-    price: "199،000",
+    price: "239،000",
   },
   {
     image: "فدک2001-01.jpg",
@@ -267,7 +267,7 @@ export const NoteBook = [
     Pcode: 2001,
     desc: "جلد سخت / کاغذ 70 گرمی سفید/ رنگبندی سبز دریایی",
     type: "وزیری/رقعی",
-    price: "199،000",
+    price: "239،000",
   },
   {
     image: "فدک2002-01.jpg",
@@ -275,7 +275,7 @@ export const NoteBook = [
     Pcode: 2002,
     desc: "جلد سخت / کاغذ 70 گرمی سفید/ رنگبندی آبی پروس",
     type: "وزیری/رقعی",
-    price: "199،000",
+    price: "239،000",
   },
   {
     image: "فدک2003-01.jpg",
@@ -283,7 +283,7 @@ export const NoteBook = [
     Pcode: 2003,
     desc: "جلد سخت / کاغذ 70 گرمی سفید/ رنگبندی عسلی",
     type: "وزیری/رقعی",
-    price: "185،000",
+    price: "225،000",
   },
   {
     image: "فدک2004-01.jpg",
@@ -291,7 +291,7 @@ export const NoteBook = [
     Pcode: 2004,
     desc: "جلد سخت / کاغذ 70 گرمی سفید/ رنگبندی آبی روشن",
     type: "وزیری/رقعی",
-    price: "225،000",
+    price: "265،000",
   },
   {
     image: "فدک2005-01.jpg",
@@ -299,7 +299,7 @@ export const NoteBook = [
     Pcode: 2005,
     desc: "جلد سخت / کاغذ 70 گرمی سفید/ رنگبندی عسلی",
     type: "وزیری/رقعی",
-    price: "182،000",
+    price: "222،000",
   },
   {
     image: "فدک 2006-01.jpg",
@@ -307,7 +307,7 @@ export const NoteBook = [
     Pcode: 2006,
     desc: "جلد سخت / کاغذ 70 گرمی سفید/ رنگبندی قهوه ای",
     type: "وزیری/رقعی",
-    price: "182،000",
+    price: "222،000",
   },
   {
     image: "فدک-2007.jpg",
@@ -315,7 +315,7 @@ export const NoteBook = [
     Pcode: 2007,
     desc: "جلد سخت / کاغذ 70 گرمی سفید/ رنگبندی مشکی",
     type: "وزیری/رقعی",
-    price: "182،000",
+    price: "222،000",
   },
   {
     image: "فدک-2008.jpg",
@@ -323,7 +323,7 @@ export const NoteBook = [
     Pcode: 2008,
     desc: "جلد سخت / کاغذ 70 گرمی سفید/ رنگبندی مشکی",
     type: "وزیری/رقعی",
-    price: "180،000",
+    price: "220،000",
   },
   {
     image: "فدک-2022.jpg",
@@ -331,7 +331,7 @@ export const NoteBook = [
     Pcode: 2022,
     desc: "جلد سخت / کاغذ 70 گرمی سفید/ رنگبندی مشکی زیر رنگ زرد",
     type: "وزیری/رقعی",
-    price: "180،000",
+    price: "220،000",
   },
   {
     image: "فدک-2024.jpg",
@@ -339,7 +339,7 @@ export const NoteBook = [
     Pcode: 2024,
     desc: "جلد سخت / کاغذ 70 گرمی سفید/ رنگبندی طوسی و قهوه ای ",
     type: "وزیری/رقعی",
-    price: "170،000",
+    price: "210،000",
   },
   {
     image: "فدک-2040.jpg",
@@ -347,7 +347,7 @@ export const NoteBook = [
     Pcode: 2040,
     desc: "جلد سخت / کاغذ 70 گرمی سفید/ رنگبندی زرد خردلی ",
     type: "وزیری/رقعی جمعه جدا",
-    price: "195،000",
+    price: "235،000",
   },
   {
     image: "فدک-2041.jpg",
@@ -355,7 +355,7 @@ export const NoteBook = [
     Pcode: 2041,
     desc: "جلد سخت / کاغذ 70 گرمی سفید/ رنگبندی قهوه ای ",
     type: "وزیری/رقعی جمعه جدا",
-    price: "200،000",
+    price: "230،000",
   },
   {
     image: "فدک-2042.jpg",
@@ -363,7 +363,7 @@ export const NoteBook = [
     Pcode: 2042,
     desc: "جلد سخت / کاغذ 70 گرمی سفید/ رنگبندی سربی ",
     type: "وزیری/رقعی جمعه جدا",
-    price: "200،000",
+    price: "230،000",
   },
   {
     image: "فدک-2043.jpg",
@@ -371,7 +371,7 @@ export const NoteBook = [
     Pcode: 2043,
     desc: "جلد سخت / کاغذ 70 گرمی سفید/ رنگبندی سبز ",
     type: "وزیری/رقعی جمعه جدا",
-    price: "202،000",
+    price: "232،000",
   },
   {
     image: "2044.jpg",
@@ -379,7 +379,7 @@ export const NoteBook = [
     Pcode: 2044,
     desc: "جلد سخت / کاغذ 70 گرمی سفید ",
     type: "وزیری/رقعی ",
-    price: "210،000",
+    price: "240،000",
   },
   {
     image: "2045.jpg",
@@ -387,7 +387,7 @@ export const NoteBook = [
     Pcode: 2045,
     desc: "جلد سخت / کاغذ 70 گرمی سفید ",
     type: "وزیری/رقعی",
-    price: "198،000",
+    price: "238،000",
   },
   {
     image: "2046.jpg",
@@ -395,7 +395,7 @@ export const NoteBook = [
     Pcode: 2046,
     desc: "جلد سخت / کاغذ 70 گرمی سفید ",
     type: "وزیری/رقعی ",
-    price: "182،000",
+    price: "222،000",
   },
   {
     image: "2047.jpg",
@@ -403,7 +403,7 @@ export const NoteBook = [
     Pcode: 2047,
     desc: "جلد سخت / کاغذ 70 گرمی سفید ",
     type: "وزیری/رقعی ",
-    price: "198،000",
+    price: "238،000",
   },
   {
     image: "2048.jpg",
@@ -411,7 +411,7 @@ export const NoteBook = [
     Pcode: 2048,
     desc: "جلد سخت / کاغذ 70 گرمی سفید/ در چهار رنگ ",
     type: "وزیری/رقعی ",
-    price: "182،000",
+    price: "222،000",
   },
   {
     image: "2049.jpg",
@@ -419,7 +419,7 @@ export const NoteBook = [
     Pcode: 2049,
     desc: "جلد سخت / کاغذ 70 گرمی سفید ",
     type: "وزیری/رقعی ",
-    price: "160،000",
+    price: "200،000",
   },
   {
     image: "2050.jpg",
@@ -427,7 +427,7 @@ export const NoteBook = [
     Pcode: 2050,
     desc: "جلد سخت / کاغذ 70 گرمی سفید ",
     type: "وزیری/رقعی ",
-    price: "185،000",
+    price: "225،000",
   },
   {
     image: "2051.jpg",
@@ -435,7 +435,7 @@ export const NoteBook = [
     Pcode: 2051,
     desc: "جلد سخت / کاغذ 70 گرمی سفید ",
     type: "وزیری/رقعی ",
-    price: "170،000",
+    price: "200،000",
   },
   {
     image: "2052.jpg",
@@ -443,7 +443,7 @@ export const NoteBook = [
     Pcode: 2052,
     desc: "جلد سخت / کاغذ 70 گرمی سفید ",
     type: "وزیری/رقعی ",
-    price: "205،000",
+    price: "235،000",
   },
   {
     image: "2053.jpg",
@@ -451,6 +451,6 @@ export const NoteBook = [
     Pcode: 2053,
     desc: "جلد سخت / کاغذ 70 گرمی سفید ",
     type: "وزیری/رقعی ",
-    price: "170،000",
+    price: "200،000",
   },
 ];

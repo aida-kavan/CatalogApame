@@ -2,6 +2,7 @@ import Header from "../components/header";
 import Footer from "../components/Footer";
 import styles from "../components.style/home.module.scss";
 import { Link } from "react-router-dom";
+import Descreption from "../components/Descreption";
 
 const print = () => {
   const category = [
@@ -34,7 +35,16 @@ const print = () => {
   return (
     <>
       <Header />
-      <div className={styles.mainDiv}>
+      <div className={styles.mainDiv} style={{paddingTop: "70px"}}>
+      <Descreption title={"خدمات چاپ با بالاترین کیفیت"} 
+      main={"خدمات چاپ شامل چاپ کارت ویزیت، بروشور، کاتالوگ، پوستر، لیبل پرده، سیلک و دیگر محصولات چاپی است که برای تبلیغات و برندینگ ضروری هستند."}
+      items={[
+        "ارائه اطلاعات کسب‌وکار در قالب چاپی",
+        "تبلیغات آفلاین موثر",
+        "جذب مشتریان از طریق بروشورهای جذاب",
+        "برندینگ از طریق محصولات چاپی"
+      ]}
+      />
         <div className={styles.gridCont}>
           {category.map((item) => (
             <Link to={item.link}>

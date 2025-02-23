@@ -3,6 +3,7 @@ import Header from '../components/header'
 import styles from '../components.style/home.module.scss'
 import { Link } from 'react-router-dom'
 import Footer from '../components/Footer'
+import Descreption from '../components/Descreption'
 const Photo = () => {
   const items = [
     {name: "عکاسی پرتره"},
@@ -16,7 +17,16 @@ const Photo = () => {
   return (
     <>
       <Header />
-      <div className={styles.mainDiv}>
+      <div className={styles.mainDiv} style={{paddingTop: "70px"}}>
+      <Descreption title={"تولید محتوای بصری حرفه‌ای برای برند شما"}
+      main={"عکاسی و فیلم‌برداری تبلیغاتی شامل عکاسی صنعتی، عکاسی محصول، فیلم‌برداری تبلیغاتی، تولید ویدئوهای معرفی برند و محتوای ویدیویی برای شبکه‌های اجتماعی است."}
+      items={[
+        "افزایش جذابیت بصری برند",
+        "ایجاد محتوای حرفه‌ای برای تبلیغات",
+        "تاثیرگذاری بیشتر روی مشتریان",
+        "نمایش بهتر محصولات در وب‌سایت و شبکه‌های اجتماعی"
+      ]}
+      />
         <div className={styles.gridCont}>
           {items.map((item) => (
             <Link to={item.link} key={item.name}>

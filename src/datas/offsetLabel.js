@@ -70,3 +70,19 @@ export const offsetLabel = [
     image: "10204.png",
   },
 ];
+
+
+export const uniqueLabel = [
+  {
+    name : "لیبل برجسته ژله ای",
+    image: "لیبل پلی استری.jpg",
+  },
+  {
+    name : "لیبل اموال",
+    image: "لیبل اموال.jpg",
+  },
+  {
+    name : "لیبل گچی",
+    image: "لیبل گچی.jpg",
+  },
+]

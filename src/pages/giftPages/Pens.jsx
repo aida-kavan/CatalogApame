@@ -11,7 +11,7 @@ const Pen = () => {
       <Header />
       <div className={styles.mainPageCont}>
         <div className={styles.productCont}>
-          <Title title={"خودکار تبلیغاتی "} />
+          <Title title={"خودکار "} subtitle={"قیمت های درج شده در سایت برای خودکار خام میباشد و هزینه ی چاپ و لیزر بصورت جداگانه محاسبه میشود. اگر قصد سفارش در تیراژ های بالا دارید برای استعلام قیمت تماس بگیرید!"} />
           {pen.map((item) => (
             <SquareProductItem
               img={item.image}

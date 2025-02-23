@@ -1,3 +1,5 @@
+import { m } from "framer-motion";
+
 export const pen = [
     {
         name: "خودکار تبلیغاتی ",
@@ -176,301 +178,399 @@ export const pen = [
     {
         name: "خودکار K73 ",
         image: "431.jpg",
-        Pcode: 431
+        Pcode: 431,
+        price: "14،000"
     },
     {
         name: "خودکار کیاپن ",
         image: "432.jpg",
-        Pcode: 432
+        Pcode: 432,
+        price: "13،000"
     },
     {
         name: " خودکار کیاپن پلاس ",
         image: "433.jpg",
-        Pcode: 433
+        Pcode: 433,
+        price: "15،000"
     },
     {
         name: "خودکار کیارش ",
         image: "435.jpg",
-        Pcode: 435
+        Pcode: 435,
+        price: "15،000"
     },
     {
         name: "خودکار کیارش ",
         image: "436.jpg",
-        Pcode: 436
+        Pcode: 436,
+        price: "15،000"
     },
     {
         name: "خودکار K2000 ",
         image: "437.jpg",
-        Pcode: 437
+        Pcode: 437,
+        price: "11،000"
     },
     {
         name: "خودکار K73 ",
         image: "438.jpg",
-        Pcode: 438
+        Pcode: 438,
+        price: "15،000"
     },
     {
         name: "خودکار IP-800 ",
         image: "439.jpg",
-        Pcode: 439
+        Pcode: 439,
+        price: "22،000"
     },
     {
         name: "خودکار رومیزی ",
         image: "440.jpg",
-        Pcode: 440
+        Pcode: 440,
+        price: "65،000"
     },
     {
         name: "خودکار کیارش ",
         image: "441.jpg",
-        Pcode: 441
+        Pcode: 441,
+        price: "15،000"
     },
     {
         name: "خودکار کیارش ",
         image: "442.jpg",
-        Pcode: 442
+        Pcode: 442,
+        price: "15،000"
     },
     {
         name: "خودکار رومیزی ",
         image: "443.jpg",
-        Pcode: 443
+        Pcode: 443,
+        price: "48،000"
     },
     {
         name: "خودکار رومیزی ",
         image: "444.jpg",
-        Pcode: 444
+        Pcode: 444,
+        price: "57،000"
     },
     {
         name: "خودکار پنیکس ",
         image: "445.jpg",
-        Pcode: 445
+        Pcode: 445,
+        price: "60،000"
     },
     {
         name: "خودکار پنیکس ",
         image: "446.jpg",
-        Pcode: 446
+        Pcode: 446,
+        price: "55،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "447.jpg",
-        Pcode: 447
+        Pcode: 447,
+        price: "17،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "448.jpg",
-        Pcode: 448
+        Pcode: 448,
+        price: "17،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "449.jpg",
-        Pcode: 449
+        Pcode: 449,
+        price: "تماس بگیرید!"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "450.jpg",
-        Pcode: 450
+        Pcode: 450,
+        price: "23،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "451.jpg",
-        Pcode: 451
+        Pcode: 451,
+        price: "27،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "452.jpg",
-        Pcode: 452
+        Pcode: 452,
+        price: "21،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "453.jpg",
-        Pcode: 453
-    },
-    {
-        name: "خودکار تبلیغاتی ",
-        image: "454.jpg",
-        Pcode: 454
+        Pcode: 453,
+        price: "21،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "455.jpg",
-        Pcode: 455
+        Pcode: 455,
+        price: "20،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "456.jpg",
-        Pcode: 456
+        Pcode: 456,
+        price: "20،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "457.jpg",
-        Pcode: 457
+        Pcode: 457,
+        price: "15،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "458.jpg",
-        Pcode: 458
+        Pcode: 458,
+        price : "18،000"
     },
-    {
-        name: "خودکار تبلیغاتی ",
-        image: "458.jpg",
-        Pcode: 458
-    },
+
     {
         name: "خودکار تبلیغاتی ",
         image: "459.jpg",
-        Pcode: 459
+        Pcode: 459,
+        price : "22،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "460.jpg",
-        Pcode: 460
+        Pcode: 460,
+        price : "15،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "461.jpg",
-        Pcode: 461
+        Pcode: 461,
+        price : "19،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "462.jpg",
-        Pcode: 462
+        Pcode: 462,
+        price : "21،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "463.jpg",
-        Pcode: 463
+        Pcode: 463,
+        price : "16،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "464.jpg",
-        Pcode: 464
+        Pcode: 464,
+        price : "17،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "465.jpg",
-        Pcode: 465
+        Pcode: 465,
+        price : "17،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "466.jpg",
-        Pcode: 466
+        Pcode: 466,
+        price : "32،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "467.jpg",
-        Pcode: 467
+        Pcode: 467,
+        price : "19،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "468.jpg",
-        Pcode: 468
+        Pcode: 468,
+        price : "14،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "469.jpg",
-        Pcode: 469
+        Pcode: 469,
+        price : "21،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "470.jpg",
-        Pcode: 470
+        Pcode: 470,
+        price : "21،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "471.jpg",
-        Pcode: 471
+        Pcode: 471,
+        price : "19،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "472.jpg",
-        Pcode: 472
+        Pcode: 472,
+        price : "18،500"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "473.jpg",
-        Pcode: 473
+        Pcode: 473,
+        price : "22،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "474.jpg",
-        Pcode: 474
+        Pcode: 474,
+        price : "21،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "475.jpg",
-        Pcode: 475
+        Pcode: 475,
+        price : "121،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "476.jpg",
-        Pcode: 476
+        Pcode: 476,
+        price : "22،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "477.jpg",
-        Pcode: 477
+        Pcode: 477,
+        price : "19،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "478.jpg",
-        Pcode: 478
+        Pcode: 478,
+        price : "19،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "479.jpg",
-        Pcode: 479
+        Pcode: 479,
+        price : "19،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "480.jpg",
-        Pcode: 480
+        Pcode: 480,
+        price : "19،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "481.jpg",
-        Pcode: 481
+        Pcode: 481,
+        price : "19،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "482.jpg",
-        Pcode: 482
+        Pcode: 482,
+        price : "21،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "483.jpg",
-        Pcode: 483
+        Pcode: 483,
+        price : "19،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "484.jpg",
-        Pcode: 484
+        Pcode: 484,
+        price : "22،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "485.jpg",
-        Pcode: 485
+        Pcode: 485,
+        price : "22،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "486.jpg",
-        Pcode: 486
+        Pcode: 486,
+        price : "21،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "487.jpg",
-        Pcode: 487
+        Pcode: 487,
+        price : "19،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "488.jpg",
-        Pcode: 488
+        Pcode: 488,
+        price : "22،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "489.jpg",
-        Pcode: 489
+        Pcode: 489,
+        price : "21،000"
     },
     {
         name: "خودکار تبلیغاتی ",
         image: "490.jpg",
-        Pcode: 490
+        Pcode: 490,
+        price : "18،000"
     },
+    {
+        name: "خودکار تبلیغاتی ",
+        image: "491.jpg",
+        Pcode: 491,
+        price : "14،000"
+    },
+    {
+        name: "خودکار تبلیغاتی ",
+        image: "492.jpg",
+        Pcode: 492,
+        price : "14،000"
+    },
+    {
+        name: "خودکار تبلیغاتی ",
+        image: "493.jpg",
+        Pcode: 493,
+        price : "16،000"
+    },
+    {
+        name: "خودکار تبلیغاتی ",
+        image: "494.jpg",
+        Pcode: 494,
+        price : "12،000"
+    },
+    {
+        name: "خودکار تبلیغاتی ",
+        image: "495.jpg",
+        Pcode: 495,
+        price : "14،000"
+    },
+    {
+        name: "خودکار تبلیغاتی ",
+        image: "496.jpg",
+        Pcode: 496,
+        price : "14،000"
+    },
+    {
+        name: "خودکار تبلیغاتی ",
+        image: "497.jpg",
+        Pcode: 497,
+        price : "14،000"
+    },
+    {
+        name: "خودکار تبلیغاتی ",
+        image: "498.jpg",
+        Pcode: 498,
+        price : "14،000"
+    },
+    
 ]

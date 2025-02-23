@@ -192,8 +192,8 @@ const eco = [
   {
     "materialType": "چاپ مش",
     "above10m": "۲۹۰۰۰۰",
-    "above50m": "-",
-    "above100m": "-"
+    "above50m": "۲۵۰۰۰۰",
+    "above100m": "۲۵۰۰۰۰"
   },
   {
     "materialType": "چاپ بک لایت",
@@ -203,9 +203,9 @@ const eco = [
   },
   {
     "materialType": "چاپ سولیت",
-    "above10m": "۳۹۵۰۰۰",
-    "above50m": "۳۷۰۰۰۰",
-    "above100m": "۳۶۰۰۰۰"
+    "above10m": "۲۹۰۰۰۰",
+    "above50m": "۲۶۰۰۰۰",
+    "above100m": "۲۵۰۰۰۰"
   },
   {
     "materialType": "چاپ کنواس (بوم)",

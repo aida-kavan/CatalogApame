@@ -15,8 +15,8 @@ const print = () => {
       link: "/print/digital",
     },
     {
-      name: "چاپ فلسکو",
-      link: "/print/flasko",
+      name: "چاپ فلکسو",
+      link: "/print/flakso",
     },
     {
       name: "چاپ سابلیمیشن",
@@ -33,6 +33,10 @@ const print = () => {
     {
       name: "چاپ پرده",
       link: "/print/curtain",
+    },
+    {
+      name: "فوم برد و تخته شاسی",
+      link: "/print/foam&mdf",
     },
   ];
 

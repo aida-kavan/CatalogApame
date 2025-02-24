@@ -1,7 +1,7 @@
 import Header from "../../components/header";
 import styles from "../../components.style/page.module.scss";
 import Title from "../../components/title";
-import ProductItem from "../../components/productItem";
+import ProductItem from "../../components/ProductItem";
 import { NoteBook } from "../../datas/notebook";
 import { Calender } from "../../datas/calender";
 import { useState } from "react";

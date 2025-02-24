@@ -70,12 +70,12 @@ const home = () => {
     {
       name: "تبلیغات محیطی",
       icon: "adverb.png",
-      link: "/ooh",
+      link: "/oo",
     },
     {
       name: "سازه های نمایشگاهی",
       icon: "ad bulid.png",
-      link: "/ooh",
+      link: "/saze",
     },
   ];
   return (

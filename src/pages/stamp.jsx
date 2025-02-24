@@ -2,7 +2,6 @@ import Header from "../components/header";
 import Footer from "../components/Footer";
 import styles from "../components.style/page.module.scss";
 import Title from "../components/title";
-import SquareProductItem from "../components/squareProductItem";
 import { stampRectangleMobi,stamp1,numberstamp2, pocketStamp,numberstamp, datastamp1,datestamp2, stamp3, berenji, moom } from "../datas/stamp";
 import StampTable from "../components/stampTable";
 

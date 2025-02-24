@@ -34,7 +34,6 @@ import Offset from "./pages/printPages/offset"
 import Teraket from "./pages/printPages/offsetPages/Teraket"
 import Box from "./pages/printPages/offsetPages/box"
 import Brochure from "./pages/printPages/offsetPages/brochure"
-import Catalog from "./pages/printPages/offsetPages/catalog"
 import Fastfood from "./pages/printPages/offsetPages/fastfood"
 import Folder from "./pages/printPages/offsetPages/folder"
 import Pocket from "./pages/printPages/offsetPages/packet"
@@ -66,6 +65,7 @@ import Saze from "./pages/saze"
 import UniqueLabel from "./pages/printPages/uniqueLabel";
 import Flasko from "./pages/printPages/Flasko"
 import FoodPocket from "./pages/printPages/foodPocket";
+import Foam from "./pages/printPages/foam";
 
 
 
@@ -235,6 +235,10 @@ const router = createBrowserRouter([
     element: <UniqueLabel />,
   },
   {
+    path: "/print/foam&mdf",
+    element: <Foam />,
+  },
+  {
     path: "/print/curtain",
     element: <Curtain />,
   },
@@ -243,7 +247,11 @@ const router = createBrowserRouter([
     element: <Offset />,
   },
   {
-    path: "/print/flasko",
+    path: "/print/flakso",
+    element: <Flasko />,
+  },
+  {
+    path: "/print/flakso",
     element: <Flasko />,
   },
   
@@ -264,10 +272,7 @@ const router = createBrowserRouter([
     path: "/print/offset/brochure",
     element: <Brochure />,
   },
-  {
-    path: "/print/offset/catalog",
-    element: <Catalog />,
-  },
+ 
   {
     path: "/print/offset/fastfood",
     element: <Fastfood />,

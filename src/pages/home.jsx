@@ -70,7 +70,7 @@ const home = () => {
     {
       name: "تبلیغات محیطی",
       icon: "adverb.png",
-      link: "/oo",
+      link: "/ooh",
     },
     {
       name: "سازه های نمایشگاهی",

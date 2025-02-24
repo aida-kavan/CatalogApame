@@ -20,3 +20,11 @@ export const logo = [
   { img: "/galleryPhotos/logo10.jpg", caption: "لوگو شکیبا" },
   { img: "/galleryPhotos/logo12.jpg", caption: "لوگو گردش پی" },
 ];
+
+export const billboardPic =[
+  { img: "/galleryPhotos/billboard1.jpg", caption: "بیلبورد وایت" },
+  { img: "/galleryPhotos/billboard2.jpg", caption: "بیلبورد وایت" },
+  { img: "/galleryPhotos/billboard3.jpg", caption: "بیلبورد مزمز" },
+  { img: "/galleryPhotos/billboard4.jpg", caption: "بیلبورد ساندیس" },
+
+]

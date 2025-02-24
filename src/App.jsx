@@ -66,6 +66,8 @@ import UniqueLabel from "./pages/printPages/uniqueLabel";
 import Flasko from "./pages/printPages/Flasko"
 import FoodPocket from "./pages/printPages/foodPocket";
 import Foam from "./pages/printPages/foam";
+import OOH from "./pages/OOH";
+import Billboard from "./pages/Billboard";
 
 
 
@@ -73,6 +75,14 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+  },
+  {
+    path: "/ooh",
+    element: <OOH />,
+  },
+  {
+    path: "/ooh/billboard",
+    element: <Billboard />,
   },
   {
     path: "/poyesh",

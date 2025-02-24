@@ -5,6 +5,7 @@ import Title from "../components/title";
 import ProductItem from "../components/ProductItem";
 import { counter,popup } from "../datas/saze";
 import {stand} from "../datas/stand.js"
+import { Link } from "react-router-dom";
 
 const Saze = () => {
   return (
@@ -12,6 +13,11 @@ const Saze = () => {
       <Header />
       <div className={styles.mainPageCont}>
         <div className={styles.productCont}>
+        <Link to={"/poyesh"}>
+        <div style={{ width: "100%", maxWidth: "380px", margin: "0 auto" , marginTop: "20px"}}>
+          <img style={{ width: "100%" }} src="/icons/poyesh.png" alt="" />
+        </div>
+        </Link>
           <Title title={"کانتر"} subtitle={"میز کانتر نمایشگاهی یکی از مهم‌ترین گام‌ها در طراحی غرفه‌های نمایشگاهی است که تأثیر مستقیم بر جلب توجه بازدیدکنندگان دارد. این میزها علاوه بر اینکه به‌عنوان یک نقطه کانونی برای ارائه محصولات، کاتالوگ‌ها و اطلاعات تبلیغاتی عمل می‌کنند، به نظم و سازمان‌دهی فضای غرفه نیز کمک می‌کنند."}/>
           {counter.map((item) => (
             <ProductItem

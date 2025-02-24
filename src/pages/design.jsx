@@ -5,6 +5,7 @@ import Descreption from "../components/Descreption";
 import DesignPlans from "../components/plans/designPlans"
 import Slider from "../components/Slider"
 import {logo} from "../datas/gallery"
+import { Link } from "react-router-dom";
 
 const Design = () => {
   return (
@@ -12,6 +13,11 @@ const Design = () => {
       <Header />
       <div className={styles.mainPageCont}>
         <div className={styles.productCont}>
+        <Link to={"/poyesh"}>
+        <div style={{ width: "100%", maxWidth: "380px", margin: "0 auto" }}>
+          <img style={{ width: "100%" }} src="/icons/poyesh.png" alt="" />
+        </div>
+        </Link>
           <Descreption
             title=" هویت بصری قدرتمند برای برند شما"
             main="طراحی گرافیک و برندینگ شامل مجموعه‌ای از خدمات است که هویت بصری برند شما را شکل می‌دهد. این خدمات شامل طراحی لوگو، کارت ویزیت، بروشور، پوستر، ست اداری، عکاسی و تولیدمحتوا و سایر المان‌های گرافیکی است که برند شما را از رقبا متمایز می‌کند."

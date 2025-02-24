@@ -15,7 +15,12 @@ export default function Laser() {
   return (
     <>
     <Header />
-    <div className={styles.mainDiv} style={{paddingTop: "70px"}}>
+    <div className={styles.mainDiv} /* style={{paddingTop: "70px"}} */>
+      <Link to={"/poyesh"}>
+              <div style={{ width: "100%", maxWidth: "380px", margin: "0 auto" }}>
+                <img style={{ width: "100%" }} src="/icons/poyesh.png" alt="" />
+              </div>
+              </Link>
       <Descreption title={"طراحی و تولید تابلو و خدمات برش لیزری"}
       main={"ساخت انواع تابلوهای تبلیغاتی مانند تابلوهای حروف برجسته، تابلوهای نئون، تابلوهای لایت‌باکس و همچنین خدمات برش لیزری برای تولید محصولات دکوراتیو و تبلیغاتی ارائه می‌شود."}
       items={[

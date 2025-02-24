@@ -260,10 +260,7 @@ const router = createBrowserRouter([
     path: "/print/flakso",
     element: <Flasko />,
   },
-  {
-    path: "/print/flakso",
-    element: <Flasko />,
-  },
+
   
   {
     path: "/print/foodpocket",

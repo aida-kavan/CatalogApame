@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import styles from "../components.style/home.module.scss";
 import { Link } from "react-router-dom";
 import Descreption from "../components/Descreption";
+import Poyesh from "./poyesh";
 
 const print = () => {
   const category = [
@@ -20,7 +21,7 @@ const print = () => {
     },
     {
       name: "چاپ سابلیمیشن",
-      link: "/print/postprint",
+      link: "/print/sublimation",
     },
     {
       name: "خدمات بعد از چاپ",

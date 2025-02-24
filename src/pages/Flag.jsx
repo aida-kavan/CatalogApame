@@ -4,6 +4,7 @@ import styles from "../components.style/page.module.scss";
 import Title from "../components/title";
 import ProductItem from "../components/ProductItem";
 import { flag } from "../datas/flags";
+import { Link } from "react-router-dom";
 
 const Flag = () => {
   return (
@@ -11,6 +12,11 @@ const Flag = () => {
       <Header />
       <div className={styles.mainPageCont}>
         <div className={styles.productCont}>
+        <Link to={"/poyesh"}>
+        <div style={{ width: "100%", maxWidth: "380px", margin: "0 auto" }}>
+          <img style={{ width: "100%" }} src="/icons/poyesh.png" alt="" />
+        </div>
+        </Link>   
           <Title title={"پرچم ها"} />
 
           {flag.map((item) => (

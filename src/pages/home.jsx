@@ -84,6 +84,7 @@ const home = () => {
       <div className={styles.mainDiv}>
         <Link to={"/poyesh"}>
         <div style={{ width: "100%", maxWidth: "380px", margin: "0 auto" }}>
+          <p style={{color: "white", textAlign:"center"}}>مجموعه ی تبلیغاتی آپامه فاتلاقثبتلهخثشخیهب بدتنثصبتهخ بتنسث</p>
           <img style={{ width: "100%" }} src="/icons/poyesh.png" alt="" />
         </div>
         </Link>

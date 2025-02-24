@@ -9,13 +9,13 @@ const Branding = () => {
     { name: "لیبل افست", link: "/print/offset/offsetlabel" },
     { name: "لیبل دیجیتال", link: "/print/digital" },
     { name: "لیبل خاص", link: "/print/uniquelabel" },
-    { name: "استند و رول آپ", link: "/laserandsign/stand" },
+    { name: "چاپ فلکسو", link: "/print/flakso" },
   ];
 
   return (
     <>
       <Header />
-      <div className={styles.mainDiv} style={{paddingTop: "70px"}}>
+      <div className={styles.mainDiv} style={{ paddingTop: "70px" }}>
         <Descreption
           title={"ایجاد لیبل‌های اختصاصی برای محصولات"}
           main={

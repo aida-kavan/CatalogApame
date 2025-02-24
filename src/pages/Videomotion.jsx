@@ -4,6 +4,7 @@ import styles from "../components.style/page.module.scss";
 import Title from "../components/title";
 import VideoProductItem from "../components/VideoProductItem";
 import {logomotion, motiongraphic, animation} from "../datas/videomotion"
+import { Link } from "react-router-dom";
 
 const Videomotion = () => {
   return (
@@ -11,6 +12,11 @@ const Videomotion = () => {
       <Header />
       <div className={styles.mainPageCont}>
         <div className={styles.productCont}>
+        <Link to={"/poyesh"}>
+        <div style={{ width: "100%", maxWidth: "380px", margin: "0 auto"  , marginTop: "20px"}}>
+          <img style={{ width: "100%" }} src="/icons/poyesh.png" alt="" />
+        </div>
+        </Link>
             <Title title={"لوگوموشن"} subtitle={"انیمیشن‌های لوگو که به برند هویت بصری پویا می‌دهند. این نوع موشن معمولاً برای معرفی برندها در ویدیوهای تبلیغاتی، استوری‌های اینستاگرام، یا ویدیوهای معرفی کسب‌وکار استفاده می‌شود."}/>
         {logomotion.map((item) => (
             <VideoProductItem

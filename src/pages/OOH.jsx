@@ -25,7 +25,13 @@ const OOH = () => {
   return (
     <>
       <Header />
-      <div className={styles.mainDiv} style={{paddingTop: "70px"}}>
+      
+      <div className={styles.mainDiv} >
+        <Link to={"/poyesh"}>
+                <div style={{ width: "100%", maxWidth: "380px", margin: "0 auto" }}>
+                  <img style={{ width: "100%" }} src="/icons/poyesh.png" alt="" />
+                </div>
+                </Link>
       <Descreption title={"افزایش دیده شدن برند در سطح شهر"} 
       main={"تبلیغات محیطی شامل بیلبوردهای شهری، استرابوردها، لمپوست بنرها، تبلیغات روی وسایل حمل‌ونقل عمومی و سایر روش‌های تبلیغاتی در فضای باز است."}
       items={[

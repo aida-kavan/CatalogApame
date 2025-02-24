@@ -17,7 +17,12 @@ const Photo = () => {
   return (
     <>
       <Header />
-      <div className={styles.mainDiv} style={{paddingTop: "70px"}}>
+      <div className={styles.mainDiv}/*  style={{paddingTop: "70px"}} */>
+      <Link to={"/poyesh"}>
+        <div style={{ width: "100%", maxWidth: "380px", margin: "0 auto" }}>
+          <img style={{ width: "100%" }} src="/icons/poyesh.png" alt="" />
+        </div>
+        </Link>
       <Descreption title={"تولید محتوای بصری حرفه‌ای برای برند شما"}
       main={"عکاسی و فیلم‌برداری تبلیغاتی شامل عکاسی صنعتی، عکاسی محصول، فیلم‌برداری تبلیغاتی، تولید ویدئوهای معرفی برند و محتوای ویدیویی برای شبکه‌های اجتماعی است."}
       items={[

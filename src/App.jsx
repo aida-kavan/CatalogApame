@@ -68,6 +68,8 @@ import FoodPocket from "./pages/printPages/foodPocket";
 import Foam from "./pages/printPages/foam";
 import OOH from "./pages/OOH";
 import Billboard from "./pages/Billboard";
+import Tandis from "./pages/giftPages/Tandis";
+import ShrinkLabel from "./pages/printPages/ShrinkLabel"
 
 
 
@@ -191,6 +193,10 @@ const router = createBrowserRouter([
     element: <Hat />,
   },
   {
+    path: "/gift/tandis",
+    element: <Tandis />,
+  },
+  {
     path: "/gift/flask",
     element: <Flask />,
   },
@@ -243,6 +249,10 @@ const router = createBrowserRouter([
   {
     path: "/print/uniquelabel",
     element: <UniqueLabel />,
+  },
+  {
+    path: "/print/shrinllabel",
+    element: <ShrinkLabel />,
   },
   {
     path: "/print/foam&mdf",

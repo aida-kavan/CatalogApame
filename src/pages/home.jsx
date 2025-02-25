@@ -81,10 +81,10 @@ const home = () => {
   return (
     <>
       <Header />
-      <div className={styles.mainDiv}>
+      <div className={styles.mainDiv} >
         <Link to={"/poyesh"}>
-        <div style={{ width: "100%", maxWidth: "380px", margin: "0 auto" }}>
-          <p style={{color: "white", textAlign:"center"}}>مجموعه ی تبلیغاتی آپامه فاتلاقثبتلهخثشخیهب بدتنثصبتهخ بتنسث</p>
+        <div style={{ width: "100%", maxWidth: "380px", margin: "0 auto",marginTop: "-20px" }}>
+          <p style={{color: "white", textAlign:"center"}}>آپامه قلب تبلیغات شما را به تپش در می آورد.</p>
           <img style={{ width: "100%" }} src="/icons/poyesh.png" alt="" />
         </div>
         </Link>

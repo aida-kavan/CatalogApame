@@ -86,11 +86,35 @@ export const uniqueLabel = [
     image: "لیبل گچی.jpg",
   },
   {
+    name : "لیبل ژلاتینی",
+    image: "لیبل ژلاتینی.jpg",
+  },
+  {
     name : "لیبل هولوگرام",
-    image: "لیبل هولوگرام.jpg",
+    image: "لیبل هولگرام.jpg",
+  },
+  {
+    name : "لیبل متالایز",
+    image: "لیبل متالایز.png",
+  },
+  {
+    name : "لیبل صدفی",
+    image: "لیبل صدفی.png",
   },
   {
     name : "لیبل هولوگرام وید هفت رنگ",
     image: "لیبل هولوگرام وید هفت رنگ.jpg",
   },
+]
+
+export const shrinkLabel = [
+  {
+    name: "لیبل شرینک حرارتی",
+    image: "لیبل شرینک حرارتی.webp"
+  },
+  {
+    name: "لیبل شرینک pvc",
+    image: "لیبل شرینک pvc.webp"
+  },
+
 ]

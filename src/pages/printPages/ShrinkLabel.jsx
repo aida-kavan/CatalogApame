@@ -1,25 +1,26 @@
-import { giftset } from "../../datas/giftset";
 import Header from "../../components/header";
 import Footer from "../../components/Footer";
-import Title from "../../components/title";
 import styles from "../../components.style/page.module.scss";
-import SquareProductItem from "../../components/squareProductItem";
+import Title from "../../components/title";
+import ProductItem from "../../components/ProductItem";
+import { shrinkLabel } from "../../datas/offsetLabel";
 
-
-const GiftSet = () => {
+const ShrinkLabel = () => {
   return (
     <>
       <Header />
       <div className={styles.mainPageCont}>
         <div className={styles.productCont}>
-          <Title title={"ست تبلیغاتی"} />
+          <Title title={"لیبل شرینک"} />
 
-          {giftset.map((item) => (
-            <SquareProductItem
+          {shrinkLabel.map((item) => (
+            <ProductItem
               img={item.image}
               title={item.name}
               code={item.Pcode}
               desc={item.desc}
+              type={item.type}
+              size={item.size}
               price={item.price}
             />
           ))}
@@ -27,7 +28,7 @@ const GiftSet = () => {
       </div>
       <Footer/>
     </>
-  )
-}
+  );
+};
 
-export default GiftSet
+export default ShrinkLabel;

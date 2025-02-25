@@ -12,6 +12,7 @@ const Gift = () => {
     { name: "خودکار های تبلیغاتی", icon: "pen.png", link: "/gift/pen" },
     { name: "پاوربانک", icon: "powerbank.png", link: "/gift/powerbank" },
     { name: "فلاسک", icon: "keychain.png", link: "/gift/flask" },
+    { name: "تندیس و لوح", icon: "keychain.png", link: "/gift/tandis" },
     { name: "چاپ روی پازل", icon: "puzzle.png", link: "/gift/puzzle" },
     { name: "ساک", icon: "bag.png", link: "/gift/bag" },
     { name: "چاپ روی لیوان", icon: "mug.svg", link: "/gift/mug" },

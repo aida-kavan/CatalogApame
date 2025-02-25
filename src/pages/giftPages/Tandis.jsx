@@ -1,18 +1,18 @@
 import Header from "../../components/header";
 import styles from "../../components.style/page.module.scss"
 import Title from "../../components/title";
-import ProductItem from "../../components/ProductItem"
-import { flask } from "../../datas/flask";
+import ProductItem from "../../components/squareProductItem"
+import { tandis } from "../../datas/laser";
 import Footer from "../../components/Footer";
 
-const Flash = () => {
+const Tandis = () => {
   return (
     <>
     <Header/>
     <div className={styles.mainPageCont}>
         <div className={styles.productCont}>
-            <Title title={"فلاسک "} subtitle={"قیمت لیزر روی فلاسک جداگانه محاسبه میشود."}/>
-            {flask.map((item) => (
+            <Title title={"تندیس و لوح "} subtitle={"قیمت پلاک روی پایه تندیس و خود پایه تندیس صورت جداگانه محاسبه میشوند."}/>
+            {tandis.map((item) => (
                 <ProductItem img={item.image} code={item.Pcode} title={item.name} desc={item.desc}/>
             ))}
         </div>
@@ -22,4 +22,4 @@ const Flash = () => {
   )
 }
 
-export default Flash
+export default Tandis

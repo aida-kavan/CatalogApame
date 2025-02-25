@@ -11,7 +11,6 @@ const UniqueLabel = () => {
     <>
       <Header />
       <div className={styles.mainPageCont}>
-        <div className={styles.productCont}>
           <Descreption
             title={"چاپ فلکسو"}
             main={
@@ -19,6 +18,7 @@ const UniqueLabel = () => {
             }
              items={["برای کسب اطلاعات بیشتر تماس بگیرید!"]}
           />
+        <div className={styles.productCont}>
           {foodPocket.map((item) => (
             <ProductItem
               img={item.image}

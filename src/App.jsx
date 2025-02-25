@@ -70,6 +70,7 @@ import OOH from "./pages/OOH";
 import Billboard from "./pages/Billboard";
 import Tandis from "./pages/giftPages/Tandis";
 import ShrinkLabel from "./pages/printPages/ShrinkLabel"
+import FastPrint from "./pages/printPages/FastPrint";
 
 
 
@@ -251,7 +252,7 @@ const router = createBrowserRouter([
     element: <UniqueLabel />,
   },
   {
-    path: "/print/shrinllabel",
+    path: "/print/shrinklabel",
     element: <ShrinkLabel />,
   },
   {
@@ -335,7 +336,11 @@ const router = createBrowserRouter([
     element: <OffsetLabel />,
   },
 
-
+  
+  {
+    path: "/print/fastprint",
+    element: <FastPrint />,
+  },
   {
     path: "/print/digital",
     element: <Digital />,

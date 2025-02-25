@@ -44,16 +44,19 @@ const print = () => {
   return (
     <>
       <Header />
-      <div className={styles.mainDiv} style={{paddingTop: "70px"}}>
-      <Descreption title={"خدمات چاپ با بالاترین کیفیت"} 
-      main={"خدمات چاپ شامل چاپ کارت ویزیت، بروشور، کاتالوگ، پوستر، لیبل پرده، سیلک و دیگر محصولات چاپی است که برای تبلیغات و برندینگ ضروری هستند."}
-      items={[
-        "ارائه اطلاعات کسب‌وکار در قالب چاپی",
-        "تبلیغات آفلاین موثر",
-        "جذب مشتریان از طریق بروشورهای جذاب",
-        "برندینگ از طریق محصولات چاپی"
-      ]}
-      />
+      <div className={styles.mainDiv} style={{ paddingTop: "70px" }}>
+        <Descreption
+          title={"خدمات چاپ با بالاترین کیفیت"}
+          main={
+            "خدمات چاپ شامل چاپ کارت ویزیت، بروشور، کاتالوگ، پوستر، لیبل پرده، سیلک و دیگر محصولات چاپی است که برای تبلیغات و برندینگ ضروری هستند."
+          }
+          items={[
+            "ارائه اطلاعات کسب‌وکار در قالب چاپی",
+            "تبلیغات آفلاین موثر",
+            "جذب مشتریان از طریق بروشورهای جذاب",
+            "برندینگ از طریق محصولات چاپی",
+          ]}
+        />
         <div className={styles.gridCont}>
           {category.map((item) => (
             <Link to={item.link}>
@@ -76,7 +79,29 @@ const print = () => {
               </div>
             </Link>
           ))}
+
         </div>
+          <Link to="/print/fastprint">
+            <div
+              className={styles.item}
+              style={{
+                backgroundColor: "#ffffff3b",
+                textAlign: "center",
+                fontSize: "20px",
+                color: "white",
+                height: "80px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                width: "80%",
+                margin: "0 auto", 
+                marginTop:"10px",
+                gridColumn: "span 2",
+              }}
+            >
+              چاپ فوری
+            </div>
+          </Link>
       </div>
       <Footer />
     </>

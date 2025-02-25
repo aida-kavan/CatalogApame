@@ -18,6 +18,10 @@ const OOH = () => {
       name: "استند و رول اپ",
       link: "/laserandsign/stand",
     },
+    {
+      name: "پرچم",
+      link: "/flag",
+    },
     
     
   ];

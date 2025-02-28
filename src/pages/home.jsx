@@ -53,7 +53,7 @@ const home = () => {
       link: "/stamp",
     },
     {
-      name: "برندینگ و لیبل",
+      name: "استیکر و لیبل",
       icon: "branding.png",
       link: "/branding",
     },

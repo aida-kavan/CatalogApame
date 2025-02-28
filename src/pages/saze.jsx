@@ -3,7 +3,8 @@ import Footer from "../components/Footer";
 import styles from "../components.style/page.module.scss";
 import Title from "../components/title";
 import ProductItem from "../components/ProductItem";
-import { counter,popup } from "../datas/saze";
+import SquareProductItem from "../components/squareProductItem.jsx"
+import { counter,popup, stand2 } from "../datas/saze";
 import {stand} from "../datas/stand.js"
 import { Link } from "react-router-dom";
 
@@ -18,6 +19,18 @@ const Saze = () => {
           <img style={{ width: "100%" }} src="/icons/poyesh.png" alt="" />
         </div>
         </Link>
+          <Title title={"استند"} subtitle={"یکی از عناصر ثابت و کاربردی در غرفه‌های نمایشگاهی، استند کاتالوگ و بروشور است که نقش مهمی را در اطلاع رسانی ایفا می کند. می‌توان از این سازه‌های نمایشگاهی در سازمان‌ها، فروشگاه‌ها، داروخانه‌ها، سینما، همایشات، زیرگذر مترو و غیره جهت تبلیغات محصول یا خدمتی نو استفاده کرد. تبلیغات با استفاده از استند جا بروشوری کمترین میزان انرژی، هزینه و زمان را می‌طلبد که در عین حال بازدهی بالایی دارد."} />
+          {stand2.map((item) => (
+            <SquareProductItem
+              img={item.image}
+              title={item.name}
+              code={item.Pcode}
+              desc={item.desc}
+              type={item.type}
+              price={item.price}
+              size={item.size}
+            />
+          ))}
           <Title title={"کانتر"} subtitle={"میز کانتر نمایشگاهی یکی از مهم‌ترین گام‌ها در طراحی غرفه‌های نمایشگاهی است که تأثیر مستقیم بر جلب توجه بازدیدکنندگان دارد. این میزها علاوه بر اینکه به‌عنوان یک نقطه کانونی برای ارائه محصولات، کاتالوگ‌ها و اطلاعات تبلیغاتی عمل می‌کنند، به نظم و سازمان‌دهی فضای غرفه نیز کمک می‌کنند."}/>
           {counter.map((item) => (
             <ProductItem

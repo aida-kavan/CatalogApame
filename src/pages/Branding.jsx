@@ -10,7 +10,7 @@ const Branding = () => {
     { name: "لیبل دیجیتال", link: "/print/digital" },
     { name: "لیبل خاص", link: "/print/uniquelabel" },
     { name: "لیبل شرینک", link: "/print/shrinklabel" },
-    { name: "چاپ فلکسو", link: "/print/flakso" },
+
   ];
 
   return (

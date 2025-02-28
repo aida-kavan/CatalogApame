@@ -28,3 +28,16 @@ export const billboardPic =[
   { img: "/galleryPhotos/billboard4.jpg", caption: "بیلبورد ساندیس" },
 
 ]
+
+export const boxPic =[
+{ img: "/galleryPhotos/جعبه دارویی.png", caption: "جعبه دارویی" },
+{ img: "/galleryPhotos/بسته بندی ادویه.png", caption: "بسته بندی ادویه" },
+{ img: "/galleryPhotos/جعبه خاص.png", caption: "جعبه خاص" }, 
+{ img: "/galleryPhotos/جعبه خرما.png", caption: "جعبه خرما" }, 
+{ img: "/galleryPhotos/جعبه دو تیکه.png", caption: "جعبه دو تیکه" }, 
+{ img: "/galleryPhotos/جعبه طلاکوب شده.png", caption: "جعبه طلاکوب شده" }, 
+{ img: "/galleryPhotos/جعبه فست فود.png", caption: "جعبه فست فود" }, 
+{ img: "/galleryPhotos/جعبه کشویی.png", caption: "جعبه کشویی" }, 
+{ img: "/galleryPhotos/جعبه لباس.png", caption: "جعبه لباس" }, 
+{ img: "/galleryPhotos/جعبه مواد غذایی.png", caption: "جعبه مواد غذایی" }, 
+]

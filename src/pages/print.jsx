@@ -94,6 +94,7 @@ const print = () => {
                 alignItems: "center",
                 justifyContent: "center",
                 width: "80%",
+                maxWidth: "332px",
                 margin: "0 auto", 
                 marginTop:"10px",
                 gridColumn: "span 2",

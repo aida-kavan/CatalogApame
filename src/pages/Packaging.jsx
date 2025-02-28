@@ -10,11 +10,12 @@ const Packaging = () => {
     { name: "لیبل آفست", link: "/print/offset/offsetlabel" },
     { name: "لیبل دیجیتال", link: "/print/digital" },
     { name: "بگ کاغذی", link: "/gift/bag" },
-    { name: "چاپ فلکسو", link: "/print/flakso" },
+    { name: "لیبل بهداشتی، دارویی، غذایی", link: "/print/flakso" },
     { name: "بگ پارچه ای", link: "/packaging/bag" },
     { name: "بگ نایلونی", link: "/packaging/plasticbag" },
     { name: "هاردباکس", link: "/packaging/hardbox" },
     { name: "جعبه جواهر", link: "/packaging/jewerlybox" },
+    { name: "جعبه و کارتن", link: "/packaging/box" },
   ];
   return (
     <>

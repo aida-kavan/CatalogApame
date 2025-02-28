@@ -63,4 +63,5 @@ export const fast = [
     Pcode: 10198,
     image: "10198.png",
   },
+ 
 ];

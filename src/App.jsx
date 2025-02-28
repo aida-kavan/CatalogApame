@@ -32,7 +32,6 @@ import PostPrinting from "./pages/printPages/Postprinting"
 import Silk from "./pages/printPages/Silk"
 import Offset from "./pages/printPages/offset"
 import Teraket from "./pages/printPages/offsetPages/Teraket"
-import Box from "./pages/printPages/offsetPages/box"
 import Brochure from "./pages/printPages/offsetPages/brochure"
 import Fastfood from "./pages/printPages/offsetPages/fastfood"
 import Folder from "./pages/printPages/offsetPages/folder"
@@ -64,6 +63,8 @@ import Videomotion from "./pages/Videomotion";
 import Saze from "./pages/saze"
 import UniqueLabel from "./pages/printPages/uniqueLabel";
 import Flasko from "./pages/printPages/Flasko"
+import Roll from "./pages/roll";
+import Sheet from "./pages/Sheet";
 import FoodPocket from "./pages/printPages/foodPocket";
 import Foam from "./pages/printPages/foam";
 import OOH from "./pages/OOH";
@@ -71,6 +72,7 @@ import Billboard from "./pages/Billboard";
 import Tandis from "./pages/giftPages/Tandis";
 import ShrinkLabel from "./pages/printPages/ShrinkLabel"
 import FastPrint from "./pages/printPages/FastPrint";
+import Box from "./pages/Box";
 
 
 
@@ -210,23 +212,26 @@ const router = createBrowserRouter([
     element: <Bag />,
   },
   {
-    path:"/packaging/bag",
-    element: <FabricBag/>
+    path: "/packaging/bag",
+    element: <FabricBag />
   },
   {
-    path:"/packaging/plasticbag",
-    element: <PlasticBag/>
+    path: "/packaging/plasticbag",
+    element: <PlasticBag />
   },
   {
-    path:"/packaging/hardbox",
-    element: <HardBox/>
+    path: "/packaging/hardbox",
+    element: <HardBox />
+  },{
+    path: "/packaging/box",
+    element: <Box />
   },
   {
-    path:"/packaging/jewerlybox",
-    element: <JewerlyBox/>
+    path: "/packaging/jewerlybox",
+    element: <JewerlyBox />
   },
 
-  
+
 
   {
     path: "/gift/powerbank",
@@ -270,9 +275,13 @@ const router = createBrowserRouter([
   {
     path: "/print/flakso",
     element: <Flasko />,
+    children: [
+      { path: "roll", element: <Roll /> },
+      { path: "sheet", element: <Sheet /> },
+    ],
   },
 
-  
+
   {
     path: "/print/foodpocket",
     element: <FoodPocket />,
@@ -290,7 +299,7 @@ const router = createBrowserRouter([
     path: "/print/offset/brochure",
     element: <Brochure />,
   },
- 
+
   {
     path: "/print/offset/fastfood",
     element: <Fastfood />,
@@ -336,7 +345,7 @@ const router = createBrowserRouter([
     element: <OffsetLabel />,
   },
 
-  
+
   {
     path: "/print/fastprint",
     element: <FastPrint />,
@@ -349,7 +358,7 @@ const router = createBrowserRouter([
     path: "/print/silk",
     element: <Silk />,
   },
- 
+
   {
     path: "/print/sublimation",
     element: <Sublimation />,

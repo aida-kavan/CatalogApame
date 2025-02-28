@@ -148,3 +148,4 @@ export const jewerlyBox =[
         desc: "حداقل سفارش 500 عدد"  
     },
 ]
+

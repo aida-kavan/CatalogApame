@@ -1,6 +1,6 @@
 import styles from "../components.style/page.module.scss";
 import Title from "../components/title";
-import ProductItem from "../components/ProductItem";
+import ProductItem from "../components/productItem";
 
 const Sheet = () => {
   const sheet = [

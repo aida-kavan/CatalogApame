@@ -1,7 +1,7 @@
 import Header from "../../components/header";
 import styles from "../../components.style/page.module.scss"
 import Title from "../../components/title";
-import SquareProductItem from "../../components/ProductItem"
+import SquareProductItem from "../../components/productItem"
 import Footer from "../../components/Footer";
 import { fast } from "../../datas/fast";
 import Slider from "../../components/Slider"

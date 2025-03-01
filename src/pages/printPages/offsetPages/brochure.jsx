@@ -2,7 +2,7 @@ import Header from "../../../components/header";
 import Footer from "../../../components/Footer";
 import styles from "../../../components.style/page.module.scss";
 import Title from "../../../components/title";
-import ProductItem from "../../../components/ProductItem";
+import ProductItem from "../../../components/productItem";
 import { brochure } from "../../../datas/brochure";
 
 const Brochure = () => {

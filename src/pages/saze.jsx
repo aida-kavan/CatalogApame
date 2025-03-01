@@ -2,7 +2,7 @@ import Header from "../components/header";
 import Footer from "../components/Footer";
 import styles from "../components.style/page.module.scss";
 import Title from "../components/title";
-import ProductItem from "../components/ProductItem";
+import ProductItem from "../components/productItem";
 import SquareProductItem from "../components/squareProductItem.jsx"
 import { counter,popup, stand2 } from "../datas/saze";
 import {stand} from "../datas/stand.js"

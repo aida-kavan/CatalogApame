@@ -2,7 +2,7 @@ import Header from "../components/header";
 import Footer from "../components/Footer";
 import styles from "../components.style/page.module.scss";
 import Title from "../components/title";
-import ProductItem from "../components/ProductItem";
+import ProductItem from "../components/productItem";
 import { fabricBag40, fabricBag60, fabricBag90 } from "../datas/fabricBag";
 import { Link } from "react-router-dom";
 import Slider from "../components/Slider";

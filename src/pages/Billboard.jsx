@@ -2,7 +2,7 @@ import Header from "../components/header";
 import Footer from "../components/Footer";
 import styles from "../components.style/page.module.scss";
 import Title from "../components/title";
-import ProductItem from "../components/ProductItem";
+import ProductItem from "../components/productItem";
 import { billboard } from "../datas/billboard";
 import Slider from "../components/Slider";
 import {billboardPic} from "../datas/gallery"

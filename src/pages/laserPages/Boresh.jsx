@@ -3,7 +3,7 @@ import Header from "../../components/header";
 import Footer from "../../components/Footer";
 import Title from "../../components/title";
 import styles from "../../components.style/page.module.scss";
-import ProductItem from "../../components/ProductItem";
+import ProductItem from "../../components/productItem";
 
 
 const Engraving = () => {

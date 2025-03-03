@@ -10,6 +10,7 @@ const Gift = () => {
     { name: "ست های تبلیغاتی", icon: "gift.png", link: "/gift/giftset" },
     { name: "فلش مموری", icon: "flash.png", link: "/gift/flash" },
     { name: "خودکار های تبلیغاتی", icon: "pen.png", link: "/gift/pen" },
+    { name: "ظروف تبلیغاتی", icon: "pen.png", link: "/gift/zarf" },
     { name: "پاوربانک", icon: "powerbank.png", link: "/gift/powerbank" },
     { name: "فلاسک", icon: "keychain.png", link: "/gift/flask" },
     { name: "تندیس و لوح", icon: "keychain.png", link: "/gift/tandis" },

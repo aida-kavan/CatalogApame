@@ -9,7 +9,6 @@ export default function Laser() {
         { name: "خدمات لیزر و حکاکی", link: "/laserandsign/engraving" },
         { name: "خدمات برش", link: "/laserandsign/boresh" },
         { name: "خدمات تابلو", link: "/laserandsign/tablo" },
-        { name: "استند و رول آپ", link: "/laserandsign/stand" },
       ]
     
   return (

@@ -73,6 +73,7 @@ import Tandis from "./pages/giftPages/Tandis";
 import ShrinkLabel from "./pages/printPages/ShrinkLabel"
 import FastPrint from "./pages/printPages/FastPrint";
 import Box from "./pages/Box";
+import Zarf from "./pages/giftPages/zarf";
 
 
 
@@ -154,6 +155,10 @@ const router = createBrowserRouter([
   {
     path: "/gift",
     element: <Gift />,
+  },
+  {
+    path: "/gift/zarf",
+    element: <Zarf />,
   },
   {
     path: "/gift/notebook",

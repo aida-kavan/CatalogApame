@@ -193,3 +193,10 @@ export const bag = [
 
     // },
 ]
+
+const transformedBag = bag.map(item => ({
+    name: `${item.name} (${item.size})`, // Append size to the name
+    Pcode: item.Pcode // Keep the Pcode
+}));
+
+console.log(transformedBag)

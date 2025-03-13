@@ -74,6 +74,7 @@ import ShrinkLabel from "./pages/printPages/ShrinkLabel"
 import FastPrint from "./pages/printPages/FastPrint";
 import Box from "./pages/Box";
 import Zarf from "./pages/giftPages/zarf";
+import PastryBox from "./pages/pastryBox"
 
 
 
@@ -234,6 +235,10 @@ const router = createBrowserRouter([
   {
     path: "/packaging/jewerlybox",
     element: <JewerlyBox />
+  },
+  {
+    path: "/packaging/pastrybox",
+    element: <PastryBox />
   },
 
 

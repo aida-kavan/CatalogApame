@@ -16,6 +16,7 @@ const Packaging = () => {
     { name: "هاردباکس", link: "/packaging/hardbox" },
     { name: "جعبه جواهر", link: "/packaging/jewerlybox" },
     { name: "جعبه و کارتن", link: "/packaging/box" },
+    { name: "جعبه شیرینی", link: "/packaging/pastrybox" },
   ];
   return (
     <>

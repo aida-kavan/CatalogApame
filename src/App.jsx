@@ -10,6 +10,7 @@ import Flash from "./pages/giftPages/Flash";
 import Gift from "./pages/gift";
 import Keychain from "./pages/giftPages/Keychain";
 import Pens from "./pages/giftPages/Pens";
+import Candles from "./pages/giftPages/Candles";
 import Mug from "./pages/giftPages/Mug";
 import Puzzle from "./pages/giftPages/Puzzle";
 import GiftSet from "./pages/giftPages/GiftSet";
@@ -74,7 +75,8 @@ import ShrinkLabel from "./pages/printPages/ShrinkLabel"
 import FastPrint from "./pages/printPages/FastPrint";
 import Box from "./pages/Box";
 import Zarf from "./pages/giftPages/zarf";
-import PastryBox from "./pages/pastryBox"
+import PastryBox from "./pages/pastryBox";
+import GreenGift from "./pages/giftPages/GreenGifts"
 
 
 
@@ -182,6 +184,10 @@ const router = createBrowserRouter([
     element: <Mug />,
   },
   {
+    path: "/gift/greengift",
+    element: <GreenGift />,
+  },
+  {
     path: "/gift/puzzle",
     element: <Puzzle />,
   },
@@ -243,6 +249,10 @@ const router = createBrowserRouter([
 
 
 
+  {
+    path: "/gift/candles",
+    element: <Candles />,
+  },
   {
     path: "/gift/powerbank",
     element: <Powerbank />,

@@ -2,313 +2,313 @@ export const visit =[
     {
         name: "سلفون براق",
         type: "کارت ویزیت ساده",
-        Pcode: 10000,
+        Pcode: "visit-001",
         image: "10000.jpg"
     },
     {
         name: "سلفون براق دو رو دورگرد",
         type: "کارت ویزیت ساده",
-        Pcode: 10001,
+        Pcode: "visit-002",
         image: "10001.jpg"
     },
     {
         name: "سلفون مات",
         type: "کارت ویزیت ساده",
-        Pcode: 10002,
+        Pcode:"visit-003",
         image: "10002.jpg"
     },
     {
         name: "سلفون مات دو رو دورگرد",
         type: "کارت ویزیت ساده",
-        Pcode: 10003,
+        Pcode: "visit-004",
         image: "10003.jpg"
     },
     {
         name: "سلفون مات مخملی",
         type: "کارت ویزیت ساده",
-        Pcode: 10004,
+        Pcode: "visit-005",
         image: "10004.jpg"
     },
     {
         name: "سوسماری",
         type: "کارت ویزیت ساده",
-        Pcode: 10005,
+        Pcode: "visit-006",
         image: "10005.jpg"
     },
     {
         name: "طرح چرم یووی دورگرد",
         type: "کارت ویزیت فانتزی",
-        Pcode: 10006,
+        Pcode: "visit-007",
         image: "10006.jpg"
     },
     {
         name: "طرح چرم",
         type: "کارت ویزیت ساده",
-        Pcode: 10007,
+        Pcode: "visit-008",
         image: "10007.jpg"
     },
     {
         name: "کارتی سیصد گرم",
         type: "کارت ویزیت ساده",
-        Pcode: 10008,
+        Pcode: "visit-009",
         image: "10008.jpg"
     },
     {
         name: "کارتی سیصد گرم دورگرد",
         type: "کارت ویزیت ساده",
-        Pcode: 10009,
+        Pcode: "visit-010",
         image: "10009.jpg"
     },
     {
         name: "کتان آلمان",
         type: "کارت ویزیت ساده",
-        Pcode: 10010,
+        Pcode: "visit-011",
         image: "10010.jpg"
     },
     {
         name: "کتان امباس",
         type: "کارت ویزیت ساده",
-        Pcode: 10011,
+        Pcode: "visit-012",
         image: "10011.jpg"
     },
     {
         name: "کتان امباس دورگرد",
         type: "کارت ویزیت ساده",
-        Pcode: 10012,
+        Pcode: "visit-013",
         image: "10012.jpg"
     },
     {
         name: "گلاسه بدون روکش",
         type: "کارت ویزیت ساده",
-        Pcode: 10013,
+        Pcode: "visit-014",
         image: "10013.jpg"
     },
     {
         name: "گلاسه فیلتردار",
         type: "کارت ویزیت ساده",
-        Pcode: 10014,
+        Pcode: "visit-015",
         image: "10014.jpg"
     },
     {
         name: "گلاسه یووی",
         type: "کارت ویزیت ساده",
-        Pcode: 10015,
+        Pcode: "visit-016",
         image: "10015.jpg"
     },
     {
         name: "مقوا پشت طوسی فیلتردار",
         type: "کارت ویزیت ساده",
-        Pcode: 10016,
+        Pcode: "visit-017",
         image: "10016.jpg"
     },
     {
         name: "لمینت برجسته",
         type: "کارت ویزیت فانتزی",
-        Pcode: 10017,
+        Pcode: "visit-018",
         image: "10017.jpg"
     },
     {
         name: "لمینت برجسته ویزیتی دورگرد",
         type: "کارت ویزیت فانتزی",
-        Pcode: 10018,
+        Pcode: "visit-019",
         image: "10018.jpg"
     },
     {
         name: "لمینت برجسته مخملی",
         type: "کارت ویزیت فانتزی",
-        Pcode: 10019,
+        Pcode: "visit-020",
         image: "10019.jpg"
     },
     {
         name: "لمینت برجسته مخملی طلاکوب",
         type: "کارت ویزیت فانتزی",
-        Pcode: 10020,
+        Pcode: "visit-021",
         image: "10020.jpg"
     },
     {
         name: "لمینت برجسته مخملی دو رو دورگرد",
         type: "کارت ویزیت فانتزی",
-        Pcode: 10021,
+        Pcode: "visit-022",
         image: "10021.jpg"
     },
     {
         name: "لمینت برجسته کوچک",
         type: "کارت ویزیت فانتزی",
-        Pcode: 10022,
+        Pcode: "visit-023",
         image: "10022.jpg"
     },
     {
         name: "لمینت برجسته طلاکوب",
         type: "کارت ویزیت فانتزی",
-        Pcode: 10023,
+        Pcode: "visit-024",
         image: "10023.jpg"
     },
     {
         name: "لمینت براق ویزیتی دورگرد",
         type: "کارت ویزیت فانتزی",
-        Pcode: 10024,
+        Pcode: "visit-025",
         image: "10024.jpg"
     },
     {
         name: "لمینت براق مربع دورگرد",
         type: "کارت ویزیت فانتزی",
-        Pcode: 10025,
+        Pcode: "visit-026",
         image: "10025.jpg"
     },
     {
         name: "لمینت براق دورگرد",
         type: "کارت ویزیت فانتزی",
-        Pcode: 10026,
+        Pcode: "visit-027",
         image: "10026.jpg"
     },
     {
         name: "لمینت براق دایره",
         type: "کارت ویزیت فانتزی",
-        Pcode: 10027,
+        Pcode: "visit-028",
         image: "10027.jpg"
     },
     {
         name: "کرافت دورگرد",
         type: "کارت ویزیت فانتزی",
-        Pcode: 10028,
+        Pcode: "visit-029",
         image: "10028.jpg"
     },
     {
         name: "کتان امباس دورگرد طلاکوب",
         type: "کارت ویزیت فانتزی",
-        Pcode: 10029,
+        Pcode: "visit-030",
         image: "10029.jpg"
     },
     {
         name: "کارتی سیصد گرم نقره کوب",
         type: "کارت ویزیت فانتزی",
-        Pcode: 10030,
+        Pcode: "visit-031",
         image: "10030.jpg"
     },
     {
         name: "کارتی سیصد گرم نقره کوب دورگرد",
         type: "کارت ویزیت فانتزی",
-        Pcode: 10031,
+        Pcode: "visit-032",
         image: "10031.jpg"
     },
     {
         name: "طلاکارت (لمینت براق دورگرد)",
         type: "کارت ویزیت فانتزی",
-        Pcode: 10032,
+        Pcode: "visit-033",
         image: "10032.jpg"
     },
     {
         name: "سلفون مات مخملی دورگرد طلاکوب و موضعی",
         type: "کارت ویزیت فانتزی",
-        Pcode: 10033,
+        Pcode: "visit-034",
         image: "10033.jpg"
     },
     {
         name: "سلفون مات مخملی دو رو دورگرد",
         type: "کارت ویزیت فانتزی",
-        Pcode: 10034,
+        Pcode: "visit-035",
         image: "10034.jpg"
     },
     {
         name: "سلفون مات مخملی دو رو دورگرد موضعی",
         type: "کارت ویزیت فانتزی",
-        Pcode: 10035,
+        Pcode: "visit-036",
         image: "10035.jpg"
     },
     {
         name: "سلفون مات مخملی دو رو دورگرد طلاکوب",
         type: "کارت ویزیت فانتزی",
-        Pcode: 10036,
+        Pcode: "visit-037",
         image: "10036.jpg"
     },
     {
         name: "سلفون مات طلاکوب",
         type: "کارت ویزیت فانتزی",
-        Pcode: 10037,
+        Pcode: "visit-038",
         image: "10037.jpg"
     },
     {
         name: "سلفون مات طرح موج",
         type: "کارت ویزیت فانتزی",
-        Pcode: 10038,
+        Pcode: "visit-039",
         image: "10038.jpg"
     },
     {
         name: "سلفون مات دو رو دورگرد موضعی",
         type: "کارت ویزیت فانتزی",
-        Pcode: 10039,
+        Pcode: "visit-040",
         image: "10039.jpg"
     },
     {
         name: "سلفون مات دو رو دورگرد طلاکوب",
         type: "کارت ویزیت فانتزی",
-        Pcode: 10040,
+        Pcode: "visit-041",
         image: "10040.jpg"
     },
     {
         name: "سلفون براق طلاکوب",
         type: "کارت ویزیت فانتزی",
-        Pcode: 10041,
+        Pcode: "visit-042",
         image: "10041.jpg"
     },
     {
         name: "سلفون براق طرح موج",
         type: "کارت ویزیت فانتزی",
-        Pcode: 10042,
+        Pcode: "visit-043",
         image: "10042.jpg"
     },
     {
         name: "سلفون مات طرح پروانه",
         type: "کارت ویزیت فانتزی",
-        Pcode: 10043,
+        Pcode: "visit-044",
         image: "10043.jpg"
     },
     {
         name: "سلفون مات قالب دار با طرح دلخواه",
         type: "کارت ویزیت قالب دار",
-        Pcode: 10044,
+        Pcode: "visit-045",
         image: "10044.jpg"
     },
     {
         name: "پی وی سی 300 میکرون",
         type: "کارت ویزیت مدیریتی",
-        Pcode: 10045-1,
+        Pcode: "visit-046",
         image: "10045-1.jpg"
     },
     {
         name: "پی وی سی 500 میکرون",
         type: "کارت ویزیت مدیریتی",
-        Pcode: 10045-2,
+        Pcode: "visit-047",
         image: "10045-2.jpg"
     },
     {
         name: "پی وی سی 760 میکرون",
         type: "کارت ویزیت مدیریتی",
-        Pcode: 10045-3,
+        Pcode: "visit-048",
         image: "10045-3.jpg"
     },
     {
         name: "لاکچری کارت دورو گلاسه دورگرد ( با افکت هایبرید )",
         type: "کارت ویزیت لاکچری",
-        Pcode: 10046,
+        Pcode: "visit-049",
         image: "10046.png"
     },
     {
         name: "لاکچری کارت گلاسه سایز دلخواه ( با افکت هایبرید )",
         type: "کارت ویزیت لاکچری",
-        Pcode: 10047,
+        Pcode: "visit-050",
         image: "10047.png"
     },
     {
         name: "لاکچری کارت گلاسه سایز و قالب دلخواه ( هایبرید )",
         type: "کارت ویزیت لاکچری",
-        Pcode: 10048,
+        Pcode: "visit-051",
         image: "10048.png"
     },
     {
         name: "لاکچری کارت متالایز سایز دلخواه (با افکت هایبرید)",
         type: "کارت ویزیت لاکچری",
-        Pcode: 10049,
+        Pcode: "visit-052",
         image: "10049.png"
     },
 ]

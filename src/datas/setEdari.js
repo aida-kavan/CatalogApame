@@ -1,42 +1,42 @@
 export const Setedari = [
     {
         name :"ست اداری سری اول و دوم تحریر 80 گرم",
-        Pcode: 10086,
+        Pcode: "edari-001",
         image: "10086.png"
     },
     {
         name :"ست اداری سری سوم تحریر 80 گرم",
-        Pcode:10087,
+        Pcode: "edari-002",
         image: "10089.png"
     },
     {
         name :"ست اداری سری اول و دوم تحریر 100 گرم",
-        Pcode: 10088,
+        Pcode: "edari-003",
         image: "10087.png"
     },
     {
         name :"ست اداری سری سوم تحریر 100 گرم ( کیسه ای )",
-        Pcode:10089,
+        Pcode: "edari-004",
         image: "10090.png"
     },
     {
         name :"ست اداری سری سوم تحریر 100گرم ( کیفی )",
-        Pcode:10090,
+        Pcode: "edari-005",
         image: "10091.png"
     },
     {
         name :"ست اداری سری اول و دوم کتان 120 گرم",
-        Pcode: 10091,
+        Pcode: "edari-006",
         image: "10088.png"
     },
     {
         name :"ست اداری سری سوم کتان 120 گرم ( کیسه ای )",
-        Pcode:10092,
+        Pcode: "edari-007",
         image: "10092.png"
     },
     {
         name :"ست اداری سری سوم کتان 120 گرم ( کیفی )",
-        Pcode:10093,
+        Pcode: "edari-008",
         image: "10093.png"
     },
 ]

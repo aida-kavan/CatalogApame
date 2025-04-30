@@ -1,38 +1,10 @@
 import styles from "../components.style/page.module.scss";
 import Title from "../components/title";
 import ProductItem from "../components/productItem";
+import { roll } from "../datas/offsetLabel";
 
 const Roll = () => {
-  const roll = [
-    {
-      image: "لیبل متالایز بسته بندی.png",
-      name: "لیبل متالایز  نقره ای مات و براق",
-    },
-    {
-      image: "لیبل متالایز طلایی.png",
-      name: "لیبل متالایز  طلایی مات و براق",
-    },
-    {
-      image: "لیبل شیشه ای.png",
-      name: "لیبل شیشه ای مات و براق",
-    },
-    {
-      image: "لیبل صدفی بسته بندی.png",
-      name: "لیبل صدفی",
-    },
-    {
-      image: "لیبل pp.png",
-      name: "لیبل PP مات و براق",
-    },
-    {
-      image: "لیبل pvc بسته بندی.png",
-      name: "لیبل pvc مات و براق",
-    },
-    {
-      image: "لیبل کاغذی.png",
-      name: "لیبل کاغذی مات و براق",
-    },
-  ];
+  
   return (
     <>
       <Title title={"رول ها"} subtitle={"لیبل های رولی در ابعاد مختلف توسط دستگاه های هلیگوار و زبرا چاپ میشوند"} />

@@ -2,105 +2,120 @@ export const flask = [
   {
     name: "فلاسک استارباکس ",
     image: "فلاسک مدل یک.jpg",
-    desc: "500 میل"
+    Pcode: "flask-001",
+    desc: "500 میل",
   },
   {
     name: "فلاسک مدل Coffee ",
     image: "فلاسک مدل دو.jpg",
-    desc: "318 و 510 میل"
+    Pcode: "flask-002",
+    desc: "318 و 510 میل",
   },
   {
     name: "فلاسک مدل قمقمه ای ",
+    Pcode: "flask-003",
     image: "فلاسک مدل سه.jpg",
-    desc: "420 میل"
+    desc: "420 میل",
   },
   {
     name: "فلاسک مدل Enjoy ",
+    Pcode: "flask-004",
     image: "فلاسک مدل چهار.jpg",
-    desc: "350 میل"
+    desc: "350 میل",
   },
   {
     name: "فلاسک مدل هندل دار ",
+    Pcode: "flask-005",
     image: "فلاسک مدل پنج.jpg",
-    desc: ""
+    desc: "",
   },
   {
     name: "فلاسک مدل کشیده ",
+    Pcode: "flask-006",
     image: "فلاسک مدل شش.jpg",
-        desc: "500 میل"
+    desc: "500 میل",
   },
   {
     name: "فلاسک پاستلی ",
+    Pcode: "flask-007",
     image: "فلاسک مدل هفت.jpg",
-    desc: "380 میل"    
+    desc: "380 میل",
   },
   {
     name: "فلاسک آینه ای ",
+    Pcode: "flask-008",
     image: "فلاسک مدل هشت.jpg",
-    desc: "380 میل"
+    desc: "380 میل",
   },
   {
     name: "فلاسک مدل Unique ",
+    Pcode: "flask-009",
     image: "فلاسک مدل نه.jpg",
-        desc: "500 میل"
-
+    desc: "500 میل",
   },
   {
     name: "فلاسک مدل Unique فلزی ",
+    Pcode: "flask-010",
     image: "فلاسک مدل یازده.jpg",
-        desc: "500 میل"
+    desc: "500 میل",
   },
   {
     name: "فلاسک مدل Fashion ",
+    Pcode: "flask-011",
     image: "فلاسک مدل دوازده.jpg",
-    desc: "380 و 500 میل"
+    desc: "380 و 500 میل",
   },
   {
     name: "فلاسک مدل دمنوشی ",
+    Pcode: "flask-012",
     image: "فلاسک مدل سیزده.jpg",
-    desc: "بدنه استیل و 500 میل"
+    desc: "بدنه استیل و 500 میل",
   },
   {
     name: "فلاسک مدل پاستلی ",
+    Pcode: "flask-013",
     image: "فلاسک مدل چهارده.jpg",
-    desc: "420 میل"
+    desc: "420 میل",
   },
   {
     name: "فلاسک مدل Unique مخملی ",
+    Pcode: "flask-014",
     image: "فلاسک پونزده.jpg",
-    desc: "500 میل"
+    desc: "500 میل",
   },
   {
     name: "فلاسک مدل Vacuum ",
+    Pcode: "flask-015",
     image: "فلاسک مدل شونزده.jpg",
-    desc: "500 میل دماسنج دار"
+    desc: "500 میل دماسنج دار",
   },
   {
     name: "فلاسک مدل Sport ",
+    Pcode: "flask-016",
     image: "فلاسک مدل هفده.jpg",
-    desc: "380 و 500 میل"
+    desc: "380 و 500 میل",
   },
   {
     name: "فلاسک مدل ستاره ای ",
+    Pcode: "flask-017",
     image: "فلاسک مدل هجده.jpg",
-    desc: "380 میل"
+    desc: "380 میل",
   },
   {
     name: "فلاسک مدل هلثی لایف ",
+    Pcode: "flask-018",
     image: "فلاسک مدل نوزده.jpg",
-    desc: "500 میل"
+    desc: "500 میل",
   },
   {
     name: "فلاسک لیوان دار ",
+    Pcode: "flask-019",
     image: "فلاسک مدل بیست.jpg",
-    desc: "به همراه دو لیوان"
+    desc: "به همراه دو لیوان",
   },
   {
+    Pcode: "flask-020",
     name: "فلاسک مدل کوهنوری ",
     image: "فلاسک مدل بیست و یک.jpg",
-    
   },
-  
- 
-  
 ];

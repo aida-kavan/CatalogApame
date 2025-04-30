@@ -2,82 +2,86 @@ export const powerbank =[
     {
         name: "پاوربانک کیفی وایرلس  ",
         image: "551.jpg",
-        Pcode: 551,
+        Pcode: "power-001",
     },
     {
         name: "پاوربانک   ",
         image: "552.jpg",
-        Pcode: 552,
+        Pcode: "power-002",
+
     },
     {
         name: "پاوربانک   ",
         image: "553.jpg",
-        Pcode: 553,
+        Pcode: "power-003",
+
     },
     {
         name: "پاوربانک   ",
         image: "554.jpg",
-        Pcode: 554,
+        Pcode: "power-004",
+
     },
     {
         name: "پاوربانک   ",
         image: "555.jpg",
-        Pcode: 555,
+        Pcode: "power-005",
+
     },
     {
         name: "پاوربانک   ",
         image: "556.jpg",
-        Pcode: 556,
+        Pcode: "power-006",
+
     },
     {
         name: "پاوربانک   ",
         image: "557.jpg",
-        Pcode: 557,
+        Pcode: "power-007",
     },
     {
         name: "پاوربانک   ",
         image: "558.jpg",
-        Pcode: 558,
+        Pcode: "power-008",
     },
     {
         name: "پاوربانک   ",
         image: "559.jpg",
-        Pcode: 559,
+        Pcode: "power-009",
     },
     {
         name: "پاور بانک وایرلس شارژ مگ سیف ",
-        image: "560.jpg",
-        Pcode: 560,
+        Pcode: "power-010",
     },
     {
         name: "پاور بانک وایرلس شارژ مگ سیف ",
         image: "561.jpg",
-        Pcode: 561,
+        Pcode: "power-011",
     },
     {
         name: "پاور بانک وایرلس شارژ مگ سیف ",
         image: "562.jpg",
-        Pcode: 562,
+        Pcode: "power-012",
     },
     {
         name: "پاور بانک وایرلس شارژ مگ سیف ",
         image: "563.jpg",
-        Pcode: 563,
+        Pcode: "power-013",
     },
     {
         name: "پاور بانک وایرلس شارژ مگ سیف ",
         image: "564.jpg",
-        Pcode: 564,
+        Pcode: "power-014",
     },
     {
         name: "پاور بانک کیفی وایرلس مگ سیف ",
         image: "565.jpg",
-        Pcode: 565,
+        Pcode: "power-015",
     },
     {
         name: "پاور بانک   ",
         image: "566.jpg",
-        Pcode: 566,
+        Pcode: "power-016",
     },
     
 ]

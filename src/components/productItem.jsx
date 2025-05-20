@@ -1,3 +1,4 @@
+import { Share2 } from "lucide-react";
 import styles from "../components.style/page.module.scss";
 import ImageModal from "./imageModal";
 import React from "react";
@@ -6,6 +7,31 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const productItem = ({ img, title, code, size, desc, type, price }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+ const buildMessage = ({ title, code, type, size, price, desc }) => {
+  let message = `📦 محصول: ${title}\nکد محصول: ${code}`;
+
+  if (type) message += `\nنوع: ${type}`;
+  if (size) message += `\nابعاد: ${size}`;
+  if (price) message += `\nقیمت: ${price} تومان`;
+  if (desc) message += `\nتوضیحات: ${desc}`;
+
+  return message;
+};
+const message = buildMessage({ title, code, type, size, price, desc });
+const handleMobileShare = () => {
+  const message = buildMessage();
+  if (navigator.share) {
+    navigator.share({
+      title: 'محصول چاپی آپامه',
+      text: message,
+      url: window.location.href, // اگه می‌خوای لینک بده به صفحه
+    })
+      .then(() => console.log('✅ پیام ارسال شد'))
+      .catch((err) => console.error('❌ ارسال لغو شد یا ارور داد:', err));
+  } else {
+    alert('مرورگر شما اشتراک‌گذاری مستقیم را پشتیبانی نمی‌کند.');
+  }
+};
 
   return (
     <div className={styles.productItem}>
@@ -16,7 +42,11 @@ const productItem = ({ img, title, code, size, desc, type, price }) => {
       )}
 
       <div className={styles.detail}>
+        <div style={{width: "100%",marginTop: "10px", textAlign:"left", display: "flex", justifyContent:"space-between", borderBottom:"solid 0.5px #aaaaaa81"}}>
+
         <h2>{title}</h2>
+        <Share2 width={"25px"}  onClick={handleMobileShare}/> 
+        </div>
         <p>کد محصول: {code}</p>
         {size && <p>ابعاد محصول: {size}</p>}
         {type && (
@@ -34,6 +64,7 @@ const productItem = ({ img, title, code, size, desc, type, price }) => {
             توضیحات : <span>{desc}</span>
           </p>
         )}
+       
       </div>
 
       {isModalOpen && (

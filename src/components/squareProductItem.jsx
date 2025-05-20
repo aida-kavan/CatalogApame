@@ -17,7 +17,7 @@ const SquareProductItem = ({ img, title, code, size, desc, type, price }) => {
         {size && <p>ابعاد محصول: {size}</p>}
         {type && (
           <p>
-            نوع محصول: <span>{type}</span>
+            دسته بندی: <span>{type}</span>
           </p>
         )}
         {desc && (

@@ -17,9 +17,9 @@ const productItem = ({ img, title, code, size, desc, type, price }) => {
 
   return message;
 };
-const message = buildMessage({ title, code, type, size, price, desc });
 const handleMobileShare = () => {
-  const message = buildMessage();
+  const message = buildMessage({ title, code, type, size, price, desc });
+  
   if (navigator.share) {
     navigator.share({
       title: 'محصول چاپی آپامه',

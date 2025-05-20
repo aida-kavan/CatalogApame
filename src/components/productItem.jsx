@@ -22,9 +22,7 @@ const handleMobileShare = () => {
   
   if (navigator.share) {
     navigator.share({
-      title: 'محصول چاپی آپامه',
       text: message,
-      url: window.location.href, // اگه می‌خوای لینک بده به صفحه
     })
       .then(() => console.log('✅ پیام ارسال شد'))
       .catch((err) => console.error('❌ ارسال لغو شد یا ارور داد:', err));

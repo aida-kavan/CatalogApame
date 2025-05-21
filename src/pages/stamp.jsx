@@ -75,9 +75,9 @@ const Folder = () => {
 
           
           <Title title={"مهر و موم"}  />
-          <LazyLoadImage className={styles.imgCont}>
+          <div className={styles.imgCont}>
             <img src="/تصاویر/مهر و موم.png" />
-          </LazyLoadImage>
+          </div>
           <StampTable data={moom} />
 
           

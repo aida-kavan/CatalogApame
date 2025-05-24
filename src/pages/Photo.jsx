@@ -1,52 +1,117 @@
-import React from 'react'
-import Header from '../components/header'
-import styles from '../components.style/home.module.scss'
-import { Link } from 'react-router-dom'
-import Footer from '../components/Footer'
-import Descreption from '../components/Descreption'
+import React from "react";
+import Header from "../components/header";
+import styles from "../components.style/home.module.scss";
+import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
+import Descreption from "../components/Descreption";
+import NewCardDesign from "../components/plans/NewCardDesign";
+
 const Photo = () => {
   const items = [
-    {name: "عکاسی پرتره"},
-    {name: "عکاسی صنعتی"},
-    {name: "عکاسی محصول"},
-    {name: "عکاسی کارخانه"},
-    {name: "عکاسی کافه و رستوران"},
-
-  ]
+    {
+      title: "عکاسی صنعتی محصولات",
+      photo: "عکاسی محصول.png",
+      desc: "محصولات مات، بافت و فرم دارن، نه بازتاب. ما با نورپردازی دقیق و پس‌زمینه خنثی، تمرکز کامل رو روی جزئیات و کیفیت محصول نگه می‌داریم. مناسب برای فروشگاه‌های اینترنتی، کاتالوگ‌ها، یا کمپین‌های تبلیغاتی ساده و تمیز.کنترل بازتاب‌ها، درخشش کنترل‌شده و نمایش حرفه‌ای محصول، چیزی نیست که بشه با دوربین گوشی ثبتش کرد. ما این هنر رو با دقت و تجهیزات پیشرفته اجرا می‌کنیم تا محصولت بدرخشه — درست مثل برندت.",
+      services: [
+        { title: "عکاسی محصولات مات", price: "200,000" },
+        { title: "عکاسی مجموعه‌ای از محصولات", price: "900,000" },
+        { title: "عکاسی محصولات براق", price: "از 350,000" },
+        { title: "عکاسی دستگاه‌های بزرگ", price: "از 600,000" },
+        { title: "عکاسی مینیمال تبلیغاتی", price: "400,000" },
+        { title: "عکاسی فضاسازی شده", price: "از 800,000" },
+        { title: "عکاسی محصولات شفاف", price: "500,000" },
+      ],
+    },
+    {
+      title: "عکاسی غذا و رستوران",
+      photo: "عکاسی غذا.png",
+      desc: "غذا رو باید طوری ثبت کرد که مزه‌ش از تصویرش بیرون بزنه! عکاسی غذایی ما با نورپردازی حرفه‌ای، چیدمان اشتهابرانگیز و فضاسازی جذاب، مخاطب رو گرسنه می‌کنه. مخصوص رستوران‌ها، فست‌فودها و برندهایی که طعم تصویر براشون مهمه.",
+      services: [
+        { title: "عکاسی ساده فست‌فود", price: "350,000" },
+        { title: "عکاسی از بسته‌بندی غذا", price: "450,000" },
+        { title: "عکاسی تبلیغاتی غذا (بدون طبخ)", price: "550,000" },
+        { title: "عکاسی تبلیغاتی غذا (با طبخ)", price: "از 1,000,000" },
+        { title: "عکاسی تبلیغاتی خلاق", price: "از 1,200,000" },
+      ],
+    },
+    {
+      title: "عکاسی صنعتی و کارخانه",
+      photo: "عکای صنعتی 2.jpg",
+      desc: "عکاسی صنعتی فراتر از ثبت تصویر یک محصوله؛ اینجا نور، زاویه و جزئیات، با دقت مهندسی‌شده کنار هم قرار می‌گیرن تا قدرت برندت رو به رخ بکشن. این نوع عکاسی مخصوص کسب‌وکارهایی‌ـه که می‌خوان با تصویر، اعتماد بسازن. از کارخانه تا تجهیزات پیچیده، ما تجربه ساختن تصویری حرفه‌ای از دنیای صنعت شما رو داریم.",
+      services: [
+        { title: "عکاسی خط تولید", price: "850,000" },
+        { title: "عکاسی پانوراما", price: "900,000" },
+        { title: "عکاسی در شب با تکنیک خاص", price: "1,200,000" },
+        { title: "عکاسی تبلیغاتی صنعتی", price: "1,000,000" },
+      ],
+    },
+    {
+      title: "پکیج اقتصادی محصولات",
+      photo: "عکاسی رسمی.png",
+      desc: "برای شروع نیازی نیست هزینه سنگین کنی! پکیج اقتصادی ما، یه انتخاب عالی برای برندهایی هست که می‌خوان با هزینه کم، عکس‌های تمیز و کاربردی از محصولاتشون داشته باشن. مناسب برای فروشگاه‌های اینترنتی، اینستاگرام و کاتالوگ ساده. سریع، مقرون‌به‌صرفه، باکیفیت.",
+      services: [
+        { title: "50 فریم", price: "5,500,000" },
+        { title: "100 فریم", price: "12,500,000" },
+        { title: "200 فریم", price: "25,000,000" },
+      ],
+    },
+    {
+      title: "عکاسی 360 درجه",
+      photo: "360.gif",
+      desc: "یه عکس کافیه؟ نه وقتی می‌تونی محصولتو از همه زاویه‌ها نشون بدی!با عکاسی 360 درجه، مشتری می‌تونه محصولتو بچرخونه و کامل بررسیش کنه، درست مثل اینکه توی دستشه. مناسب برای سایت‌های فروشگاهی و برندهایی که شفافیت براشون مهمه.",
+      services: [{ title: "هر یک مدل 360 درجه", price: "1,100,000" }],
+    },
+    {
+      title: "عکاسی هوایی",
+      photo: "عکاسی هوایی.png",
+      desc: "دیدن از بالا یعنی دیده شدن متفاوت! با عکاسی هوایی، پروژه‌ها، مکان‌ها، یا رویدادهای خاصتو از زاویه‌ای منحصر‌به‌فرد ثبت کن. مناسب برای کسب‌وکارهای صنعتی، املاک، گردشگری، یا ساخت‌وساز. ما با تجهیزات پیشرفته و مجوز قانونی، بهترین نماها رو بهت می‌دیم.",
+      services: [{ title: "عکاسی هوایی (هلی‌شات)", price: "1,100,000" }],
+    },
+  ];
 
   return (
     <>
       <Header />
-      <div className={styles.mainDiv}/*  style={{paddingTop: "70px"}} */>
-      <Link to={"/poyesh"}>
-        <div style={{ width: "100%", maxWidth: "380px", margin: "0 auto" }}>
-          <img style={{ width: "100%" }} src="/icons/poyesh.png" alt="" />
-        </div>
+      <div className={styles.mainDiv} /*  style={{paddingTop: "70px"}} */>
+        <Link to={"/poyesh"}>
+          <div style={{ width: "100%", maxWidth: "380px", margin: "0 auto" }}>
+            <img style={{ width: "100%" }} src="/icons/poyesh.png" alt="" />
+          </div>
         </Link>
-      <Descreption title={"تولید محتوای بصری حرفه‌ای برای برند شما"}
-      main={"عکاسی و فیلم‌برداری تبلیغاتی شامل عکاسی صنعتی، عکاسی محصول، فیلم‌برداری تبلیغاتی، تولید ویدئوهای معرفی برند و محتوای ویدیویی برای شبکه‌های اجتماعی است."}
-      items={[
-        "افزایش جذابیت بصری برند",
-        "ایجاد محتوای حرفه‌ای برای تبلیغات",
-        "تاثیرگذاری بیشتر روی مشتریان",
-        "نمایش بهتر محصولات در وب‌سایت و شبکه‌های اجتماعی"
-      ]}
-      />
-        <div className={styles.gridCont}>
+        <Descreption
+          title={"تولید محتوای بصری حرفه‌ای برای برند شما"}
+          main={
+            "عکاسی و فیلم‌برداری تبلیغاتی شامل عکاسی صنعتی، عکاسی محصول، فیلم‌برداری تبلیغاتی، تولید ویدئوهای معرفی برند و محتوای ویدیویی برای شبکه‌های اجتماعی است."
+          }
+          items={[
+            "افزایش جذابیت بصری برند",
+            "ایجاد محتوای حرفه‌ای برای تبلیغات",
+            "تاثیرگذاری بیشتر روی مشتریان",
+            "نمایش بهتر محصولات در وب‌سایت و شبکه‌های اجتماعی",
+          ]}
+        />
+        <div
+          style={{
+            width: "350px",
+            margin: "0 auto",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+          }}
+        >
           {items.map((item) => (
-            <Link to={item.link} key={item.name}>
-              <div className={styles.item} style={{ backgroundColor: "#ffffff3b", textAlign: "center", fontSize: "20px", color: "white", width: "160px", height: "80px", display: "flex", alignItems: "center", justifyContent: "center" }} key={item.name}>
-
-                {item.name}
-              </div>
-
-            </Link>
+            <NewCardDesign
+              title={item.title}
+              photo={item.photo}
+              desc={item.desc}
+              services={item?.services}
+            />
           ))}
         </div>
       </div>
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Photo
+export default Photo;

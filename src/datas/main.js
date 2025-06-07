@@ -417,8 +417,649 @@ export const mainData = [
     productCode: "cut-007",
   },
 
-  //////////////
-
+  {
+    productName: "جعبه کیبوردی",
+    productVariants: [
+      {
+        size: "3.5*10*13",
+        prices: [
+          {
+            minQty: 1,
+            maxQty: 49,
+            price: 8100,
+          },
+          {
+            minQty: 50,
+            maxQty: 199,
+            price: 7800,
+          },
+          {
+            minQty: 200,
+            maxQty: 499,
+            price: 7300,
+          },
+          {
+            minQty: 500,
+            maxQty: 999,
+            price: 6700,
+          },
+          {
+            minQty: 1000,
+            price: 5900,
+          },
+        ],
+      },
+      {
+        size: "4*10*20",
+       prices: [
+          {
+            minQty: 1,
+            maxQty: 49,
+            price: 11700,
+          },
+          {
+            minQty: 50,
+            maxQty: 199,
+            price: 11100,
+          },
+          {
+            minQty: 200,
+            maxQty: 499,
+            price: 10400,
+          },
+          {
+            minQty: 500,
+            maxQty: 999,
+            price: 9700,
+          },
+          {
+            minQty: 1000,
+            price: 8700,
+          },
+        ],
+      },
+      {
+        size: "4*23*23",
+        prices: [
+          {
+            minQty: 1,
+            maxQty: 49,
+            price: 24500,
+          },
+          {
+            minQty: 50,
+            maxQty: 199,
+            price: 23400,
+          },
+          {
+            minQty: 200,
+            maxQty: 499,
+            price: 21970,
+          },
+          {
+            minQty: 500,
+            maxQty: 999,
+            price: 20200,
+          },
+          {
+            minQty: 1000,
+            price: 18200,
+          },
+        ],
+      },
+      {
+        size: "4.5*10*12",
+       prices: [
+          {
+            minQty: 1,
+            maxQty: 49,
+            price: 9500,
+          },
+          {
+            minQty: 50,
+            maxQty: 199,
+            price: 9100,
+          },
+          {
+            minQty: 200,
+            maxQty: 499,
+            price: 8500,
+          },
+          {
+            minQty: 500,
+            maxQty: 999,
+            price: 7800,
+          },
+          {
+            minQty: 1000,
+            price: 7200,
+          },
+        ],
+      },
+      {
+        size: "4.5*13*13",
+          prices: [
+          {
+            minQty: 1,
+            maxQty: 49,
+            price: 10700,
+          },
+          {
+            minQty: 50,
+            maxQty: 199,
+            price: 10200,
+          },
+          {
+            minQty: 200,
+            maxQty: 499,
+            price: 9500,
+          },
+          {
+            minQty: 500,
+            maxQty: 999,
+            price: 8900,
+          },
+          {
+            minQty: 1000,
+            price: 8100,
+          },
+        ],
+      },
+      {
+        size: "4.5*16*16",
+        prices: [
+          {
+            minQty: 1,
+            maxQty: 49,
+            price: 14900,
+          },
+          {
+            minQty: 50,
+            maxQty: 199,
+            price: 14300,
+          },
+          {
+            minQty: 200,
+            maxQty: 499,
+            price: 13260,
+          },
+          {
+            minQty: 500,
+            maxQty: 999,
+            price: 12400,
+          },
+          {
+            minQty: 1000,
+            price: 11200,
+          },
+        ],
+      },
+      {
+        size: "5*10*10",
+        prices: [
+          {
+            minQty: 1,
+            maxQty: 49,
+            price: 10700,
+          },
+          {
+            minQty: 50,
+            maxQty: 199,
+            price: 10200,
+          },
+          {
+            minQty: 200,
+            maxQty: 499,
+            price: 9500,
+          },
+          {
+            minQty: 500,
+            maxQty: 999,
+            price: 8900,
+          },
+          {
+            minQty: 1000,
+            price: 8100,
+          },
+        ],
+      },
+      {
+        size: "5*17*26",
+       prices: [
+          {
+            minQty: 1,
+            maxQty: 49,
+            price: 19150,
+          },
+          {
+            minQty: 50,
+            maxQty: 199,
+            price: 18350,
+          },
+          {
+            minQty: 200,
+            maxQty: 499,
+            price: 17200,
+          },
+          {
+            minQty: 500,
+            maxQty: 999,
+            price: 15900,
+          },
+          {
+            minQty: 1000,
+            price: 14300,
+          },
+        ],
+      },
+      {
+        size: "5*31*31",
+       prices: [
+          {
+            minQty: 1,
+            maxQty: 49,
+            price: 36200,
+          },
+          {
+            minQty: 50,
+            maxQty: 199,
+            price: 34700,
+          },
+          {
+            minQty: 200,
+            maxQty: 499,
+            price: 32770,
+          },
+          {
+            minQty: 500,
+            maxQty: 999,
+            price: 30100,
+          },
+          {
+            minQty: 1000,
+            price: 27170,
+          },
+        ],
+      },
+      {
+        size: "5.5*14*20",
+       prices: [
+          {
+            minQty: 1,
+            maxQty: 49,
+            price: 10700,
+          },
+          {
+            minQty: 50,
+            maxQty: 199,
+            price: 10200,
+          },
+          {
+            minQty: 200,
+            maxQty: 499,
+            price: 9500,
+          },
+          {
+            minQty: 500,
+            maxQty: 999,
+            price: 8900,
+          },
+          {
+            minQty: 1000,
+            price: 8100,
+          },
+        ],
+      },
+      {
+        size: "6*11*28", 
+        prices: [
+          {
+            minQty: 1,
+            maxQty: 49,
+            price: 20250,
+          },
+          {
+            minQty: 50,
+            maxQty: 199,
+            price: 19500,
+          },
+          {
+            minQty: 200,
+            maxQty: 499,
+            price: 18200,
+          },
+          {
+            minQty: 500,
+            maxQty: 999,
+            price: 16900,
+          },
+          {
+            minQty: 1000,
+            price: 15200,
+          },
+        ],
+      },
+      {
+        size: "6*15*60",
+        prices: [
+          {
+            minQty: 1,
+            maxQty: 49,
+            price: 31330,
+          },
+          {
+            minQty: 50,
+            maxQty: 199,
+            price: 30100,
+          },
+          {
+            minQty: 200,
+            maxQty: 499,
+            price: 28250,
+          },
+          {
+            minQty: 500,
+            maxQty: 999,
+            price: 26000,
+          },
+          {
+            minQty: 1000,
+            price: 23560,
+          },
+        ],
+      },
+      {
+        size: "6*26*26",
+        prices: [
+          {
+            minQty: 1,
+            maxQty: 49,
+            price: 30800,
+          },
+          {
+            minQty: 50,
+            maxQty: 199,
+            price: 29600,
+          },
+          {
+            minQty: 200,
+            maxQty: 499,
+            price: 27800,
+          },
+          {
+            minQty: 500,
+            maxQty: 999,
+            price: 25480,
+          },
+          {
+            minQty: 1000,
+            price: 23200,
+          },
+        ],
+      },
+      {
+        size: "7*15*37",
+       prices: [
+          {
+            minQty: 1,
+            maxQty: 49,
+            price: 28600,
+          },
+          {
+            minQty: 50,
+            maxQty: 199,
+            price: 27500,
+          },
+          {
+            minQty: 200,
+            maxQty: 499,
+            price: 25800,
+          },
+          {
+            minQty: 500,
+            maxQty: 999,
+            price: 23800,
+          },
+          {
+            minQty: 1000,
+            price: 21600,
+          },
+        ],
+      },
+      {
+        size: "7*22*27",
+        prices: [
+          {
+            minQty: 1,
+            maxQty: 49,
+            price: 34400,
+          },
+          {
+            minQty: 50,
+            maxQty: 199,
+            price: 33200,
+          },
+          {
+            minQty: 200,
+            maxQty: 499,
+            price: 31100,
+          },
+          {
+            minQty: 500,
+            maxQty: 999,
+            price: 28700,
+          },
+          {
+            minQty: 1000,
+            price: 26500,
+          },
+        ],
+      },
+      {
+        size: "8*18*42",
+       prices: [
+          {
+            minQty: 1,
+            maxQty: 49,
+            price: 37700,
+          },
+          {
+            minQty: 50,
+            maxQty: 199,
+            price: 36270,
+          },
+          {
+            minQty: 200,
+            maxQty: 499,
+            price: 34100,
+          },
+          {
+            minQty: 500,
+            maxQty: 999,
+            price: 31400,
+          },
+          {
+            minQty: 1000,
+            price: 28400,
+          },
+        ],
+      },
+      {
+        size: "8*23*45",
+        prices: [
+          {
+            minQty: 1,
+            maxQty: 49,
+            price: 47600,
+          },
+          {
+            minQty: 50,
+            maxQty: 199,
+            price: 39300,
+          },
+          {
+            minQty: 200,
+            maxQty: 499,
+            price: 42900,
+          },
+          {
+            minQty: 500,
+            maxQty: 999,
+            price: 39600,
+          },
+          {
+            minQty: 1000,
+            price: 35800,
+          },
+        ],
+      },
+      {
+        size: "9*22*22",
+       prices: [
+          {
+            minQty: 1,
+            maxQty: 49,
+            price: 31900,
+          },
+          {
+            minQty: 50,
+            maxQty: 199,
+            price: 34400,
+          },
+          {
+            minQty: 200,
+            maxQty: 499,
+            price: 32300,
+          },
+          {
+            minQty: 500,
+            maxQty: 999,
+            price: 29780,
+          },
+          {
+            minQty: 1000,
+            price: 26900,
+          },
+        ],
+      },
+      {
+        size: "9.5*9*24",
+        prices: [
+          {
+            minQty: 1,
+            maxQty: 49,
+            price: 16800,
+          },
+          {
+            minQty: 50,
+            maxQty: 199,
+            price: 16200,
+          },
+          {
+            minQty: 200,
+            maxQty: 499,
+            price: 15080,
+          },
+          {
+            minQty: 500,
+            maxQty: 999,
+            price: 13900,
+          },
+          {
+            minQty: 1000,
+            price: 12700,
+          },
+        ],
+      },                
+      {
+        size: "10.5*33*40",
+        prices: [
+          {
+            minQty: 1,
+            maxQty: 49,
+            price: 70350,
+          },
+          {
+            minQty: 50,
+            maxQty: 199,
+            price: 67500,
+          },
+          {
+            minQty: 200,
+            maxQty: 499,
+            price: 63400,
+          },
+          {
+            minQty: 500,
+            maxQty: 999,
+            price: 58400,
+          },
+          {
+            minQty: 1000,
+            price: 52790,
+          },
+        ],
+      },
+      {
+        size: "11*27*27",
+        prices: [
+          {
+            minQty: 1,
+            maxQty: 49,
+            price: 52000,
+          },
+          {
+            minQty: 50,
+            maxQty: 199,
+            price: 50100,
+          },
+          {
+            minQty: 200,
+            maxQty: 499,
+            price: 46900,
+          },
+          {
+            minQty: 500,
+            maxQty: 999,
+            price: 43200,
+          },
+          {
+            minQty: 1000,
+            price: 39000,
+          },
+        ],
+      },
+      {
+        size: "12.5*19*25",
+        prices: [
+          {
+            minQty: 1,
+            maxQty: 49,
+            price: 25100,
+          },
+          {
+            minQty: 50,
+            maxQty: 199,
+            price: 24200,
+          },
+          {
+            minQty: 200,
+            maxQty: 499,
+            price: 22700,
+          },
+          {
+            minQty: 500,
+            maxQty: 999,
+            price: 20900,
+          },
+          {
+            minQty: 1000,
+            price: 18900,
+          },
+        ],
+      },
+    ],
+  },
   {
     productName: "جعبه شیرینی یک تیکه کرافت",
     productImage: "جعبه شیرینی یک تیکه کرافت.png",
@@ -3339,17 +3980,17 @@ export const mainData = [
       {
         variant: "25*35",
         prices: [
-          {quantity: 1000, price: 2_420_000},
-          {quantity: 2000, price: 3_670_000},
-          {quantity: 5000, price: 7_950_000},
+          { quantity: 1000, price: 2_420_000 },
+          { quantity: 2000, price: 3_670_000 },
+          { quantity: 5000, price: 7_950_000 },
         ],
       },
       {
         variant: "50*35",
         prices: [
-          {quantity: 1000, price: 4_230_000},
-          {quantity: 2000, price: 6_580_000},
-          {quantity: 5000, price: 15_790_000},
+          { quantity: 1000, price: 4_230_000 },
+          { quantity: 2000, price: 6_580_000 },
+          { quantity: 5000, price: 15_790_000 },
         ],
       },
     ],
@@ -3362,17 +4003,17 @@ export const mainData = [
       {
         variant: "25*35",
         prices: [
-          {quantity: 1000, price: 2_820_000},
-          {quantity: 2000, price: 3_920_000},
-          {quantity: 5000, price: 8_250_000},
+          { quantity: 1000, price: 2_820_000 },
+          { quantity: 2000, price: 3_920_000 },
+          { quantity: 5000, price: 8_250_000 },
         ],
       },
       {
         variant: "50*35",
         prices: [
-          {quantity: 1000, price: 4_430_000},
-          {quantity: 2000, price: 6_900_000},
-          {quantity: 5000, price: 15_990_000},
+          { quantity: 1000, price: 4_430_000 },
+          { quantity: 2000, price: 6_900_000 },
+          { quantity: 5000, price: 15_990_000 },
         ],
       },
     ],
@@ -3385,31 +4026,31 @@ export const mainData = [
       {
         variant: "25*35",
         prices: [
-          {quantity: 2000, price: 3_240_000},
-          {quantity: 4000, price: 5_320_000},
-          {quantity: 6000, price: 7_950_000},
-          {quantity: 8000, price: 9_980_000},
-          {quantity: 10000, price: 13_900_000},
+          { quantity: 2000, price: 3_240_000 },
+          { quantity: 4000, price: 5_320_000 },
+          { quantity: 6000, price: 7_950_000 },
+          { quantity: 8000, price: 9_980_000 },
+          { quantity: 10000, price: 13_900_000 },
         ],
       },
       {
         variant: "30*45",
         prices: [
-          {quantity: 2000, price: 5_820_000},
-          {quantity: 4000, price: 8_820_000},
-          {quantity: 6000, price: 14_250_000},
-          {quantity: 8000, price: 16_870_000},
-          {quantity: 10000, price: 8_250_000},
+          { quantity: 2000, price: 5_820_000 },
+          { quantity: 4000, price: 8_820_000 },
+          { quantity: 6000, price: 14_250_000 },
+          { quantity: 8000, price: 16_870_000 },
+          { quantity: 10000, price: 8_250_000 },
         ],
       },
       {
         variant: "50*35",
         prices: [
-          {quantity: 2000, price: 6_230_000},
-          {quantity: 4000, price: 9_860_000},
-          {quantity: 6000, price: 15_790_000},
-          {quantity: 8000, price: 18_150_000},
-          {quantity: 10000, price: 8_250_000},
+          { quantity: 2000, price: 6_230_000 },
+          { quantity: 4000, price: 9_860_000 },
+          { quantity: 6000, price: 15_790_000 },
+          { quantity: 8000, price: 18_150_000 },
+          { quantity: 10000, price: 8_250_000 },
         ],
       },
     ],
@@ -3422,31 +4063,31 @@ export const mainData = [
       {
         variant: "25*35",
         prices: [
-          {quantity: 2000, price: 4_140_000},
-          {quantity: 4000, price: 6_920_000},
-          {quantity: 6000, price: 11_950_000},
-          {quantity: 8000, price:13_780_000},
-          {quantity: 10000, price: 16_500_000},
+          { quantity: 2000, price: 4_140_000 },
+          { quantity: 4000, price: 6_920_000 },
+          { quantity: 6000, price: 11_950_000 },
+          { quantity: 8000, price: 13_780_000 },
+          { quantity: 10000, price: 16_500_000 },
         ],
       },
       {
         variant: "30*45",
         prices: [
-          {quantity: 2000, price: 6_820_000},
-          {quantity: 4000, price: 11_980_000},
-          {quantity: 6000, price: 19_330_000},
-          {quantity: 8000, price: 23_870_000},
-          {quantity: 10000, price: 26_250_000},
+          { quantity: 2000, price: 6_820_000 },
+          { quantity: 4000, price: 11_980_000 },
+          { quantity: 6000, price: 19_330_000 },
+          { quantity: 8000, price: 23_870_000 },
+          { quantity: 10000, price: 26_250_000 },
         ],
       },
       {
         variant: "50*35",
         prices: [
-          {quantity: 2000, price: 7_330_000},
-          {quantity: 4000, price: 12_760_000},
-          {quantity: 6000, price: 20_210_000},
-          {quantity: 8000, price: 25_200_000},
-          {quantity: 10000, price: 27_250_000},
+          { quantity: 2000, price: 7_330_000 },
+          { quantity: 4000, price: 12_760_000 },
+          { quantity: 6000, price: 20_210_000 },
+          { quantity: 8000, price: 25_200_000 },
+          { quantity: 10000, price: 27_250_000 },
         ],
       },
     ],
@@ -3459,31 +4100,31 @@ export const mainData = [
       {
         variant: "25*35",
         prices: [
-          {quantity: 2000, price: 3_740_000},
-          {quantity: 4000, price: 6_220_000},
-          {quantity: 6000, price: 9_950_000},
-          {quantity: 8000, price:10_680_000},
-          {quantity: 10000, price: 13_900_000},
+          { quantity: 2000, price: 3_740_000 },
+          { quantity: 4000, price: 6_220_000 },
+          { quantity: 6000, price: 9_950_000 },
+          { quantity: 8000, price: 10_680_000 },
+          { quantity: 10000, price: 13_900_000 },
         ],
       },
       {
         variant: "30*45",
         prices: [
-          {quantity: 2000, price: 5_920_000},
-          {quantity: 4000, price: 9_980_000},
-          {quantity: 6000, price: 16_230_000},
-          {quantity: 8000, price: 20_770_000},
-          {quantity: 10000, price: 24_250_000},
+          { quantity: 2000, price: 5_920_000 },
+          { quantity: 4000, price: 9_980_000 },
+          { quantity: 6000, price: 16_230_000 },
+          { quantity: 8000, price: 20_770_000 },
+          { quantity: 10000, price: 24_250_000 },
         ],
       },
       {
         variant: "50*35",
         prices: [
-          {quantity: 2000, price: 6_930_000},
-          {quantity: 4000, price: 10_260_000},
-          {quantity: 6000, price: 16_940_000},
-          {quantity: 8000, price: 21_890_000},
-          {quantity: 10000, price:25_450_000},
+          { quantity: 2000, price: 6_930_000 },
+          { quantity: 4000, price: 10_260_000 },
+          { quantity: 6000, price: 16_940_000 },
+          { quantity: 8000, price: 21_890_000 },
+          { quantity: 10000, price: 25_450_000 },
         ],
       },
     ],
@@ -3496,17 +4137,17 @@ export const mainData = [
       {
         variant: "25*35",
         prices: [
-          {quantity: 1000, price: 2_840_000},
-          {quantity: 2000, price: 3_920_000},
-          {quantity: 5000, price: 7_350_000},
+          { quantity: 1000, price: 2_840_000 },
+          { quantity: 2000, price: 3_920_000 },
+          { quantity: 5000, price: 7_350_000 },
         ],
       },
       {
         variant: "50*35",
         prices: [
-          {quantity: 1000, price: 3_930_000},
-          {quantity: 2000, price: 6_260_000},
-          {quantity: 5000, price: 12_440_000},
+          { quantity: 1000, price: 3_930_000 },
+          { quantity: 2000, price: 6_260_000 },
+          { quantity: 5000, price: 12_440_000 },
         ],
       },
     ],
@@ -3519,17 +4160,17 @@ export const mainData = [
       {
         variant: "25*35",
         prices: [
-          {quantity: 1000, price: 2_840_000},
-          {quantity: 2000, price: 4_220_000},
-          {quantity: 5000, price: 7_950_000},
+          { quantity: 1000, price: 2_840_000 },
+          { quantity: 2000, price: 4_220_000 },
+          { quantity: 5000, price: 7_950_000 },
         ],
       },
       {
         variant: "50*35",
         prices: [
-          {quantity: 1000, price: 4_930_000},
-          {quantity: 2000, price: 7_260_000},
-          {quantity: 5000, price: 13_440_000},
+          { quantity: 1000, price: 4_930_000 },
+          { quantity: 2000, price: 7_260_000 },
+          { quantity: 5000, price: 13_440_000 },
         ],
       },
     ],
@@ -3542,35 +4183,34 @@ export const mainData = [
       {
         variant: "25*35",
         prices: [
-          {quantity: 2000, price: 4_940_000},
-          {quantity: 4000, price: 8_820_000},
-          {quantity: 6000, price: 13_250_000},
-          {quantity: 8000, price:16_980_000},
-          {quantity: 10000, price: 20_200_000},
+          { quantity: 2000, price: 4_940_000 },
+          { quantity: 4000, price: 8_820_000 },
+          { quantity: 6000, price: 13_250_000 },
+          { quantity: 8000, price: 16_980_000 },
+          { quantity: 10000, price: 20_200_000 },
         ],
       },
       {
         variant: "30*45",
         prices: [
-          {quantity: 2000, price: 8_920_000},
-          {quantity: 4000, price: 15_180_000},
-          {quantity: 6000, price: 23_530_000},
-          {quantity: 8000, price: 29_470_000},
-          {quantity: 10000, price: 36_150_000},
+          { quantity: 2000, price: 8_920_000 },
+          { quantity: 4000, price: 15_180_000 },
+          { quantity: 6000, price: 23_530_000 },
+          { quantity: 8000, price: 29_470_000 },
+          { quantity: 10000, price: 36_150_000 },
         ],
       },
       {
         variant: "50*35",
         prices: [
-          {quantity: 2000, price: 9_430_000},
-          {quantity: 4000, price: 16_860_000},
-          {quantity: 6000, price: 24_240_000},
-          {quantity: 8000, price: 30_890_000},
-          {quantity: 10000, price:37_450_000},
+          { quantity: 2000, price: 9_430_000 },
+          { quantity: 4000, price: 16_860_000 },
+          { quantity: 6000, price: 24_240_000 },
+          { quantity: 8000, price: 30_890_000 },
+          { quantity: 10000, price: 37_450_000 },
         ],
       },
     ],
-    
   },
   {
     productName: "زیر بشقابی کرافت80گرم چهار رنگ",
@@ -3580,31 +4220,31 @@ export const mainData = [
       {
         variant: "24*34",
         prices: [
-          {quantity: 2000, price: 5_840_000},
-          {quantity: 4000, price: 9_820_000},
-          {quantity: 6000, price: 15_150_000},
-          {quantity: 8000, price:16_980_000},
-          {quantity: 10000, price: 20_200_000},
+          { quantity: 2000, price: 5_840_000 },
+          { quantity: 4000, price: 9_820_000 },
+          { quantity: 6000, price: 15_150_000 },
+          { quantity: 8000, price: 16_980_000 },
+          { quantity: 10000, price: 20_200_000 },
         ],
       },
       {
         variant: "30*45",
         prices: [
-          {quantity: 2000, price: 10_220_000},
-          {quantity: 4000, price: 17_980_000},
-          {quantity: 6000, price: 28_930_000},
-          {quantity: 8000, price: 29_470_000},
-          {quantity: 10000, price: 36_150_000},
+          { quantity: 2000, price: 10_220_000 },
+          { quantity: 4000, price: 17_980_000 },
+          { quantity: 6000, price: 28_930_000 },
+          { quantity: 8000, price: 29_470_000 },
+          { quantity: 10000, price: 36_150_000 },
         ],
       },
       {
         variant: "48*34",
         prices: [
-          {quantity: 2000, price: 10_930_000},
-          {quantity: 4000, price: 18_360_000},
-          {quantity: 6000, price: 28_940_000},
-          {quantity: 8000, price: 30_890_000},
-          {quantity: 10000, price:37_450_000},
+          { quantity: 2000, price: 10_930_000 },
+          { quantity: 4000, price: 18_360_000 },
+          { quantity: 6000, price: 28_940_000 },
+          { quantity: 8000, price: 30_890_000 },
+          { quantity: 10000, price: 37_450_000 },
         ],
       },
     ],
@@ -3617,31 +4257,31 @@ export const mainData = [
       {
         variant: "25*35",
         prices: [
-          {quantity: 2000, price: 5_340_000},
-          {quantity: 4000, price: 9_520_000},
-          {quantity: 6000, price: 14_350_000},
-          {quantity: 8000, price:18_480_000},
-          {quantity: 10000, price: 23_400_000},
+          { quantity: 2000, price: 5_340_000 },
+          { quantity: 4000, price: 9_520_000 },
+          { quantity: 6000, price: 14_350_000 },
+          { quantity: 8000, price: 18_480_000 },
+          { quantity: 10000, price: 23_400_000 },
         ],
       },
       {
         variant: "30*45",
         prices: [
-          {quantity: 2000, price: 9_420_000},
-          {quantity: 4000, price: 16_980_000},
-          {quantity: 6000, price: 26_930_000},
-          {quantity: 8000, price: 33_470_000},
-          {quantity: 10000, price: 38_150_000},
+          { quantity: 2000, price: 9_420_000 },
+          { quantity: 4000, price: 16_980_000 },
+          { quantity: 6000, price: 26_930_000 },
+          { quantity: 8000, price: 33_470_000 },
+          { quantity: 10000, price: 38_150_000 },
         ],
       },
       {
         variant: "50*35",
         prices: [
-          {quantity: 2000, price: 9_630_000},
-          {quantity: 4000, price: 17_360_000},
-          {quantity: 6000, price: 26_940_000},
-          {quantity: 8000, price: 33_890_000},
-          {quantity: 10000, price:38_450_000},
+          { quantity: 2000, price: 9_630_000 },
+          { quantity: 4000, price: 17_360_000 },
+          { quantity: 6000, price: 26_940_000 },
+          { quantity: 8000, price: 33_890_000 },
+          { quantity: 10000, price: 38_450_000 },
         ],
       },
     ],
@@ -3654,31 +4294,31 @@ export const mainData = [
       {
         variant: "25*35",
         prices: [
-          {quantity: 2000, price: 5_240_000},
-          {quantity: 8000, price: 8_720_000},
-          {quantity: 12000, price: 13_950_000},
-          {quantity: 16000, price:18_580_000},
-          {quantity: 20000, price: 23_400_000},
+          { quantity: 2000, price: 5_240_000 },
+          { quantity: 8000, price: 8_720_000 },
+          { quantity: 12000, price: 13_950_000 },
+          { quantity: 16000, price: 18_580_000 },
+          { quantity: 20000, price: 23_400_000 },
         ],
       },
       {
         variant: "30*45",
         prices: [
-          {quantity: 2000, price: 7_820_000},
-          {quantity: 4000, price: 13_580_000},
-          {quantity: 6000, price: 20_870_000},
-          {quantity: 8000, price: 25_970_000},
-          {quantity: 10000, price: 32_450_000},
+          { quantity: 2000, price: 7_820_000 },
+          { quantity: 4000, price: 13_580_000 },
+          { quantity: 6000, price: 20_870_000 },
+          { quantity: 8000, price: 25_970_000 },
+          { quantity: 10000, price: 32_450_000 },
         ],
       },
       {
         variant: "50*35",
         prices: [
-          {quantity: 2000, price: 9_210_000},
-          {quantity: 4000, price: 16_660_000},
-          {quantity: 6000, price: 25_340_000},
-          {quantity: 8000, price: 33_890_000},
-          {quantity: 10000, price:41_450_000},
+          { quantity: 2000, price: 9_210_000 },
+          { quantity: 4000, price: 16_660_000 },
+          { quantity: 6000, price: 25_340_000 },
+          { quantity: 8000, price: 33_890_000 },
+          { quantity: 10000, price: 41_450_000 },
         ],
       },
     ],
@@ -3691,31 +4331,31 @@ export const mainData = [
       {
         variant: "25*35",
         prices: [
-          {quantity: 2000, price: 5_940_000},
-          {quantity: 4000, price: 10_420_000},
-          {quantity: 6000, price: 15_950_000},
-          {quantity: 8000, price:19_580_000},
-          {quantity: 10000, price: 24_400_000},
+          { quantity: 2000, price: 5_940_000 },
+          { quantity: 4000, price: 10_420_000 },
+          { quantity: 6000, price: 15_950_000 },
+          { quantity: 8000, price: 19_580_000 },
+          { quantity: 10000, price: 24_400_000 },
         ],
       },
       {
         variant: "30*45",
         prices: [
-          {quantity: 2000, price: 9_220_000},
-          {quantity: 4000, price: 16_580_000},
-          {quantity: 6000, price: 25_870_000},
-          {quantity: 8000, price: 31_270_000},
-          {quantity: 10000, price: 37_450_000},
+          { quantity: 2000, price: 9_220_000 },
+          { quantity: 4000, price: 16_580_000 },
+          { quantity: 6000, price: 25_870_000 },
+          { quantity: 8000, price: 31_270_000 },
+          { quantity: 10000, price: 37_450_000 },
         ],
       },
       {
         variant: "50*35",
         prices: [
-          {quantity: 2000, price: 10_510_000},
-          {quantity: 4000, price: 18_960_000},
-          {quantity: 6000, price: 26_340_000},
-          {quantity: 8000, price: 35_890_000},
-          {quantity: 10000, price:45_450_000},
+          { quantity: 2000, price: 10_510_000 },
+          { quantity: 4000, price: 18_960_000 },
+          { quantity: 6000, price: 26_340_000 },
+          { quantity: 8000, price: 35_890_000 },
+          { quantity: 10000, price: 45_450_000 },
         ],
       },
     ],
@@ -3728,31 +4368,31 @@ export const mainData = [
       {
         variant: "25*35",
         prices: [
-          {quantity: 2000, price: 5_940_000},
-          {quantity: 4000, price: 9_420_000},
-          {quantity: 6000, price: 15_350_000},
-          {quantity: 8000, price:19_380_000},
-          {quantity: 10000, price: 23_400_000},
+          { quantity: 2000, price: 5_940_000 },
+          { quantity: 4000, price: 9_420_000 },
+          { quantity: 6000, price: 15_350_000 },
+          { quantity: 8000, price: 19_380_000 },
+          { quantity: 10000, price: 23_400_000 },
         ],
       },
       {
         variant: "30*45",
         prices: [
-          {quantity: 2000, price: 8_920_000},
-          {quantity: 4000, price: 16_280_000},
-          {quantity: 6000, price: 23_870_000},
-          {quantity: 8000, price: 30_970_000},
-          {quantity: 10000, price: 36_450_000},
+          { quantity: 2000, price: 8_920_000 },
+          { quantity: 4000, price: 16_280_000 },
+          { quantity: 6000, price: 23_870_000 },
+          { quantity: 8000, price: 30_970_000 },
+          { quantity: 10000, price: 36_450_000 },
         ],
       },
       {
         variant: "50*35",
         prices: [
-          {quantity: 2000, price: 9_910_000},
-          {quantity: 4000, price: 17_960_000},
-          {quantity: 6000, price: 26_340_000},
-          {quantity: 8000, price: 38_890_000},
-          {quantity: 10000, price:43_450_000},
+          { quantity: 2000, price: 9_910_000 },
+          { quantity: 4000, price: 17_960_000 },
+          { quantity: 6000, price: 26_340_000 },
+          { quantity: 8000, price: 38_890_000 },
+          { quantity: 10000, price: 43_450_000 },
         ],
       },
     ],

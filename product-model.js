@@ -2,8 +2,7 @@ import mongoose from "mongoose";
 
 const productSchema = new mongoose.Schema({
   productName: { type: String, required: true },
-  productCode : {type: String, required: true},
-
+  productCode: { type: String, required: true },
 
   productCategory: {
     main: { type: String },
@@ -32,7 +31,7 @@ const productSchema = new mongoose.Schema({
   productVariants: [
     {
       size: { type: mongoose.Schema.Types.mixed },
-      
+
       attributes: [
         {
           name: { type: String },
@@ -41,8 +40,10 @@ const productSchema = new mongoose.Schema({
       ],
       prices: [
         {
-            type:{type: mongoose.Schema.Types.mixed},
+          type: { type: mongoose.Schema.Types.mixed },
           quantity: { type: Number },
+          minQty: { type: Number },
+          maxQty: { type: Number },
           price: { type: Number },
         },
       ],

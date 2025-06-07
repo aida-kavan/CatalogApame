@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "../components.style/slider.module.scss"; // فایل CSS برای استایل
+import styles from "../components.style/slider.module.scss"; 
 import { MoveLeftIcon, MoveRightIcon } from "lucide-react";
 import ImageModal from "./imageModal";
 

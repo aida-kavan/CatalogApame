@@ -23,8 +23,12 @@ const productSchema = new mongoose.Schema({
 
   productAttributes: [
     {
-      name: { type: String },
-      value: { type: String },
+      category: { type: String , required: true },
+      items: [{
+        name : String,
+        value: string,
+      }],
+      multipier: {type:Number}
     },
   ],
 
@@ -49,6 +53,8 @@ const productSchema = new mongoose.Schema({
       ],
     },
   ],
+
+  DeliveryDate: {type: Number},
 
   createdAt: { type: Date, default: Date.now },
 });

@@ -15,7 +15,7 @@ const Footer = () => {
         <a target="_blank" href="https://balad.ir/p/6Y7fXmb8EJT1lJ">
         <MapPin src="\icons\whatsapp.svg" color='#11176b'/>
         </a>
-        <a  target="_blank" href="https://t.me/apamehtabligh">
+        <a  target="_blank" href="https://t.me/apameagency">
         <img src="\icons\telegram.svg" />
         </a>
         <a target="_blank"  href="https://wa.me/+989033020318">

@@ -4083,7 +4083,7 @@ export const mainData = [
       {
         variant: "50*35",
         prices: [
-          { quantity: 2000, price: 7_330_000 },
+          { q0uantity: 200, price: 7_330_000 },
           { quantity: 4000, price: 12_760_000 },
           { quantity: 6000, price: 20_210_000 },
           { quantity: 8000, price: 25_200_000 },
@@ -4854,6 +4854,7 @@ export const mainData = [
     productCode: "box-024",
     productDescreption: "حداقل سفارش 500 عدد",
   },
+  
   {
     productName: "فاکتور تحریر 80 گرم سفید و الوان 80گرم تک رنگ مشکی",
     productCode: "factor-001",
